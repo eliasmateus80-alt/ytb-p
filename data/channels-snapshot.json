@@ -20516,5 +20516,1904 @@
   "videoCountTotal": 2200,
   "status": "reject",
   "reason": "canal com 2200 vídeos, não é novo"
+ },
+ "UC-nTc-72hWCNk6Of8d14UFg": {
+  "channelId": "UC-nTc-72hWCNk6Of8d14UFg",
+  "name": "Gym League",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación gimnasio"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:44.469Z",
+  "videoCountTotal": 230,
+  "status": "reject",
+  "reason": "canal com 230 vídeos, não é novo"
+ },
+ "UC96L5LBcVTR-z51RAstBB8A": {
+  "channelId": "UC96L5LBcVTR-z51RAstBB8A",
+  "name": "Cabezón de Campeón",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "mentalidad de campeón"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:45.939Z",
+  "videoCountTotal": 7,
+  "handle": "@CabezóndeCampeón",
+  "url": "http://www.youtube.com/@Cabez%C3%B3ndeCampe%C3%B3n",
+  "subsText": "3 subscribers",
+  "subs": 3,
+  "videoCountText": "7 videos",
+  "description": "Domina tu cabezón para que puedas conseguir tus objetivos en tu deporte. Dejarás de sentirte frustrado, triste y estancado, te enseñaré a reprogramar tus creencias limitantes, superar la ansiedad y combatir la frustración para que puedas llegar a cimas que eran impensables. \nHay una nueva meta a la que puedes llegar\nRecuerda: El cuerpo consigue lo que la mente cree. \n",
+  "keywords": "",
+  "nVideos": 7,
+  "moreThanFetched": false,
+  "nLong": 7,
+  "totalViews": 114,
+  "longShare": 1,
+  "oldestText": "2mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 2mo ago"
+ },
+ "UCUextISCkO-Yl7Rhgv2rPgA": {
+  "channelId": "UCUextISCkO-Yl7Rhgv2rPgA",
+  "name": "Alpha Gym Beats",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación gimnasio"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:39.796Z",
+  "videoCountTotal": 108,
+  "handle": "@alphaworkout-h2s",
+  "url": "http://www.youtube.com/@alphaworkout-h2s",
+  "subsText": "7.92K subscribers",
+  "subs": 7920,
+  "videoCountText": "108 videos",
+  "description": "Welcome to Alpha Gym Beats — powerful workout music for motivation, focus, and intense training.\n\nHere you’ll find high-energy gym music mixes for workouts, cardio, running, lifting, and fitness sessions. Strong beats, powerful rhythm, and nonstop motivation to help you train harder and stay focused.\n\nSubscribe to Alpha Gym Beats for more workout music, gym motivation, and training beats.",
+  "keywords": "\"workout music\" \"gym music\" \"fitness music\" \"gym motivation music\" \"workout motivation\" \"training music\" \"exercise music\" \"fitness motivation\" \"motivational music\" \"high energy music\" \"power workout music\" \"intense workout music\" \"running music\" \"cardio music\" \"lifting music\" \"bodybuilding music\" \"g",
+  "nVideos": 104,
+  "moreThanFetched": false,
+  "nLong": 104,
+  "totalViews": 3064796,
+  "longShare": 1,
+  "oldestText": "8mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 8mo ago"
+ },
+ "UCS6WGddhlm2Fg0hwNeIFHkw": {
+  "channelId": "UCS6WGddhlm2Fg0hwNeIFHkw",
+  "name": "Lowkey750",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "mentalidad de campeón",
+   "superación personal deporte"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:47.858Z",
+  "videoCountTotal": 8,
+  "handle": "@Lowkey750",
+  "url": "http://www.youtube.com/@Lowkey750",
+  "subsText": "8 subscribers",
+  "subs": 8,
+  "videoCountText": "8 videos",
+  "description": "Prometi éxito y éxito tendré💯",
+  "keywords": "",
+  "nVideos": 2,
+  "moreThanFetched": false,
+  "nLong": 2,
+  "totalViews": 71,
+  "longShare": 1,
+  "oldestText": "2w ago",
+  "rssCount": 8,
+  "firstVideo": {
+   "id": "AGKp2SbY5R0",
+   "title": "Mentalidad de campeón.",
+   "date": "2026-11-01T16:21:26+00:00",
+   "src": "RSS (histórico completo)",
+   "isShort": false
+  },
+  "top": [
+   {
+    "id": "AGKp2SbY5R0",
+    "title": "Mentalidad de campeón.",
+    "views": 42,
+    "lenText": "16:59",
+    "len": 1019,
+    "date": "2026-11-01T16:21:26+00:00",
+    "approx": "2w ago",
+    "src": "RSS"
+   },
+   {
+    "id": "jkn784sNujI",
+    "title": "La motivación imparable de Cristiano Ronaldo. ",
+    "views": 29,
+    "lenText": "11:37",
+    "len": 697,
+    "date": "2026-11-03T22:05:31+00:00",
+    "approx": "12d ago",
+    "src": "RSS"
+   }
+  ],
+  "allTitles": [
+   {
+    "title": "La motivación imparable de Cristiano Ronaldo. ",
+    "views": 29,
+    "len": "11:37",
+    "pub": "12d ago"
+   },
+   {
+    "title": "Mentalidad de campeón.",
+    "views": 42,
+    "len": "16:59",
+    "pub": "2w ago"
+   }
+  ],
+  "nShortsInRss": 6,
+  "status": "pass"
+ },
+ "UCpwQgsJ3_497chgujSF05bA": {
+  "channelId": "UCpwQgsJ3_497chgujSF05bA",
+  "name": "MotiveForgeX",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "mentalidad de campeón",
+   "motivación para no rendirse"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:49.261Z",
+  "videoCountTotal": 219,
+  "status": "reject",
+  "reason": "canal com 219 vídeos, não é novo"
+ },
+ "UCB77IndcVK6QBj-WKRkgwIA": {
+  "channelId": "UCB77IndcVK6QBj-WKRkgwIA",
+  "name": "Temple de Titanio",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "mentalidad de campeón"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:45.084Z",
+  "videoCountTotal": 43,
+  "handle": "@templedetitanio",
+  "url": "http://www.youtube.com/@templedetitanio",
+  "subsText": "138 subscribers",
+  "subs": 138,
+  "videoCountText": "43 videos",
+  "description": "🧠 Temple de Titanio | Disciplina, Mentalidad y Éxito 🚀\nBienvenido a Temple de Titanio, un canal dedicado al desarrollo personal, la disciplina, la mentalidad ganadora y el crecimiento constante. 💪🔥\nAquí encontrarás contenido motivacional inspirado en principios de éxito, productividad, autodisciplina y superación personal, con referencias a las enseñanzas y el legado de Brian Tracy.\n🎯 ¿Qué encontrarás en este canal?\n✅ Disciplina mental y fuerza de voluntad.\n✅ Hábitos poderosos para transfor",
+  "keywords": "\"Brian Tracy español\" \"Brian Tracy motivación\" \"Brian Tracy audiolibros en español\" \"Brian Tracy disciplina\" \"Brian Tracy éxito\" \"motivación para la vida\" \"cómo ser disciplinado\" \"cómo tener éxito en la vida\" \"cómo cambiar tu vida\" \"disciplina y motivación\" \"hábitos para el éxito\" \"hábitos de person",
+  "nVideos": 43,
+  "moreThanFetched": false,
+  "nLong": 43,
+  "totalViews": 20826,
+  "longShare": 1,
+  "oldestText": "1mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1mo ago"
+ },
+ "UC4RclrQRER-F5DjWFcPeoDw": {
+  "channelId": "UC4RclrQRER-F5DjWFcPeoDw",
+  "name": "Latitude Accountants",
+  "langs": [
+   "es",
+   "en"
+  ],
+  "terms": [
+   "motivación ultramaratón",
+   "ultramarathon motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:50.306Z",
+  "videoCountTotal": 1400,
+  "status": "reject",
+  "reason": "canal com 1400 vídeos, não é novo"
+ },
+ "UCS8F23zQkjx_j0H_pmtyTbw": {
+  "channelId": "UCS8F23zQkjx_j0H_pmtyTbw",
+  "name": "DUONLINE",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "mentalidad de campeón"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:47.043Z",
+  "videoCountTotal": 51,
+  "handle": "@duonlinedance",
+  "url": "http://www.youtube.com/@duonlinedance",
+  "subsText": "58 subscribers",
+  "subs": 58,
+  "videoCountText": "51 videos",
+  "description": "DUONLINE es la plataforma de danza en línea diseñada para transformar tu manera de aprender y sentir el arte, donde sea que estés 💃🕺✨\n\n🚀 ¿QUÉ ENCONTRARÁS EN NUESTRO CANAL Y PLATAFORMA?\n• Lecciones y tutoriales paso a paso de Salsa, Bachata, Urbano (Hip Hop / Popping), Ballet, Jazz, Heels, Dance Fit y Acondicionamiento Físico.\n• Clases diseñadas para todos los niveles: desde Principiantes desde cero hasta Bailarines Avanzados.\n• Herramientas tecnológicas exclusivas: Cámara Dual (Vista Frontal ",
+  "keywords": "",
+  "nVideos": 12,
+  "moreThanFetched": false,
+  "nLong": 2,
+  "totalViews": 1070,
+  "longShare": 0.16666666666666666,
+  "oldestText": "7mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 7mo ago"
+ },
+ "UCoadSXPuQKyHTvicD4fxE2g": {
+  "channelId": "UCoadSXPuQKyHTvicD4fxE2g",
+  "name": "The Conscious Athlete",
+  "langs": [
+   "es",
+   "en"
+  ],
+  "terms": [
+   "superación personal deporte",
+   "athlete mindset"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:52.536Z",
+  "videoCountTotal": 6,
+  "handle": "@The.Conscious.Athlete",
+  "url": "http://www.youtube.com/@The.Conscious.Athlete",
+  "subsText": "325 subscribers",
+  "subs": 325,
+  "videoCountText": "6 videos",
+  "description": "Welcome to The Conscious Athlete — where we develop the person behind the athlete.\n\nFounded by Coach Jeff Edouard, author, coach, mentor, and behavioral health professional, this platform helps student-athletes grow mentally, emotionally, spiritually, and personally.\n\n🎙️ The Conscious Athlete Podcast features real conversations with athletes, coaches, mentors, parents, and professionals about mental health, faith, identity, discipline, relationships, leadership, adversity, confidence, and life ",
+  "keywords": "",
+  "nVideos": 6,
+  "moreThanFetched": false,
+  "nLong": 6,
+  "totalViews": 1823,
+  "longShare": 1,
+  "oldestText": "1mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1mo ago"
+ },
+ "UC7jO_iRTMr2Ld_Z7nK2y9eA": {
+  "channelId": "UC7jO_iRTMr2Ld_Z7nK2y9eA",
+  "name": "El ADN del Éxito Podcast con Jorge Cáceres",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "superación personal deporte"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:52.087Z",
+  "videoCountTotal": 1100,
+  "status": "reject",
+  "reason": "canal com 1100 vídeos, não é novo"
+ },
+ "UClaVK1V_z7OoQiRdDwsi62g": {
+  "channelId": "UClaVK1V_z7OoQiRdDwsi62g",
+  "name": "daimyo",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "mentalidad de campeón"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:48.375Z",
+  "videoCountTotal": 62,
+  "handle": "@daimyocasadeguerreros",
+  "url": "http://www.youtube.com/@daimyocasadeguerreros",
+  "subsText": "17 subscribers",
+  "subs": 17,
+  "videoCountText": "62 videos",
+  "description": "",
+  "keywords": "",
+  "nVideos": 17,
+  "moreThanFetched": false,
+  "nLong": 2,
+  "totalViews": 102,
+  "longShare": 0.11764705882352941,
+  "oldestText": "2y ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 2y ago"
+ },
+ "UCU9FHpUcAGDOTQzslU1xCcA": {
+  "channelId": "UCU9FHpUcAGDOTQzslU1xCcA",
+  "name": "KRAVEN MOTIVATION",
+  "langs": [
+   "es",
+   "en"
+  ],
+  "terms": [
+   "motivación para entrenar",
+   "night workout motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:53.912Z",
+  "videoCountTotal": 170,
+  "status": "reject",
+  "reason": "canal com 170 vídeos, não é novo"
+ },
+ "UCV9miMWz12DxG5ePTQMA_nQ": {
+  "channelId": "UCV9miMWz12DxG5ePTQMA_nQ",
+  "name": "DROCANNI MOTIVATION ",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para entrenar",
+   "motivación para no rendirse"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:53.931Z",
+  "videoCountTotal": 24,
+  "handle": "@Drocannimotivation",
+  "url": "http://www.youtube.com/@Drocannimotivation",
+  "subsText": "562 subscribers",
+  "subs": 562,
+  "videoCountText": "24 videos",
+  "description": "DROCANNI MOTIVATION es música creada para entrar en tu propio mundo mientras entrenas.\n\nAquí la música electrónica atmosférica, las melodías emocionales y la motivación hablada se mezclan para crear una experiencia diferente: energía sin perder la concentración.\n\nNo encontrarás una voz hablando todo el tiempo.\nHay momentos para escuchar.\nMomentos para pensar.\nY momentos donde solo quedan tú, la música y el entrenamiento.\n\n🏋️ Entrenamiento\n🎧 Música inmersiva\n🔥 Motivación\n🐺 Disciplina y mental",
+  "keywords": "DROCANNIMOTIVATION DROCANNI \"motivacion para entrenar\" \"motivacion para el gimnasio\" \"musica motivacional para el gym\" \"motivacion gym en espanol\" entrenarcansado \"disciplina en el gimnasio\" \"motivacion para no rendirse\" \"seguir adelante\" \"entrenamiento en soledad\" \"resistencia mental\" \"entrenamient",
+  "nVideos": 21,
+  "moreThanFetched": false,
+  "nLong": 18,
+  "totalViews": 80179,
+  "longShare": 0.8571428571428571,
+  "oldestText": "1mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1mo ago"
+ },
+ "UCW4_ib7FXEyK2anutKp8ixQ": {
+  "channelId": "UCW4_ib7FXEyK2anutKp8ixQ",
+  "name": "RompelimitesMusic",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para entrenar",
+   "motivación para no rendirse"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:50.948Z",
+  "videoCountTotal": 33,
+  "handle": "@RompelimitesMusic",
+  "url": "http://www.youtube.com/@RompelimitesMusic",
+  "subsText": "54 subscribers",
+  "subs": 54,
+  "videoCountText": "33 videos",
+  "description": "No naciste para rendirte. Naciste para superarte. 🔥\n\nROMPELÍMITES es la voz que necesitas cuando tu mente te pide parar, pero tu objetivo te exige continuar.\n\nDiscursos motivacionales, música épica y energía brutal para entrenar, luchar contra tus excusas y convertir la disciplina en tu mayor fortaleza.\n\nMENOS EXCUSAS. MÁS DISCIPLINA. CERO RENDICIÓN.\n\n🎧 Ponte los cascos. 🔊 Sube el volumen. 💪🏼 Y demuestra de qué estás hecho.\n\n⚔️ ROMPELÍMITES — 💯 FORJA TU MEJOR VERSIÓN.\n",
+  "keywords": "",
+  "nVideos": 21,
+  "moreThanFetched": false,
+  "nLong": 3,
+  "totalViews": 3298,
+  "longShare": 0.14285714285714285,
+  "oldestText": "2w ago",
+  "rssCount": 15,
+  "firstVideo": {
+   "id": "e9c9zZWsvCE",
+   "title": "NADIE VA A SALVARTE – ROMPELIMITES 💪 | MUSICA MOTIVACIONAL PARA HACER EJERCICIO | ENTRENAMIENTO DURO",
+   "date": null,
+   "approx": "2w ago",
+   "src": "não confirmado"
+  },
+  "status": "unconfirmed",
+  "reason": "data do 1º vídeo não confirmada",
+  "top": [
+   {
+    "id": "l-OD8vBP4kQ",
+    "title": "MÚSICA ELECTRÓNICA PARA ENTRENAR 🔥| ELECTRO WORKOUT MIX | MOTIVATIONAL SONG MIX | GYM TRAINING💪",
+    "views": 454,
+    "lenText": "25:31",
+    "len": 1531,
+    "date": null,
+    "approx": "2w ago",
+    "src": "não confirmado"
+   },
+   {
+    "id": "ngf3qdJ0lpA",
+    "title": "🔥MÚSICA MOTIVACIONAL PARA ENTRENAR 💪 | SESIÓN COMPLETA ENTRENAMIENTO 🏋️ | GYM | RUNNING | FITNESS",
+    "views": 192,
+    "lenText": "39:03",
+    "len": 2343,
+    "date": null,
+    "approx": "2w ago",
+    "src": "não confirmado"
+   },
+   {
+    "id": "5kCb60aQaGc",
+    "title": "🔥 RAP MOTIVACIONAL PARA ENTRENAR DURO 💪 | MÚSICA PARA HACER EJERCICIO — 30 MINUTOS DE PURA ENERGÍA",
+    "views": 65,
+    "lenText": "30:31",
+    "len": 1831,
+    "date": "2026-11-13T15:00:04+00:00",
+    "approx": "2d ago",
+    "src": "RSS"
+   }
+  ],
+  "allTitles": [
+   {
+    "title": "🔥 RAP MOTIVACIONAL PARA ENTRENAR DURO 💪 | MÚSICA PARA HACER EJERCICIO — 30 MINUTOS DE PURA ENERGÍA",
+    "views": 65,
+    "len": "30:31",
+    "pub": "2d ago"
+   },
+   {
+    "title": "HASTA EL ÚLTIMO LATIDO – ROMPELIMITES ❤️‍🔥 | RAP MOTIVACIONAL PARA ENTRENAR | WORKOUT GYM MUSIC",
+    "views": 87,
+    "len": "5:52",
+    "pub": "3d ago"
+   },
+   {
+    "title": "NO ME DOBLEGA – ROMPELIMITES 💪| RAP MOTIVACIONAL PARA ENTRENAR | GYM MUSIC | ENTRENAMIENTO INTENSO 🔥",
+    "views": 135,
+    "len": "6:12",
+    "pub": "5d ago"
+   },
+   {
+    "title": "QUE ARDA EL MOTOR – ROMPELIMITES 🔥 | RAP MOTIVACIONAL PARA ENTRENAR Y DARLO TODO 💪 | MUSICA GYM",
+    "views": 54,
+    "len": "4:48",
+    "pub": "5d ago"
+   },
+   {
+    "title": "NO HAY VUELTA ATRÁS – ROMPELIMITES 💪 | RAP MOTIVACIONAL PARA ENTRENAR | MUSICA PARA TU CUERPO",
+    "views": 442,
+    "len": "4:16",
+    "pub": "8d ago"
+   },
+   {
+    "title": "HOY EMPIEZA LA GUERRA – ROMPELIMITES 💪 | RAP MOTIVACIONAL PARA ENTRENAR | MUSICA PARA GIMNASIO",
+    "views": 202,
+    "len": "3:53",
+    "pub": "9d ago"
+   },
+   {
+    "title": "NO NACÍ PARA RENDIRME – ROMPELIMITES 💪 | RAP MOTIVACIONAL 🔥| GYM MUSIC | ENTRENAMIENTO DURO",
+    "views": 714,
+    "len": "5:33",
+    "pub": "12d ago"
+   },
+   {
+    "title": "MÚSICA ELECTRÓNICA PARA ENTRENAR 🔥| ELECTRO WORKOUT MIX | MOTIVATIONAL SONG MIX | GYM TRAINING💪",
+    "views": 454,
+    "len": "25:31",
+    "pub": "2w ago"
+   },
+   {
+    "title": "QUE SE NOTE EL TRABAJO – ROMPELIMITES 💪 | GYM ELECTRO MUSIC | MUSICA MOTIVACIONAL | ENTRENAR DURO",
+    "views": 90,
+    "len": "5:50",
+    "pub": "2w ago"
+   },
+   {
+    "title": "CUANDO QUIERAS PARAR – ROMPELIMITES 💪| GYM MUSIC | MUSICA PARA HACER EJERCICIO | WORKOUT MUSIC",
+    "views": 91,
+    "len": "6:41",
+    "pub": "2w ago"
+   },
+   {
+    "title": "NO TE DETENGAS – ROMPELIMITES 🔥| MÚSICA PARA ENTRENAR Y SACAR TU MAXIMO | ACTIVA TU MODO BESTIA",
+    "views": 108,
+    "len": "4:02",
+    "pub": "2w ago"
+   },
+   {
+    "title": "OTRA MÁS! – ROMPELIMITES 💪 | MUSICA PARA ENTRENAR CON MOTIVACIÓN | GYM MUSIC | RESISTENCIA INFINITA",
+    "views": 57,
+    "len": "4:20",
+    "pub": "2w ago"
+   },
+   {
+    "title": "🔥MÚSICA MOTIVACIONAL PARA ENTRENAR 💪 | SESIÓN COMPLETA ENTRENAMIENTO 🏋️ | GYM | RUNNING | FITNESS",
+    "views": 192,
+    "len": "39:03",
+    "pub": "2w ago"
+   },
+   {
+    "title": "NO BAJES EL RITMO – ROMPELIMITES🔥 | GYM MUSIC Y MOTIVACIÓN PARA RUNNING | FITNESS | CARDIO",
+    "views": 215,
+    "len": "4:45",
+    "pub": "2w ago"
+   },
+   {
+    "title": "RESULTADOS INMEDIATOS – ROMPELIMITES⚡| MOTIVACIÓN PARA GIMNASIO | MUSICA PARA ENTRENAR DURO",
+    "views": 56,
+    "len": "3:45",
+    "pub": "2w ago"
+   },
+   {
+    "title": "EL TALENTO NO BASTA – ROMPELIMITES 💪|  MUSICA DE GIMNASIO | ENTRENAMIENTO FUERTE | GYM MUSIC",
+    "views": 19,
+    "len": "3:44",
+    "pub": "2w ago"
+   },
+   {
+    "title": "NO HAY REPUESTO – ROMPELIMITES 💀 | MUSICA MOTIVACIONAL PARA GIMNASIO | ENTRENAMIENTO DURO",
+    "views": 9,
+    "len": "4:35",
+    "pub": "2w ago"
+   },
+   {
+    "title": "NO HAY EXCUSAS – ROMPELIMITES 💪 | MOTIVACIÓN PARA ENTRENAR | MUSICA GIMNASIO  | ENTRENA LA FUERZA",
+    "views": 152,
+    "len": "6:35",
+    "pub": "2w ago"
+   },
+   {
+    "title": "UN UNO POR CIENTO MÁS – ROMPELIMITES 💪 | MOTIVACIÓN PARA GIMNASIO | MUSICA PARA ENTRENAR",
+    "views": 73,
+    "len": "6:24",
+    "pub": "2w ago"
+   },
+   {
+    "title": "DISCIPLINA DE ACERO – ROMPELIMITES 🔥| ENERGÍA PURA | MUSICA PARA ENTRENAR | DISCURSO MOTIVACIONAL",
+    "views": 40,
+    "len": "7:03",
+    "pub": "2w ago"
+   },
+   {
+    "title": "NADIE VA A SALVARTE – ROMPELIMITES 💪 | MUSICA MOTIVACIONAL PARA HACER EJERCICIO | ENTRENAMIENTO DURO",
+    "views": 43,
+    "len": "7:01",
+    "pub": "2w ago"
+   }
+  ],
+  "nShortsInRss": 8
+ },
+ "UCwLbTmJCEh2fcJ10veSYDIg": {
+  "channelId": "UCwLbTmJCEh2fcJ10veSYDIg",
+  "name": "ATREUS BLACK 🎵😈",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para no rendirse",
+   "motivación para entrenar"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:57.065Z",
+  "videoCountTotal": 123,
+  "status": "reject",
+  "reason": "canal com 123 vídeos, não é novo"
+ },
+ "UC6NpWOyMLikZFpHu-VRKZYg": {
+  "channelId": "UC6NpWOyMLikZFpHu-VRKZYg",
+  "name": "Gracia con Requinto",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para no rendirse"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:58.070Z",
+  "videoCountTotal": 3600,
+  "status": "reject",
+  "reason": "canal com 3600 vídeos, não é novo"
+ },
+ "UCHLDihcdHC48vQvoUe11-Bw": {
+  "channelId": "UCHLDihcdHC48vQvoUe11-Bw",
+  "name": "ESCUELA DEPORTIVA DE VALORES",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "superación personal deporte"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:55.670Z",
+  "videoCountTotal": 34,
+  "handle": "@ESCUELADEPORTIVADEVALORES",
+  "url": "http://www.youtube.com/@ESCUELADEPORTIVADEVALORES",
+  "subsText": "20 subscribers",
+  "subs": 20,
+  "videoCountText": "34 videos",
+  "description": "Bienvenidos a ESCUELA DEPORTIVA DE VALORES, el podcast donde el deporte nos enseña mucho más que a ganar o perder. Aquí encontrarás cuentos, reflexiones, entrevistas, e historias inspiradoras que nos recuerdan la importancia de valores como la solidaridad, el respeto, la perseverancia y el trabajo en equipo.\nPorque el deporte es más que una competición: es una forma de aprender a ser mejores personas dentro y fuera de la cancha.\nAcompáñanos en cada entrenamiento para descubrir juntos cómo los va",
+  "keywords": "",
+  "nVideos": 33,
+  "moreThanFetched": false,
+  "nLong": 23,
+  "totalViews": 1133,
+  "longShare": 0.696969696969697,
+  "oldestText": "1y ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1y ago"
+ },
+ "UCvzF0cP-mjHz1F3Wf_7LJJw": {
+  "channelId": "UCvzF0cP-mjHz1F3Wf_7LJJw",
+  "name": "Yokoi Lección",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para no rendirse"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:56.129Z",
+  "videoCountTotal": 84,
+  "handle": "@YokoiLección",
+  "url": "http://www.youtube.com/@YokoiLecci%C3%B3n",
+  "subsText": "7.06K subscribers",
+  "subs": 7060,
+  "videoCountText": "84 videos",
+  "description": "Este es un espacio para quienes quieren mejorar su mentalidad, fortalecer su disciplina y encontrar nuevas formas de crecer en la vida.\n\nAquí encontrarás reflexiones, lecciones de vida, motivación y mensajes que pueden ayudarte a enfrentar los desafíos, superar tus límites y convertirte en una mejor versión de ti mismo.\n\nNuestro objetivo es compartir contenido que te haga pensar, aprender y tomar acción. Porque los grandes cambios comienzan con pequeñas decisiones que tomamos todos los días.\n\nSi",
+  "keywords": "\"Yokoi Kenji inspiración\" \"motivación en español\" \"reflexión de vida\" \"lecciones de vida\" \"desarrollo personal\" \"crecimiento personal\" \"superación personal\" \"mentalidad positiva\" disciplina \"hábitos positivos\" \"motivación diaria\" \"inspiración diaria\" \"consejos para la vida\" \"cambiar tu mentalidad\" \"",
+  "nVideos": 84,
+  "moreThanFetched": false,
+  "nLong": 84,
+  "totalViews": 1557845,
+  "longShare": 1,
+  "oldestText": "2mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 2mo ago"
+ },
+ "UCXDF0sZ-khwfts2I4RNL9vQ": {
+  "channelId": "UCXDF0sZ-khwfts2I4RNL9vQ",
+  "name": "MyTopLife",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "running motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:01.388Z",
+  "videoCountTotal": 15,
+  "handle": "@mytoplife88",
+  "url": "http://www.youtube.com/@mytoplife88",
+  "subsText": "16 subscribers",
+  "subs": 16,
+  "videoCountText": "15 videos",
+  "description": "Welcome to MyTopLife — high-energy running music built to keep you moving.\n\nHere you’ll find powerful 160–170 BPM EDM mixes for running, treadmill workouts, cardio, HIIT, gym sessions and endurance training. Every playlist is designed for nonstop momentum: strong beats from the first seconds, memorable vocal hooks, driving bass, energetic drops and no long slow breaks.\n\nWhether you’re chasing a faster mile, finishing a hard interval session or pushing through your final set, MyTopLife gives your",
+  "keywords": "\"running music\" \"run music\" \"workout music\" \"cardio music\" \"running playlist\" \"high energy EDM\" \"gym music\" \"160 bpm running music\" \"170 bpm running music\" \"HIIT music\" \"fitness music\" \"workout playlist\" \"motivational music\" \"nonstop workout music\" MyTopLife \"energy music\" \"running soundtrack\" \"fitn",
+  "nVideos": 15,
+  "moreThanFetched": false,
+  "nLong": 15,
+  "totalViews": 2538,
+  "longShare": 1,
+  "oldestText": "1mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1mo ago"
+ },
+ "UCQuFPf_v19ICthjD_GrH74Q": {
+  "channelId": "UCQuFPf_v19ICthjD_GrH74Q",
+  "name": "La Mente Silenciosa",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para no rendirse"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:56.269Z",
+  "videoCountTotal": 98,
+  "handle": "@LaMenteSilenciosa-e8b",
+  "url": "http://www.youtube.com/@LaMenteSilenciosa-e8b",
+  "subsText": "201 subscribers",
+  "subs": 201,
+  "videoCountText": "98 videos",
+  "description": "🧠 La Mente Silenciosa\nLa Mente Silenciosa es un espacio donde la psicología, el crecimiento personal y la claridad mental se unen para ayudarte a comprender tu mente y transformar tu vida desde adentro.\n\nAquí descubrirás ideas prácticas, herramientas psicológicas y hábitos que fortalecen tu bienestar emocional, mejoran tu forma de pensar y te ayudan a encontrar paz en medio del caos cotidiano.\n\n🌿 En este canal encontrarás:\n\n• Psicología explicada de forma sencilla y útil.\n• Hábitos que mejoran",
+  "keywords": "\"La Mente Silenciosa\" psicología \"psicología aplicada\" \"salud mental\" \"bienestar mental\" \"desarrollo personal\" \"crecimiento personal\" \"hábitos saludables\" autoestima \"inteligencia emocional\" emociones ansiedad estrés mindfulness meditación disciplina motivación reflexión filosofía \"comportamiento hu",
+  "nVideos": 98,
+  "moreThanFetched": false,
+  "nLong": 96,
+  "totalViews": 24389,
+  "longShare": 0.9795918367346939,
+  "oldestText": "3mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 3mo ago"
+ },
+ "UCBZo8itBpk1Jt-5L5p8M7pw": {
+  "channelId": "UCBZo8itBpk1Jt-5L5p8M7pw",
+  "name": "Inspiración Diaria",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para no rendirse"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:58.403Z",
+  "videoCountTotal": 85,
+  "handle": "@InspiraciónDiaria-d4i",
+  "url": "http://www.youtube.com/@Inspiraci%C3%B3nDiaria-d4i",
+  "subsText": "164 subscribers",
+  "subs": 164,
+  "videoCountText": "85 videos",
+  "description": "",
+  "keywords": "motivación \"motivación diaria\" \"inspiración diaria\" \"frases motivadoras\" \"desarrollo personal\" éxito disciplina \"mentalidad ganadora\" \"superación personal\" \"crecimiento personal\" \"hábitos de éxito\" \"motivación para estudiar\" \"motivación para trabajar\" \"motivación en español\" \"éxito y disciplina\" min",
+  "nVideos": 85,
+  "moreThanFetched": false,
+  "nLong": 85,
+  "totalViews": 50958,
+  "longShare": 1,
+  "oldestText": "2mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 2mo ago"
+ },
+ "UC1dVyt0A0hf0uO73X80Pqow": {
+  "channelId": "UC1dVyt0A0hf0uO73X80Pqow",
+  "name": "High Impact Growth\n\n",
+  "langs": [
+   "es",
+   "en"
+  ],
+  "terms": [
+   "motivación para no rendirse",
+   "never give up motivational speech"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:00.135Z",
+  "videoCountTotal": 45,
+  "handle": "@HighImpactGrowth",
+  "url": "http://www.youtube.com/@HighImpactGrowth",
+  "subsText": "2.93K subscribers",
+  "subs": 2930,
+  "videoCountText": "45 videos",
+  "description": "",
+  "keywords": "\"High Impact Growth\" \"personal growth\" \"self improvement\" mindset \"growth mindset\" motivation \"motivational speech\" \"self development\" \"personal development\" \"life lessons\" \"success habits\" discipline productivity confidence \"emotional intelligence\" \"positive mindset\" \"powerful mindset\" \"motivation ",
+  "nVideos": 45,
+  "moreThanFetched": false,
+  "nLong": 45,
+  "totalViews": 395733,
+  "longShare": 1,
+  "oldestText": "1mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1mo ago"
+ },
+ "UCoOdQh-_Oo5yrR8eRG1jwcA": {
+  "channelId": "UCoOdQh-_Oo5yrR8eRG1jwcA",
+  "name": "Focus Lab | 專心實驗室",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "running motivation",
+   "beginner runner motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:02.827Z",
+  "videoCountTotal": 1500,
+  "status": "reject",
+  "reason": "canal com 1500 vídeos, não é novo"
+ },
+ "UC-vlZFFRyWKx-d3LpoAhNfg": {
+  "channelId": "UC-vlZFFRyWKx-d3LpoAhNfg",
+  "name": "Ben Is Running",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "beginner runner motivation",
+   "marathon motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:06.333Z",
+  "videoCountTotal": 714,
+  "status": "reject",
+  "reason": "canal com 714 vídeos, não é novo"
+ },
+ "UCESCdB5zKn5KAb8dG2Q2zdw": {
+  "channelId": "UCESCdB5zKn5KAb8dG2Q2zdw",
+  "name": "Nicklas Rossner",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "running motivation",
+   "beginner runner motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:05.900Z",
+  "videoCountTotal": 200,
+  "status": "reject",
+  "reason": "canal com 200 vídeos, não é novo"
+ },
+ "UCPAzh7ooBqzl8za6w8JYjgw": {
+  "channelId": "UCPAzh7ooBqzl8za6w8JYjgw",
+  "name": "Run with Naomi",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "beginner runner motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:06.294Z",
+  "videoCountTotal": 7,
+  "handle": "@runwithnaomi",
+  "url": "http://www.youtube.com/@runwithnaomi",
+  "subsText": "13 subscribers",
+  "subs": 13,
+  "videoCountText": "7 videos",
+  "description": "Practical running tips, training advice, and honest gear reviews to help you become a better runner. Whether you're just getting started, looking to run farther or faster, or just want to enjoy running more, you've come to the right place!\n\n3:03 marathoner/1:26 half marathoner\n20+ years running experience\n",
+  "keywords": "\"Beginner runner\" \"novice runner\" \"running clothes\" \"running coach\" \"running training\" \"running advice\" \"running faster\" \"running gear reviews\" \"running endurance\" \"running tips\" \"marathon training\" \"half marathon training\" \"road running\" \"trail running\" 5k 10k \"running technique\" \"running form\" \"ru",
+  "nVideos": 6,
+  "moreThanFetched": false,
+  "nLong": 3,
+  "totalViews": 935,
+  "longShare": 0.5,
+  "oldestText": "4w ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 4w ago"
+ },
+ "UC8ZYMrDhyqgfq1xn-tf5w-A": {
+  "channelId": "UC8ZYMrDhyqgfq1xn-tf5w-A",
+  "name": "IRONUMAN",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "marathon motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:07.697Z",
+  "videoCountTotal": 215,
+  "status": "reject",
+  "reason": "canal com 215 vídeos, não é novo"
+ },
+ "UCENzkuDt_aezUlHq7RjQvAw": {
+  "channelId": "UCENzkuDt_aezUlHq7RjQvAw",
+  "name": "Christy Cleans ",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "marathon motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:07.622Z",
+  "videoCountTotal": 690,
+  "status": "reject",
+  "reason": "canal com 690 vídeos, não é novo"
+ },
+ "UCEWvCtFiQ4L7YIDXd0GjqTg": {
+  "channelId": "UCEWvCtFiQ4L7YIDXd0GjqTg",
+  "name": "Take Over Zone",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "marathon motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:07.871Z",
+  "videoCountTotal": 6,
+  "handle": "@TakeOverZone-p6o",
+  "url": "http://www.youtube.com/@TakeOverZone-p6o",
+  "subsText": "1 subscriber",
+  "subs": 1,
+  "videoCountText": "6 videos",
+  "description": "",
+  "keywords": "",
+  "nVideos": 4,
+  "moreThanFetched": false,
+  "nLong": 3,
+  "totalViews": 41,
+  "longShare": 0.75,
+  "oldestText": "1mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1mo ago"
+ },
+ "UCkVCtjXwD9RogCanjKQnHyA": {
+  "channelId": "UCkVCtjXwD9RogCanjKQnHyA",
+  "name": "Niamh Buffini",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "marathon motivation",
+   "marathon training story"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:11.071Z",
+  "videoCountTotal": 27,
+  "handle": "@niamhbuffini",
+  "url": "http://www.youtube.com/@niamhbuffini",
+  "subsText": "44 subscribers",
+  "subs": 44,
+  "videoCountText": "27 videos",
+  "description": "This podcast is a deep dive into the lives of genuine trailblazers—the people who didn't just meet the norms, but completely reshaped them to create lasting greatness and fundamentally alter how we view the world. If you hope to advance in life and career these are the blueprints you need. Each episode offers actionable lessons from each guests remarkable journeys, showing you how to study their path and adopt their strategies to achieve your own goals faster and with greater efficiency.",
+  "keywords": "",
+  "nVideos": 20,
+  "moreThanFetched": false,
+  "nLong": 14,
+  "totalViews": 1657,
+  "longShare": 0.7,
+  "oldestText": "6y ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 6y ago"
+ },
+ "UC7m1Y57pl6EroXPOk0kiHjg": {
+  "channelId": "UC7m1Y57pl6EroXPOk0kiHjg",
+  "name": "Olivia Atkin On Achieving Success",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "ultramarathon motivation",
+   "athlete mindset"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:11.156Z",
+  "videoCountTotal": 346,
+  "status": "reject",
+  "reason": "canal com 346 vídeos, não é novo"
+ },
+ "UCzYQkz4gQtXpJaN6Qyo7CAQ": {
+  "channelId": "UCzYQkz4gQtXpJaN6Qyo7CAQ",
+  "name": "Run Outside Your Box",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "marathon motivation",
+   "marathon training story"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:09.622Z",
+  "videoCountTotal": 48,
+  "handle": "@Run_Outside_Your_Box",
+  "url": "http://www.youtube.com/@Run_Outside_Your_Box",
+  "subsText": "18 subscribers",
+  "subs": 18,
+  "videoCountText": "48 videos",
+  "description": "I've been running for 9 YEARS, I give you tier lists on running, hindsight lessons on running, running hypotheticals and running lists EVERYTHING I've learned in the last 9 years of becoming a somewhat above average runner with ZERO track and field experience growing up.",
+  "keywords": "",
+  "nVideos": 48,
+  "moreThanFetched": false,
+  "nLong": 43,
+  "totalViews": 3728,
+  "longShare": 0.8958333333333334,
+  "oldestText": "4mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 4mo ago"
+ },
+ "UCP6rS686eEPvYZw-7wIAKFg": {
+  "channelId": "UCP6rS686eEPvYZw-7wIAKFg",
+  "name": "Stephanie Parks",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "marathon motivation",
+   "marathon training story"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:09.876Z",
+  "videoCountTotal": 72,
+  "handle": "@StephanieInTheParks",
+  "url": "http://www.youtube.com/@StephanieInTheParks",
+  "subsText": "720 subscribers",
+  "subs": 720,
+  "videoCountText": "72 videos",
+  "description": "",
+  "keywords": "",
+  "nVideos": 25,
+  "moreThanFetched": false,
+  "nLong": 19,
+  "totalViews": 1580,
+  "longShare": 0.76,
+  "oldestText": "8mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 8mo ago"
+ },
+ "UCl1WFqux4ASuUMpjQemA_8w": {
+  "channelId": "UCl1WFqux4ASuUMpjQemA_8w",
+  "name": "The Evening Double",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "marathon motivation",
+   "marathon training story"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:09.429Z",
+  "videoCountTotal": 112,
+  "handle": "@TheEveningDouble",
+  "url": "http://www.youtube.com/@TheEveningDouble",
+  "subsText": "41 subscribers",
+  "subs": 41,
+  "videoCountText": "112 videos",
+  "description": "The Evening Double is a podcast centered around running, ambition, discipline, and the stories behind the miles. Each episode brings honest conversations with athletes, coaches, and full-time workers chasing big goals both in and outside the sport. From balancing careers and training to mindset and competition, the show dives into what fuels high performers. Real conversations, good energy, and a great listen on your evening double. Hosted by Keeton Thornsberry, Erik Stauderman and Ryan Carney. ",
+  "keywords": "",
+  "nVideos": 86,
+  "moreThanFetched": false,
+  "nLong": 49,
+  "totalViews": 7186,
+  "longShare": 0.5697674418604651,
+  "oldestText": "5mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 5mo ago"
+ },
+ "UCADybn13clKmtMOEN7W22mQ": {
+  "channelId": "UCADybn13clKmtMOEN7W22mQ",
+  "name": "JB Running ",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "ultramarathon motivation",
+   "marathon training story"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:14.587Z",
+  "videoCountTotal": 197,
+  "status": "reject",
+  "reason": "canal com 197 vídeos, não é novo"
+ },
+ "UCNKJw6Yy2886gQ5nSdgXO4Q": {
+  "channelId": "UCNKJw6Yy2886gQ5nSdgXO4Q",
+  "name": "The Quiet Miles: Voices in Motion",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "ultramarathon motivation",
+   "marathon training story"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:14.564Z",
+  "videoCountTotal": 28,
+  "handle": "@TheQuietMiles-Voices",
+  "url": "http://www.youtube.com/@TheQuietMiles-Voices",
+  "subsText": "36 subscribers",
+  "subs": 36,
+  "videoCountText": "28 videos",
+  "description": "Welcome to The Quiet Miles Voices\n\nA place for stories, reflections, and moments that stay with you long after the video ends.\n\nHere, every voice carries emotion, every silence has meaning, and every mile tells a story. Whether you’re here to relax, think deeply, escape the noise, or simply listen, this channel was created to bring calm and connection through powerful narration and immersive storytelling.\n\nNew videos crafted for quiet minds, late nights, thoughtful journeys, and people who feel ",
+  "keywords": "",
+  "nVideos": 28,
+  "moreThanFetched": false,
+  "nLong": 27,
+  "totalViews": 856,
+  "longShare": 0.9642857142857143,
+  "oldestText": "9mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 9mo ago"
+ },
+ "UCXDhtqPmfQX1Ybty3eYX3yA": {
+  "channelId": "UCXDhtqPmfQX1Ybty3eYX3yA",
+  "name": "Fired Up Tales",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "marathon motivation",
+   "marathon training story"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:10.747Z",
+  "videoCountTotal": 56,
+  "handle": "@FiredUpTales",
+  "url": "http://www.youtube.com/@FiredUpTales",
+  "subsText": "71 subscribers",
+  "subs": 71,
+  "videoCountText": "56 videos",
+  "description": "Welcome to Fired Up Tales, the ultimate destination for motivational tales and inspiring stories that spark personal growth, positivity, and transformation. Whether you're looking for heartfelt narratives, uplifting journeys, or thought-provoking life lessons, our channel delivers captivating content to motivate and empower you.\n\nJoin our growing community of dreamers, achievers, and storytellers as we share timeless wisdom, real-life experiences, and creative storytelling to fuel your passion a",
+  "keywords": "\"motivational stories\" \"inspirational journey\" \"personal growth\" \"self-help videos\" \"motivational video\" \"inspirational video\" \"life-changing story\" \"success mindset\" \"positive mindset\" \"life inspiration\" \"motivational content\" \"personal development\"",
+  "nVideos": 33,
+  "moreThanFetched": false,
+  "nLong": 18,
+  "totalViews": 207,
+  "longShare": 0.5454545454545454,
+  "oldestText": "1y ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1y ago"
+ },
+ "UC_EVO_B7jEyS-uexjSrbFVA": {
+  "channelId": "UC_EVO_B7jEyS-uexjSrbFVA",
+  "name": "The You Variable",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "discipline motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:16.316Z",
+  "videoCountTotal": 14,
+  "handle": "@theyouvariable",
+  "url": "http://www.youtube.com/@theyouvariable",
+  "subsText": "1.63K subscribers",
+  "subs": 1630,
+  "videoCountText": "14 videos",
+  "description": "What if you never needed to sleep again? What if you could stop aging, read minds, or live without fear?\n\nThe You Variable runs impossible experiments, and you are the variable. Each video changes one thing about you and follows what happens day by day, month by month, year by year, until the real science catches up with you.\n\nEvery claim is checked against published research before it reaches a script. Sources are in each description, and animal studies are labelled as animal studies. The scena",
+  "keywords": "",
+  "nVideos": 6,
+  "moreThanFetched": false,
+  "nLong": 6,
+  "totalViews": 320491,
+  "longShare": 1,
+  "oldestText": "2w ago",
+  "rssCount": 14,
+  "firstVideo": {
+   "id": "xOm4UaBCnFk",
+   "title": "What If You Never Needed to Sleep Again?",
+   "date": "2026-10-29T09:38:06+00:00",
+   "src": "RSS (histórico completo)",
+   "isShort": false
+  },
+  "top": [
+   {
+    "id": "lYebuVdLhHk",
+    "title": "Who Actually Wins? Obsession vs Ego vs Discipline vs Motivation",
+    "views": 276933,
+    "lenText": "14:23",
+    "len": 863,
+    "date": "2026-11-10T14:34:20+00:00",
+    "approx": "5d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "qtQLVAbJuHc",
+    "title": "Who Actually Wins? Obsession vs Ego",
+    "views": 43888,
+    "lenText": "12:16",
+    "len": 736,
+    "date": "2026-11-14T19:55:44+00:00",
+    "approx": "1d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "G-fpj2Ehg0I",
+    "title": "What If Every Bank Account Hit $0?",
+    "views": 533,
+    "lenText": "8:51",
+    "len": 531,
+    "date": "2026-11-09T11:12:44+00:00",
+    "approx": "7d ago",
+    "src": "RSS"
+   }
+  ],
+  "allTitles": [
+   {
+    "title": "Who Actually Wins? Obsession vs Ego",
+    "views": 43000,
+    "len": "12:16",
+    "pub": "1d ago"
+   },
+   {
+    "title": "Who Actually Wins? Obsession vs Ego vs Discipline vs Motivation",
+    "views": 276000,
+    "len": "14:23",
+    "pub": "5d ago"
+   },
+   {
+    "title": "What If Every Bank Account Hit $0?",
+    "views": 535,
+    "len": "8:51",
+    "pub": "7d ago"
+   },
+   {
+    "title": "Everyone Has a Countdown. I Can See Yours.",
+    "views": 305,
+    "len": "8:30",
+    "pub": "10d ago"
+   },
+   {
+    "title": "What If Your Brain Was a Library?",
+    "views": 351,
+    "len": "8:10",
+    "pub": "12d ago"
+   },
+   {
+    "title": "What If You Never Needed to Sleep Again?",
+    "views": 300,
+    "len": "10:19",
+    "pub": "2w ago"
+   }
+  ],
+  "nShortsInRss": 8,
+  "status": "pass"
+ },
+ "UC7ppWUX3VSxTefNKsWqelwg": {
+  "channelId": "UC7ppWUX3VSxTefNKsWqelwg",
+  "name": "RohnFans",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "discipline motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:16.454Z",
+  "videoCountTotal": 16,
+  "handle": "@RohnFan",
+  "url": "http://www.youtube.com/@RohnFan",
+  "subsText": "3 subscribers",
+  "subs": 3,
+  "videoCountText": "16 videos",
+  "description": "Welcome to RohnFan — your destination for Jim Rohn motivation, timeless wisdom, personal development, and powerful life lessons.\n\nDiscover motivational speeches, success principles, and inspiring insights drawn from Jim Rohn's philosophy. Explore self-discipline, goal setting, success habits, financial wisdom, leadership, personal growth, and the mindset needed to achieve your dreams.\n\nOur mission is to inspire you to think bigger, develop better habits, overcome challenges, and take meaningful ",
+  "keywords": "\"Jim Rohn motivation\" \"Jim Rohn motivational speech\" \"Jim Rohn speech\" \"Jim Rohn philosophy\" \"Jim Rohn wisdom\" \"Jim Rohn goal setting\" \"Jim Rohn personal development\" \"Jim Rohn mindset\" \"Jim Rohn lectures\" \"Jim Rohn discipline\" \"Jim Rohn success\" \"personal development\" \"self improvement\" \"success mi",
+  "nVideos": 16,
+  "moreThanFetched": false,
+  "nLong": 16,
+  "totalViews": 801,
+  "longShare": 1,
+  "oldestText": "13d ago",
+  "rssCount": 15,
+  "firstVideo": {
+   "id": "iFK1g-KSGBY",
+   "title": "10 Lessons to Become Emotionally Untouchable | Jim Rohn Motivation",
+   "date": null,
+   "approx": "13d ago",
+   "src": "não confirmado"
+  },
+  "status": "unconfirmed",
+  "reason": "data do 1º vídeo não confirmada",
+  "top": [
+   {
+    "id": "xmf1p3GfNsQ",
+    "title": "Break Your Bad Habits and Become the Strongest Version of Yourself - Jim Rohn Motivational Speech",
+    "views": 319,
+    "lenText": "39:27",
+    "len": 2367,
+    "date": "2026-11-04T00:30:30+00:00",
+    "approx": "12d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "RXzAv7w4_Wg",
+    "title": "Focus On Yourself | Jim Rohn Motivation",
+    "views": 100,
+    "lenText": "48:11",
+    "len": 2891,
+    "date": "2026-11-10T12:00:34+00:00",
+    "approx": "6d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "iFK1g-KSGBY",
+    "title": "10 Lessons to Become Emotionally Untouchable | Jim Rohn Motivation",
+    "views": 74,
+    "lenText": "38:33",
+    "len": 2313,
+    "date": null,
+    "approx": "13d ago",
+    "src": "não confirmado"
+   }
+  ],
+  "allTitles": [
+   {
+    "title": "How to Trick Your Mind to Achieve Everything You Want | Jim Rohn Motivation",
+    "views": 2,
+    "len": "48:20",
+    "pub": "2h ago"
+   },
+   {
+    "title": "Give Me 40 Minutes, You Will Master Discipline – Jim Rohn Motivation",
+    "views": 25,
+    "len": "40:14",
+    "pub": "1d ago"
+   },
+   {
+    "title": "Take Back Control of Your Life in 2027 | Jim Rohn Motivation Speech",
+    "views": 6,
+    "len": "45:28",
+    "pub": "2d ago"
+   },
+   {
+    "title": "Mindset Is Everything! Change Your Life Forever | Jim Rohn Motivation Speech",
+    "views": 23,
+    "len": "48:40",
+    "pub": "3d ago"
+   },
+   {
+    "title": "The Power of Solitude Will Change Your Life | Jim Rohn Motivation",
+    "views": 35,
+    "len": "48:17",
+    "pub": "4d ago"
+   },
+   {
+    "title": "How To Get Ahead Even When No One Is There For You | Jim Rohn Motivation",
+    "views": 42,
+    "len": "46:52",
+    "pub": "5d ago"
+   },
+   {
+    "title": "Focus On Yourself | Jim Rohn Motivation",
+    "views": 100,
+    "len": "48:11",
+    "pub": "6d ago"
+   },
+   {
+    "title": "The Poverty Escape Blueprint: 6 Rules to Build Real Wealth - Jim Rohn Motivation",
+    "views": 59,
+    "len": "43:23",
+    "pub": "7d ago"
+   },
+   {
+    "title": "Work In Silence Until Your Life Speaks  Jim Rohn Motivational Speech Video",
+    "views": 38,
+    "len": "41:47",
+    "pub": "8d ago"
+   },
+   {
+    "title": "Walk Alone, Build Yourself! | Powerful Motivational Jim Rohn | Discipline, Self Growth & Success",
+    "views": 20,
+    "len": "47:17",
+    "pub": "9d ago"
+   },
+   {
+    "title": "The Hardest Battle Is the One Inside Your Mind | Jim Rohn Motivation",
+    "views": 34,
+    "len": "45:56",
+    "pub": "10d ago"
+   },
+   {
+    "title": "Force Yourself to Become Someone Your Old Self Would Never Recognize | Jim Rohn Motivational Speech",
+    "views": 7,
+    "len": "39:56",
+    "pub": "11d ago"
+   },
+   {
+    "title": "Stop surviving. Start building your life | Jim Rohn Motivational Speech",
+    "views": 11,
+    "len": "50:19",
+    "pub": "11d ago"
+   },
+   {
+    "title": "Only 1% of People Follow This Morning Rule | Jim Rohn Motivation",
+    "views": 6,
+    "len": "33:40",
+    "pub": "12d ago"
+   },
+   {
+    "title": "Break Your Bad Habits and Become the Strongest Version of Yourself - Jim Rohn Motivational Speech",
+    "views": 319,
+    "len": "39:27",
+    "pub": "12d ago"
+   },
+   {
+    "title": "10 Lessons to Become Emotionally Untouchable | Jim Rohn Motivation",
+    "views": 74,
+    "len": "38:33",
+    "pub": "13d ago"
+   }
+  ],
+  "nShortsInRss": 0
+ },
+ "UCHoTEkaQu_OppAM4dKSFjOQ": {
+  "channelId": "UCHoTEkaQu_OppAM4dKSFjOQ",
+  "name": "WisdomArchive",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "discipline motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:18.145Z",
+  "videoCountTotal": 307,
+  "status": "reject",
+  "reason": "canal com 307 vídeos, não é novo"
+ },
+ "UCJCXtVUB38iEZPtTGsja0MQ": {
+  "channelId": "UCJCXtVUB38iEZPtTGsja0MQ",
+  "name": "school of easy life",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "discipline motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:20.053Z",
+  "videoCountTotal": 18,
+  "handle": "@schoolofeasylife1626",
+  "url": "http://www.youtube.com/@schoolofeasylife1626",
+  "subsText": "7 subscribers",
+  "subs": 7,
+  "videoCountText": "18 videos",
+  "description": "Welcome to School of Easy Life! 🎓\nHere you'll find simple, practical lessons to help you build better habits, set clear goals, manage your time and money, and grow into the best version of yourself. No complicated theory, just short, easy-to-follow videos anyone can use, from any background.\n📌 What you'll learn:\n✔ Habits of successful people\n✔ Productivity and time management\n✔ Money basics for beginners\n✔ Confidence and mindset\n✔ Life skills nobody taught you in school\n🔔 Subscribe and join t",
+  "keywords": "\"successful life\" \"habits of successful people\" \"self improvement\" \"personal development\" productivity \"time management\" \"goal setting\" motivation \"life skills\" \"money basics\" \"budgeting for beginners\" confidence mindset \"morning routine\" \"good habits\" \"how to be successful\" \"life lessons\" \"easy lif",
+  "nVideos": 6,
+  "moreThanFetched": false,
+  "nLong": 3,
+  "totalViews": 520,
+  "longShare": 0.5,
+  "oldestText": "4w ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 4w ago"
+ },
+ "UCHZki2nI9DC2BJ4CXlrzPWQ": {
+  "channelId": "UCHZki2nI9DC2BJ4CXlrzPWQ",
+  "name": "Brave Mindset Motivation",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "discipline motivation",
+   "never give up motivational speech"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:17.379Z",
+  "videoCountTotal": 65,
+  "handle": "@BraveMindsetMotivation",
+  "url": "http://www.youtube.com/@BraveMindsetMotivation",
+  "subsText": "292 subscribers",
+  "subs": 292,
+  "videoCountText": "65 videos",
+  "description": "Welcome to Brave Mindset Motivation — a place for powerful ideas, meaningful motivation, and the mindset you need to become stronger, braver, and more purposeful.\n\nWe believe that real change begins from within. This channel is dedicated to mindset growth, purpose, leadership, self-belief, discipline, courage, and personal development.\n\nInspired by the powerful ideas and thought-provoking speaking style of motivational leaders such as Simon Sinek, our goal is to turn meaningful concepts into mot",
+  "keywords": "\"motivational speech\" motivation \"motivational video\" \"mindset motivation\" \"success mindset\" \"self improvement\" \"personal growth\" \"life advice\" inspiration \"motivational quotes\" discipline \"self discipline\" \"success motivation\" \"leadership motivation\" \"purpose in life\" \"find your why\" \"simon sinek\" ",
+  "nVideos": 65,
+  "moreThanFetched": false,
+  "nLong": 65,
+  "totalViews": 73517,
+  "longShare": 1,
+  "oldestText": "2mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 2mo ago"
+ },
+ "UCprGkTDRy9yijJStJaQ12aQ": {
+  "channelId": "UCprGkTDRy9yijJStJaQ12aQ",
+  "name": "rohn motivation",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "discipline motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:18.478Z",
+  "videoCountTotal": 40,
+  "handle": "@rohnmotivation-v4m",
+  "url": "http://www.youtube.com/@rohnmotivation-v4m",
+  "subsText": "179 subscribers",
+  "subs": 179,
+  "videoCountText": "40 videos",
+  "description": "Welcome to Rohn Motivation — a channel dedicated to personal growth, motivation, discipline, success, and the timeless wisdom of Jim Rohn.\n\nDiscover powerful lessons on mindset, self-discipline, goal setting, leadership, financial awareness, habits, and personal development. Our goal is to help you reflect, learn, and take meaningful action toward becoming a stronger and more purposeful version of yourself.\n\nSubscribe to Rohn Motivation for inspiring content, motivational insights, and practical",
+  "keywords": "\"Jim Rohn\" \"Jim Rohn motivation\" \"Jim Rohn motivational speech\" \"Jim Rohn speeches\" \"Jim Rohn quotes\" \"Jim Rohn success\" \"Jim Rohn personal development\" \"Jim Rohn self improvement\" \"Jim Rohn wisdom\" \"Jim Rohn life lessons\" \"Jim Rohn discipline\" \"Jim Rohn mindset\" \"Jim Rohn goals\" \"Jim Rohn success p",
+  "nVideos": 40,
+  "moreThanFetched": false,
+  "nLong": 40,
+  "totalViews": 26812,
+  "longShare": 1,
+  "oldestText": "1mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1mo ago"
+ },
+ "UCEwnXqKGJxvh62ch3ZA-aVA": {
+  "channelId": "UCEwnXqKGJxvh62ch3ZA-aVA",
+  "name": "THE GROWTH CODE",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "discipline motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:18.605Z",
+  "videoCountTotal": 47,
+  "handle": "@THEGROWTHCODE-g2u",
+  "url": "http://www.youtube.com/@THEGROWTHCODE-g2u",
+  "subsText": "1.53K subscribers",
+  "subs": 1530,
+  "videoCountText": "47 videos",
+  "description": "Welcome to The Growth Code — a channel dedicated to timeless principles of personal development, discipline, success, and purposeful living.\n\nExplore practical ideas inspired by classic personal-development philosophy and modern success principles. Our videos focus on the habits, mindset, responsibility, goal setting, leadership, confidence, and daily disciplines that can help you become a stronger and more capable version of yourself.\n\n🎯 What you'll find here:\n\n🎤 Timeless motivational lessons",
+  "keywords": "\"self improvement\" \"personal development\" \"success motivation\" \"success mindset\" discipline \"daily habits\" \"goal setting\" \"personal growth\" \"motivational speeches\" mindset productivity leadership responsibility \"self mastery\" confidence consistency \"life lessons\" \"success habits\" \"wealth philosophy\"",
+  "nVideos": 47,
+  "moreThanFetched": false,
+  "nLong": 47,
+  "totalViews": 330860,
+  "longShare": 1,
+  "oldestText": "1mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1mo ago"
+ },
+ "UC-0nSnJWWRt8X09mBP1GQtQ": {
+  "channelId": "UC-0nSnJWWRt8X09mBP1GQtQ",
+  "name": "The Munroe Legacy",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "discipline motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:19.569Z",
+  "videoCountTotal": 62,
+  "handle": "@TheMunroeLegacy_90",
+  "url": "http://www.youtube.com/@TheMunroeLegacy_90",
+  "subsText": "92 subscribers",
+  "subs": 92,
+  "videoCountText": "62 videos",
+  "description": "Welcome to **The Munroe Legacy** — a channel dedicated to powerful lessons on **purpose, leadership, vision, faith, success, and personal growth** inspired by the timeless teachings and principles associated with Dr. Myles Munroe.\n\nDiscover powerful ideas that can challenge your thinking, strengthen your mindset, unlock your potential, and help you live with greater purpose and intentionality.\n\nFrom leadership and success to discovering your purpose and developing a kingdom-minded mindset, our g",
+  "keywords": "\"Myles Munroe\" \"The Munroe Legacy\" \"Myles Munroe motivation\" \"Myles Munroe teachings\" \"Myles Munroe leadership\" \"Myles Munroe wisdom\" purpose leadership \"personal growth\" \"success mindset\" \"kingdom principles\" vision \"purpose driven life\" \"leadership motivation\" \"inspirational speeches\" \"motivationa",
+  "nVideos": 62,
+  "moreThanFetched": false,
+  "nLong": 62,
+  "totalViews": 8330,
+  "longShare": 1,
+  "oldestText": "1mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1mo ago"
+ },
+ "UCd_iBppWrJGuyd7KxTOOUBA": {
+  "channelId": "UCd_iBppWrJGuyd7KxTOOUBA",
+  "name": "Mindset Mastery",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "discipline motivation",
+   "wake up early motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:20.972Z",
+  "videoCountTotal": 58,
+  "handle": "@MindsetMastery-r5n",
+  "url": "http://www.youtube.com/@MindsetMastery-r5n",
+  "subsText": "140 subscribers",
+  "subs": 140,
+  "videoCountText": "58 videos",
+  "description": "Welcome to Mindset Mastery, your daily source of powerful motivation inspired by the timeless wisdom of Jim Rohn. The narration used in our videos is AI-generated and is not the authentic voice of Jim Rohn. This channel is focused on mindset, discipline, and personal growth. Every speech is designed to help you think better, act smarter, and build a successful life through consistent effort. Here, you’ll learn how small daily habits, strong discipline, and personal responsibility can completely ",
+  "keywords": "motivation wisdom \"mindset mastery\" \"mindset mastery motivation\" \"mindset mastery youtube\" \"jim rohn motivational speech\" \"jim rohn\" \"jim rohn motivation\" \"jim rohn life lessons\" \"jim rohn personal development\" \"jim rohn real speech\" \"jim rohn video\" \"jim rohn morning\" \"jim rohn habits\" \"jim rohn wi",
+  "nVideos": 58,
+  "moreThanFetched": false,
+  "nLong": 58,
+  "totalViews": 26945,
+  "longShare": 1,
+  "oldestText": "1mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1mo ago"
+ },
+ "UCew2NTUtDKxXoZxJJH_itpQ": {
+  "channelId": "UCew2NTUtDKxXoZxJJH_itpQ",
+  "name": "Repforge Anthems",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "discipline motivation",
+   "night workout motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:25.840Z",
+  "videoCountTotal": 8,
+  "handle": "@RepforgeAnthems",
+  "url": "http://www.youtube.com/@RepforgeAnthems",
+  "subsText": "6 subscribers",
+  "subs": 6,
+  "videoCountText": "8 videos",
+  "description": "Repforge Anthems creates original cinematic aggressive gym rap, dark war workout anthems, and heavy-bass hip-hop for lifters who show up and put in the work. Expect hard 808s, battle-ready drums, gritty motivational vocals, and relentless energy for bodybuilding, strength training, powerlifting, and late-night gym sessions.\n\nNo shortcuts. No borrowed glory. Just original music built around discipline, focus, resilience, and the courage to finish the set. Turn up the volume, lock in, and forge yo",
+  "keywords": "\"Repforge Anthems\" \"aggressive gym rap\" \"dark war workout music\" \"gym motivation music\" \"heavy bass gym rap\" \"cinematic workout music\" \"motivational hip hop\" \"workout rap songs\" \"bodybuilding music\" \"powerlifting music\" \"weightlifting music\" \"dark trap gym beats\" \"heavy 808 workout beats\" \"disciplin",
+  "nVideos": 8,
+  "moreThanFetched": false,
+  "nLong": 8,
+  "totalViews": 2439,
+  "longShare": 1,
+  "oldestText": "7d ago",
+  "rssCount": 8,
+  "firstVideo": {
+   "id": "cYShhYAIGJQ",
+   "title": "EARN YOUR STRENGTH ⚔️ | Heavy Bass Gym Rap for Relentless Training",
+   "date": "2026-11-09T08:06:28+00:00",
+   "src": "RSS (histórico completo)",
+   "isShort": false
+  },
+  "top": [
+   {
+    "id": "9hYmGQVXNLo",
+    "title": "NO ONE LIFTS IT FOR YOU | Dark Gym Rap for Discipline & Focus",
+    "views": 615,
+    "lenText": "1:22:34",
+    "len": 4954,
+    "date": "2026-11-11T06:00:05+00:00",
+    "approx": "5d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "uEjOSEsE9ts",
+    "title": "FOCUS IS A WEAPON | Heavy 808 Gym Music for Lock-In Mode",
+    "views": 344,
+    "lenText": "1:23:25",
+    "len": 5005,
+    "date": "2026-11-12T06:00:01+00:00",
+    "approx": "4d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "cYShhYAIGJQ",
+    "title": "EARN YOUR STRENGTH ⚔️ | Heavy Bass Gym Rap for Relentless Training",
+    "views": 290,
+    "lenText": "1:23:47",
+    "len": 5027,
+    "date": "2026-11-09T08:06:28+00:00",
+    "approx": "7d ago",
+    "src": "RSS"
+   }
+  ],
+  "allTitles": [
+   {
+    "title": "STOP WAITING FOR MOTIVATION | Dark Discipline Rap for Training",
+    "views": 251,
+    "len": "1:03:41",
+    "pub": "8h ago"
+   },
+   {
+    "title": "WHEN THE BAR GETS HEAVY | Aggressive Workout Hip-Hop Motivation",
+    "views": 249,
+    "len": "1:24:13",
+    "pub": "1d ago"
+   },
+   {
+    "title": "OUTWORK THE DOUBT | Aggressive Gym Hip-Hop for Mental Toughness",
+    "views": 216,
+    "len": "1:24:33",
+    "pub": "2d ago"
+   },
+   {
+    "title": "BUILT IN THE HARD HOURS 🔥 | Cinematic War Hip-Hop Workout Anthem",
+    "views": 281,
+    "len": "1:22:23",
+    "pub": "3d ago"
+   },
+   {
+    "title": "FOCUS IS A WEAPON | Heavy 808 Gym Music for Lock-In Mode",
+    "views": 344,
+    "len": "1:23:25",
+    "pub": "4d ago"
+   },
+   {
+    "title": "NO ONE LIFTS IT FOR YOU | Dark Gym Rap for Discipline & Focus",
+    "views": 615,
+    "len": "1:22:34",
+    "pub": "5d ago"
+   },
+   {
+    "title": "THE WEIGHT DOESN’T CARE 🔥 | Aggressive Gym Rap & Dark Workout Motivation",
+    "views": 193,
+    "len": "1:24:30",
+    "pub": "6d ago"
+   },
+   {
+    "title": "EARN YOUR STRENGTH ⚔️ | Heavy Bass Gym Rap for Relentless Training",
+    "views": 290,
+    "len": "1:23:47",
+    "pub": "7d ago"
+   }
+  ],
+  "nShortsInRss": 0,
+  "status": "pass"
+ },
+ "UCisfHbj-YJx8LkhJlzij26w": {
+  "channelId": "UCisfHbj-YJx8LkhJlzij26w",
+  "name": "Jim Rohn sermon",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "discipline motivation",
+   "wake up early motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:26.020Z",
+  "videoCountTotal": 17,
+  "handle": "@JimRohnsermon-n9c",
+  "url": "http://www.youtube.com/@JimRohnsermon-n9c",
+  "subsText": "29 subscribers",
+  "subs": 29,
+  "videoCountText": "17 videos",
+  "description": "Welcome to a channel dedicated to motivation, discipline, mindset, and personal growth inspired by the teachings of Jim Rohn.\n\n⚠️ Disclaimer: The narration in our videos is AI-generated and is not the authentic voice of Jim Rohn. This channel is an independent source of educational and motivational content inspired by his ideas.\n\nDiscover practical lessons on building discipline, developing powerful habits, taking responsibility, improving your mindset, and creating meaningful progress through c",
+  "keywords": "",
+  "nVideos": 17,
+  "moreThanFetched": false,
+  "nLong": 17,
+  "totalViews": 2848,
+  "longShare": 1,
+  "oldestText": "3w ago",
+  "rssCount": 15,
+  "firstVideo": {
+   "id": "eoEeVKWovtc",
+   "title": "Opportunity is Everywhere — Train Your Eyes to See it | Jim Rohn Motivation",
+   "date": null,
+   "approx": "3w ago",
+   "src": "não confirmado"
+  },
+  "status": "unconfirmed",
+  "reason": "data do 1º vídeo não confirmada",
+  "top": [
+   {
+    "id": "eoEeVKWovtc",
+    "title": "Opportunity is Everywhere — Train Your Eyes to See it | Jim Rohn Motivation",
+    "views": 431,
+    "lenText": "27:43",
+    "len": 1663,
+    "date": null,
+    "approx": "3w ago",
+    "src": "não confirmado"
+   },
+   {
+    "id": "oAQmwO8mUhg",
+    "title": "Learn to Listen — The People Who Listen Best, Grow the Fastest | Motivation",
+    "views": 349,
+    "lenText": "20:52",
+    "len": 1252,
+    "date": "2026-11-07T17:35:20+00:00",
+    "approx": "8d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "P_Nxagt2Rak",
+    "title": "Wake Up Before the World - Build the Discipline that Changes Everything | Motivation",
+    "views": 308,
+    "lenText": "21:08",
+    "len": 1268,
+    "date": "2026-10-22T16:38:54+00:00",
+    "approx": "3w ago",
+    "src": "RSS"
+   }
+  ],
+  "allTitles": [
+   {
+    "title": "IMPROVE YOUR MINDSET — IT MATTERS THE MOST | MINDSET CAN CHANGE YOUR LIFE",
+    "views": 45,
+    "len": "49:11",
+    "pub": "1d ago"
+   },
+   {
+    "title": "TRUST YOURSELF EVEN WHEN NOBODY BELIEVES IN YOU — YOUR TIME IS COMING | JIM ROHN MOTIVATION",
+    "views": 163,
+    "len": "27:07",
+    "pub": "2d ago"
+   },
+   {
+    "title": "Stop UPGRADING Your Life Every Time You Earn More — Build Real Wealth | Motivation",
+    "views": 123,
+    "len": "20:39",
+    "pub": "7d ago"
+   },
+   {
+    "title": "Learn to Listen — The People Who Listen Best, Grow the Fastest | Motivation",
+    "views": 346,
+    "len": "20:52",
+    "pub": "8d ago"
+   },
+   {
+    "title": "Stop Being Afraid of What People Think — Live Your Life | Motivation",
+    "views": 67,
+    "len": "22:32",
+    "pub": "2w ago"
+   },
+   {
+    "title": "Raise Your Standards — Your Life Will Never Rise Above | Motivation",
+    "views": 105,
+    "len": "24:37",
+    "pub": "2w ago"
+   },
+   {
+    "title": "If You Can't Be Alone, You Don't Know Yourself | Motivation",
+    "views": 271,
+    "len": "23:11",
+    "pub": "2w ago"
+   },
+   {
+    "title": "Become the Person Who Attracts Success | Motivation",
+    "views": 134,
+    "len": "26:48",
+    "pub": "2w ago"
+   },
+   {
+    "title": "Your Future Depends on What You Do Today | Motivation",
+    "views": 254,
+    "len": "32:39",
+    "pub": "3w ago"
+   },
+   {
+    "title": "What If You Took the Next 90 Days SERIOUSLY ? | Motivation",
+    "views": 273,
+    "len": "24:54",
+    "pub": "3w ago"
+   },
+   {
+    "title": "Stop Running From Pressure — It's Building the Person You Need To Be | Motivation",
+    "views": 77,
+    "len": "23:09",
+    "pub": "3w ago"
+   },
+   {
+    "title": "Take the Risk — Your Future is Worth the UNCERTAINTY | Motivation",
+    "views": 57,
+    "len": "20:00",
+    "pub": "3w ago"
+   },
+   {
+    "title": "Stop Overthinking — Take Action Before Fear Steals Your Future | Motivation",
+    "views": 117,
+    "len": "18:07",
+    "pub": "3w ago"
+   },
+   {
+    "title": "Your Excuses Are Costing You Your Future — Stop Lying to Yourself | Motivation",
+    "views": 24,
+    "len": "18:26",
+    "pub": "3w ago"
+   },
+   {
+    "title": "Wake Up Before the World - Build the Discipline that Changes Everything | Motivation",
+    "views": 308,
+    "len": "21:08",
+    "pub": "3w ago"
+   },
+   {
+    "title": "Your Comfort Zone is Keeping You Weak — Break Free and Grow | Motivation",
+    "views": 53,
+    "len": "21:16",
+    "pub": "3w ago"
+   },
+   {
+    "title": "Opportunity is Everywhere — Train Your Eyes to See it | Jim Rohn Motivation",
+    "views": 431,
+    "len": "27:43",
+    "pub": "3w ago"
+   }
+  ],
+  "nShortsInRss": 0
+ },
+ "UCKukR6CYBwPKleXaTpMeoCw": {
+  "channelId": "UCKukR6CYBwPKleXaTpMeoCw",
+  "name": "The Discipline Room",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "discipline motivation",
+   "stoic discipline"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:23.367Z",
+  "videoCountTotal": 93,
+  "handle": "@TheDisciplineRoom-y9u",
+  "url": "http://www.youtube.com/@TheDisciplineRoom-y9u",
+  "subsText": "91 subscribers",
+  "subs": 91,
+  "videoCountText": "93 videos",
+  "description": "Welcome to The Discipline Room — a channel dedicated to personal growth, discipline, success, mindset, and lifelong improvement.\n\nInspired by the timeless teachings and philosophy of Jim Rohn, this channel explores powerful lessons about discipline, habits, responsibility, leadership, financial mindset, and building a better life.\n\nOur goal is to present these ideas in an educational and motivational format, with thoughtful editing, context, commentary, and original presentation to help you appl",
+  "keywords": "\"personal development\" \"self improvement\" \"self discipline\" \"discipline motivation\" \"success mindset\" \"personal growth\" \"success motivation\" \"motivational speech\" \"motivational videos\" \"life lessons\" \"mindset development\" \"success habits\" \"goal setting\" \"positive mindset\" \"wealth mindset\" \"daily mot",
+  "nVideos": 93,
+  "moreThanFetched": false,
+  "nLong": 93,
+  "totalViews": 11794,
+  "longShare": 1,
+  "oldestText": "2mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 2mo ago"
+ },
+ "UC8YN1Mri94IKRDWceZxnILw": {
+  "channelId": "UC8YN1Mri94IKRDWceZxnILw",
+  "name": "DZ Motivation ",
+  "langs": [
+   "en"
+  ],
+  "terms": [
+   "discipline motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:07:25.897Z",
+  "videoCountTotal": 37,
+  "handle": "@DZMotivation-1M",
+  "url": "http://www.youtube.com/@DZMotivation-1M",
+  "subsText": "3.19K subscribers",
+  "subs": 3190,
+  "videoCountText": "37 videos",
+  "description": "Welcome to **DZ MOTIVATION**  your destination for powerful motivation, personal growth, success, discipline, and life-changing wisdom. 💯✨\n\n🎙️ Inspired by the timeless teachings and powerful wisdom of **Jim Rohn**, this channel is dedicated to helping you build a stronger mindset, develop positive habits, unlock your potential, and create a better future. 💪📈\n\n🌟 What You’ll Discover Here:\n\n🔥 Powerful Motivational Speeches\n🧠 Mindset and Personal Development\n💼 Success and Career Growth\n🎯 S",
+  "keywords": "\"DZ Motivation\" \"Jim Rohn\" \"Jim Rohn Motivation\" \"Jim Rohn Motivational Speech\" \"motivational speech\" \"motivational speeches\" \"inspirational speech\" \"success motivation\" \"self improvement\" \"personal development\" \"success mindset\" \"life lessons\" \"Jim Rohn Philosophy\" \"Jim Rohn Best Speeches\" \"daily m",
+  "nVideos": 37,
+  "moreThanFetched": false,
+  "nLong": 37,
+  "totalViews": 512997,
+  "longShare": 1,
+  "oldestText": "1mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1mo ago"
  }
 }

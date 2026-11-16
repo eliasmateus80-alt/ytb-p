@@ -1,3 +1,4 @@
 data/*.log
 data/*.tmp
 node_modules/
+data/channels.json

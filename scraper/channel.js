@@ -13,7 +13,8 @@ function parseLockups(o) {
     return { id: l.contentId, title: md?.title?.content, viewsText: viewsP?.accessibilityLabel || viewsP?.text?.content, views: L.num((viewsP?.accessibilityLabel || viewsP?.text?.content || '').replace(/ thousand/i,'K').replace(/ million/i,'M')), lenText: badge, len: L.secs(badge), pubText: pubP?.text?.content, days: L.relDays(pubP?.accessibilityLabel || pubP?.text?.content) };
   });
 }
-async function watch(id) { // reserva: página do vídeo (sujeita a bloqueio anti-bot)
+async function watch(id) { return { publishDate: null, views: null, src: "não confirmado" }; }
+async function watchOld(id) {
   for (let a = 0; a < 2; a++) { try {
     const r = await L.getData(`https://www.youtube.com/watch?v=${id}`, { player: true });
     const vp = L.walk(r.data, 'videoPrimaryInfoRenderer')[0]; const d = L.txt(vp?.dateText);
@@ -27,7 +28,7 @@ async function watch(id) { // reserva: página do vídeo (sujeita a bloqueio ant
   const todo = cands.filter(c => !res[c.channelId]).sort((a, b) => b.hits - a.hits);
   console.log('to check', todo.length);
   let n = 0;
-  await L.pool(todo, 3, async c => {
+  await L.pool(todo, 6, async c => {
     const out = { ...c, checkedAt: new Date().toISOString() };
     try {
       const r = await L.getData(`https://www.youtube.com/channel/${c.channelId}/videos`, { pages: 4 });

@@ -41,4 +41,10 @@ async function rss(cid) {
   }
   return null;
 }
-module.exports = { rss, init, getData, walk, txt, num, secs, relDays, pool, close: () => browser.close() };
+async function oembedMany(ids) {
+  if (!rssPage) { rssPage = await ctx.newPage(); await rssPage.goto('https://www.youtube.com/robots.txt'); }
+  return rssPage.evaluate(async ids => { const out = {}; let i = 0;
+    await Promise.all(Array.from({ length: 8 }, async () => { while (i < ids.length) { const id = ids[i++]; try { const r = await fetch(`/oembed?url=https://www.youtube.com/watch?v=${id}&format=json`); if (r.ok) out[id] = (await r.json()).title; } catch {} } }));
+    return out; }, ids);
+}
+module.exports = { oembedMany, rss, init, getData, walk, txt, num, secs, relDays, pool, close: () => browser.close() };

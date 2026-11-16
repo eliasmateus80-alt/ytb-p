@@ -1,0 +1,121 @@
+<title>Radar GTA 6</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: "boletim de pauta" — ranking de notícias numerado (a ordem é por views), depois tabela filtrável e oportunidades. Paleta de pôr do sol na costa: céu índigo, coral, água-turquesa. */
+:root{--bg:#f6f3f1;--panel:#ffffff;--ink:#1a1530;--muted:#635c76;--line:#e2dbe0;--coral:#d4405f;--sea:#0f8a86;--chip:#efe8ee;
+--display:Anton,"Arial Narrow",Impact,sans-serif;--body:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"JetBrains Mono",ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#130f24;--panel:#1c1733;--ink:#f1ecf6;--muted:#a69fbd;--line:#302950;--coral:#ff6f8c;--sea:#3fd0c8;--chip:#262046;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#130f24;--panel:#1c1733;--ink:#f1ecf6;--muted:#a69fbd;--line:#302950;--coral:#ff6f8c;--sea:#3fd0c8;--chip:#262046;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body)}
+.wrap{max-width:1120px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:36px}
+a{color:inherit;text-decoration-color:var(--line);text-underline-offset:3px}
+a:hover,a:focus-visible{text-decoration-color:var(--coral)}
+:focus-visible{outline:2px solid var(--sea);outline-offset:2px}
+.hero{display:grid;gap:12px;padding-bottom:22px;border-bottom:3px solid var(--coral)}
+.eyebrow{font:600 12px var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--sea)}
+h1{font:400 clamp(40px,8vw,76px)/.92 var(--display);text-transform:uppercase;margin:0;letter-spacing:.01em}
+h1 span{color:var(--coral)}
+.hero p{margin:0;max-width:68ch;color:var(--muted)}
+.stats{display:flex;flex-wrap:wrap;gap:6px 20px;font:500 13px var(--mono);color:var(--muted)}
+.stats b{color:var(--ink)}
+h2{font:400 34px/1 var(--display);text-transform:uppercase;margin:0 0 6px}
+.lead{margin:0 0 14px;color:var(--muted);max-width:75ch}
+.newslist{display:grid;gap:12px}
+.news{display:grid;grid-template-columns:64px 1fr;gap:14px;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:16px}
+.rank{font:400 44px/1 var(--display);color:var(--coral)}
+.news-b{min-width:0;display:grid;gap:8px}
+.news h3{margin:0;font:700 19px/1.25 var(--body);text-wrap:balance}
+.news p{margin:0;max-width:80ch}
+.meter{display:flex;flex-wrap:wrap;gap:4px 16px;font:500 12.5px var(--mono);color:var(--muted)}
+.meter b{color:var(--sea);font-variant-numeric:tabular-nums}
+.mini{margin:0;padding-left:18px;display:grid;gap:3px;font-size:13.5px}
+.mini em{font-style:normal;color:var(--muted);font-size:12.5px}
+.filters{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin-bottom:12px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:5px;overflow:hidden;background:var(--panel)}
+.seg button{font:600 13px var(--body);color:var(--muted);background:none;border:0;padding:7px 11px;cursor:pointer}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--coral);color:#fff}
+.chk{font-size:13.5px;color:var(--muted);display:inline-flex;gap:6px;align-items:center}
+.tablebox{overflow-x:auto;background:var(--panel);border:1px solid var(--line);border-radius:6px}
+table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:720px}
+th{font:600 11px var(--body);text-transform:uppercase;letter-spacing:.07em;color:var(--muted);text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.n{font:500 12.5px var(--mono);white-space:nowrap;font-variant-numeric:tabular-nums}
+td.x{color:var(--coral);font-weight:700}
+.sub{font-size:12px;color:var(--muted)}
+.tag{display:inline-block;font:600 10.5px var(--body);letter-spacing:.05em;text-transform:uppercase;background:var(--chip);color:var(--muted);border-radius:3px;padding:1px 6px;margin-left:4px;vertical-align:1px}
+.count{font:500 12.5px var(--mono);color:var(--muted);margin-top:8px}
+.titles{margin:0;padding-left:22px;display:grid;gap:10px}
+.titles b{display:block;font-weight:600}
+.titles span{font-size:12.5px;color:var(--muted)}
+.notes{font-size:12.5px;color:var(--muted);border-top:1px dashed var(--line);padding-top:12px;max-width:90ch}
+.notes p{margin:0 0 6px}
+@media (max-width:520px){.news{grid-template-columns:1fr}.rank{font-size:34px}}
+</style>
+<div class="wrap">
+<header class="hero">
+  <div class="eyebrow">Radar de pautas · games</div>
+  <h1>GTA 6: o que está <span>viralizando</span></h1>
+  <p>As notícias e os vídeos mais vistos sobre GTA 6 no YouTube entre o último mês e a última semana. Busca por scraping em português, espanhol e inglês, ordenada por número de views, com os filtros "este mês" e "esta semana".</p>
+  <div class="stats"><span>Atualizado: <b>%UPDATED%</b></span><span>Vídeos analisados: <b>%N%</b></span><span>Última semana: <b>%NWK%</b></span><span>8 a 35 dias: <b>%NMO%</b></span><span>Vídeo nº 1: <b>%TOP1% views</b></span></div>
+</header>
+
+<section>
+  <h2>As notícias mais fortes</h2>
+  <p class="lead">Temas agrupados pelos títulos dos vídeos e ordenados pelo total de views. Os resumos descrevem o que os títulos dizem; não conferi cada afirmação nas fontes oficiais.</p>
+  <div class="newslist">%TOPICS%</div>
+</section>
+
+<section>
+  <h2>Ranking de vídeos</h2>
+  <p class="lead">Os 50 vídeos mais vistos dentro do filtro escolhido.</p>
+  <div class="filters">
+    <div class="seg" role="group" aria-label="Período" id="f-period"><button data-v="wk" aria-pressed="true">Última semana</button><button data-v="mo" aria-pressed="false">8 a 35 dias</button><button data-v="all" aria-pressed="false">Tudo</button></div>
+    <div class="seg" role="group" aria-label="Idioma" id="f-lang"><button data-v="all" aria-pressed="true">Todos</button><button data-v="pt" aria-pressed="false">PT</button><button data-v="es" aria-pressed="false">ES</button><button data-v="en" aria-pressed="false">EN</button><button data-v="outro" aria-pressed="false">Outros</button></div>
+    <div class="seg" role="group" aria-label="Formato" id="f-fmt"><button data-v="all" aria-pressed="true">Todos</button><button data-v="long" aria-pressed="false">Longos (&gt; 8 min)</button><button data-v="short" aria-pressed="false">Até 1 min</button><button data-v="live" aria-pressed="false">Lives</button></div>
+    <label class="chk"><input type="checkbox" id="f-off"> Esconder canais oficiais</label>
+  </div>
+  <div class="tablebox"><table><thead><tr><th>Vídeo</th><th>Views</th><th>Inscritos</th><th>Duração</th><th>Publicado</th></tr></thead><tbody id="tb"></tbody></table></div>
+  <div class="count" id="count"></div>
+</section>
+
+<section>
+  <h2>Canais pequenos que explodiram</h2>
+  <p class="lead">Canais com menos de 20 mil inscritos e vídeos acima de 200 mil views, ordenados por views ÷ inscritos. São os formatos que um canal novo consegue copiar.</p>
+  <div class="tablebox"><table><thead><tr><th>Vídeo</th><th>Views</th><th>Inscritos</th><th>Views/inscr.</th><th>Duração</th><th>Publicado</th></tr></thead><tbody>%SMALL%</tbody></table></div>
+</section>
+
+<section>
+  <h2>10 títulos para o seu canal (PT-BR)</h2>
+  <p class="lead">Adaptados dos padrões que mais performaram. Os títulos que falam de lançamento valem para esta semana; os guias e listas continuam rendendo depois.</p>
+  <ol class="titles">%TITLES%</ol>
+</section>
+
+<footer class="notes">
+  <p>Views: número exato do feed RSS do canal quando disponível; nos demais, o número exibido na busca do YouTube. Datas exatas vêm do RSS; as outras são relativas ("há 2 semanas") e foram convertidas em dias aproximados.</p>
+  <p>Idioma: detectado pelo título original de cada vídeo. "Outros" inclui francês, turco, alemão, árabe, hindi e coreano.</p>
+</footer>
+</div>
+<script>
+const DATA = %DATA%;
+const st = { period: 'wk', lang: 'all', fmt: 'all', off: false };
+const nf = new Intl.NumberFormat('pt-BR');
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const rel = r => r.dx ? new Date(r.date + 'T12:00:00Z').toLocaleDateString('pt-BR', { day: '2-digit', month: 'short' }) : String(r.p).replace(/^Streamed /, 'live ').replace(/(\d+)\s*mo ago/, 'há $1 mês').replace(/(\d+)\s*w ago/, 'há $1 sem.').replace(/(\d+)\s*d ago/, 'há $1 d').replace(/(\d+)\s*h ago/, 'há $1 h');
+function render() {
+  const rows = DATA.filter(r => (st.period === 'all' || (st.period === 'wk' ? r.d <= 7 : r.d > 7)) && (st.lang === 'all' || r.lang === st.lang)
+    && (st.fmt === 'all' || (st.fmt === 'long' ? r.ls > 480 && !r.live : st.fmt === 'short' ? r.ls > 0 && r.ls <= 60 : r.live)) && !(st.off && r.off));
+  document.getElementById('tb').innerHTML = rows.slice(0, 50).map(r => `<tr><td><a href="https://www.youtube.com/watch?v=${esc(r.id)}" target="_blank" rel="noopener">${esc(r.t)}</a><div class="sub">${esc(r.c)}${r.off ? '<span class="tag">oficial</span>' : ''}${r.live ? '<span class="tag">live</span>' : ''}<span class="tag">${esc(r.lang)}</span></div></td><td class="n">${nf.format(r.v)}</td><td class="n">${esc(r.st || '—')}</td><td class="n">${esc(r.len)}</td><td class="n">${esc(rel(r))}</td></tr>`).join('') || '<tr><td colspan="5">Nenhum vídeo com esses filtros. Tente "Tudo" no período ou outro idioma.</td></tr>';
+  document.getElementById('count').textContent = `${Math.min(50, rows.length)} de ${rows.length} vídeos neste filtro`;
+}
+for (const [id, key] of [['f-period', 'period'], ['f-lang', 'lang'], ['f-fmt', 'fmt']]) {
+  document.getElementById(id).addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; st[key] = b.dataset.v;
+    b.parentElement.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b)); render(); });
+}
+document.getElementById('f-off').addEventListener('change', e => { st.off = e.target.checked; render(); });
+render();
+</script>

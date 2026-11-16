@@ -19111,5 +19111,1410 @@
   "videoCountTotal": 381,
   "status": "reject",
   "reason": "canal com 381 vídeos, não é novo"
+ },
+ "UC136eSm5GYJJrpKxxUQRTjQ": {
+  "channelId": "UC136eSm5GYJJrpKxxUQRTjQ",
+  "name": "Wisdom king",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "disciplina motivación",
+   "motivación para no rendirse"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:21.412Z",
+  "videoCountTotal": 14,
+  "handle": "@Wisdomking-g1e",
+  "url": "http://www.youtube.com/@Wisdomking-g1e",
+  "subsText": "2 subscribers",
+  "subs": 2,
+  "videoCountText": "14 videos",
+  "description": "Bienvenido a Wisdom King.\n\nWisdom King es un hogar para la sabiduría ancestral y la motivación moderna. Aquí encontrarás videos sobre disciplina, enfoque, resiliencia y calma interior, inspirados en la filosofía oriental y en el pensamiento shaolin, para ayudarte a construir una mente más fuerte y una vida más estable.\n\nYa sea que persigas una gran meta, atravieses una temporada difícil o busques un propósito más claro, nuestro contenido está hecho para darte perspectiva, valor y una dirección p",
+  "keywords": "",
+  "nVideos": 14,
+  "moreThanFetched": false,
+  "nLong": 13,
+  "totalViews": 222,
+  "longShare": 0.9285714285714286,
+  "oldestText": "1mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1mo ago"
+ },
+ "UCZYcRC0bxeBfhtgbBKiI5OA": {
+  "channelId": "UCZYcRC0bxeBfhtgbBKiI5OA",
+  "name": "SoyMichelleBarranco",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación maratón"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:16.860Z",
+  "videoCountTotal": 83,
+  "handle": "@SoyMichelleBarranco",
+  "url": "http://www.youtube.com/@SoyMichelleBarranco",
+  "subsText": "126 subscribers",
+  "subs": 126,
+  "videoCountText": "83 videos",
+  "description": "",
+  "keywords": "",
+  "nVideos": 10,
+  "moreThanFetched": false,
+  "nLong": 2,
+  "totalViews": 427,
+  "longShare": 0.2,
+  "oldestText": "1y ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1y ago"
+ },
+ "UCkNSrTuPZ-M4GeYsb0ItQ7A": {
+  "channelId": "UCkNSrTuPZ-M4GeYsb0ItQ7A",
+  "name": "Mente de Resistencia",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "disciplina motivación",
+   "motivación ciclismo"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:21.414Z",
+  "videoCountTotal": 11,
+  "handle": "@MenteDeResistencia",
+  "url": "http://www.youtube.com/@MenteDeResistencia",
+  "subsText": "3 subscribers",
+  "subs": 3,
+  "videoCountText": "11 videos",
+  "description": "Filosofía, fortaleza mental y rendimiento en deportes de resistencia.\n\nAyudar a deportistas y personas activas a desarrollar disciplina, concentración, resiliencia y una relación más saludable con el esfuerzo, utilizando ideas de la filosofía, conocimientos de psicología deportiva y experiencias reales del deporte.\n",
+  "keywords": "",
+  "nVideos": 3,
+  "moreThanFetched": false,
+  "nLong": 2,
+  "totalViews": 24,
+  "longShare": 0.6666666666666666,
+  "oldestText": "2w ago",
+  "rssCount": 11,
+  "firstVideo": {
+   "id": "K4ltnycujo0",
+   "title": "¿Por qué abandonamos mentalmente antes de terminar? 🧠",
+   "date": "2026-10-27T02:15:25+00:00",
+   "src": "RSS (histórico completo)",
+   "isShort": true
+  },
+  "top": [
+   {
+    "id": "GEkqFjNRVrs",
+    "title": "Cómo construir DISCIPLINA cuando desaparece la MOTIVACIÓN | 5 claves para ser constante",
+    "views": 8,
+    "lenText": "8:11",
+    "len": 491,
+    "date": "2026-11-10T04:34:02+00:00",
+    "approx": "6d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "3PUS_4HfCmk",
+    "title": "FORJÁ TU MENTE, SUPERÁ TUS LÍMITES | Mente de Resistencia",
+    "views": 0,
+    "lenText": "8:41",
+    "len": 521,
+    "date": "2026-11-16T03:49:23+00:00",
+    "approx": "10h ago",
+    "src": "RSS"
+   }
+  ],
+  "allTitles": [
+   {
+    "title": "FORJÁ TU MENTE, SUPERÁ TUS LÍMITES | Mente de Resistencia",
+    "views": 0,
+    "len": "8:41",
+    "pub": "10h ago"
+   },
+   {
+    "title": "Cómo construir DISCIPLINA cuando desaparece la MOTIVACIÓN | 5 claves para ser constante",
+    "views": 8,
+    "len": "8:11",
+    "pub": "6d ago"
+   },
+   {
+    "title": "Cómo hablarte cuando tu mente quiere abandonar | Psicología deportiva",
+    "views": 16,
+    "len": "7:57",
+    "pub": "2w ago"
+   }
+  ],
+  "nShortsInRss": 8,
+  "status": "pass"
+ },
+ "UCHdBbCbDUu6gzPmarIBAF1w": {
+  "channelId": "UCHdBbCbDUu6gzPmarIBAF1w",
+  "name": "Sabiduría Tracy",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "disciplina motivación"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:21.394Z",
+  "videoCountTotal": 168,
+  "status": "reject",
+  "reason": "canal com 168 vídeos, não é novo"
+ },
+ "UCF1nu4A0svxAYpJpD1Bp1BA": {
+  "channelId": "UCF1nu4A0svxAYpJpD1Bp1BA",
+  "name": "Superación Tracy",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "disciplina motivación"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:22.427Z",
+  "videoCountTotal": 19,
+  "handle": "@SuperaciónTracy-e1p",
+  "url": "http://www.youtube.com/@Superaci%C3%B3nTracy-e1p",
+  "subsText": "43 subscribers",
+  "subs": 43,
+  "videoCountText": "19 videos",
+  "description": "🔥 “El éxito comienza cuando decides no rendirte y te comprometes a ser mejor cada día.”💪\\\n",
+  "keywords": "\"Brian Tracy\" \"Brian Tracy motivación\" \"motivación en español\" \"desarrollo personal\" \"superación personal\" \"mentalidad ganadora\" \"éxito y disciplina\" \"cómo alcanzar el éxito\" \"hábitos de éxito\" \"crecimiento personal\" \"motivación para triunfar\" \"mentalidad de millonario\" \"disciplina y enfoque\" \"cómo ",
+  "nVideos": 19,
+  "moreThanFetched": false,
+  "nLong": 19,
+  "totalViews": 6251,
+  "longShare": 1,
+  "oldestText": "3w ago",
+  "rssCount": 15,
+  "firstVideo": {
+   "id": "ZkO7HvBrg8c",
+   "title": "Tu Peor Enemigo Eres Tú | Brian Tracy | Motivación para Cambiar tu Vida",
+   "date": null,
+   "approx": "3w ago",
+   "src": "não confirmado"
+  },
+  "status": "unconfirmed",
+  "reason": "data do 1º vídeo não confirmada",
+  "top": [
+   {
+    "id": "M9NYW7DHIes",
+    "title": "De la Pereza a la Disciplina | Brian Tracy MOTIVACIÓN para Cambiar tu Vida",
+    "views": 1700,
+    "lenText": "20:27",
+    "len": 1227,
+    "date": null,
+    "approx": "3w ago",
+    "src": "não confirmado"
+   },
+   {
+    "id": "iUcrVOzSEvA",
+    "title": "ENFÓCATE EN SOLUCIONES, NO EN PROBLEMAS | Brian Tracy | Motivación para Cambiar tu Vida",
+    "views": 1100,
+    "lenText": "25:40",
+    "len": 1540,
+    "date": null,
+    "approx": "3w ago",
+    "src": "não confirmado"
+   },
+   {
+    "id": "ZkO7HvBrg8c",
+    "title": "Tu Peor Enemigo Eres Tú | Brian Tracy | Motivación para Cambiar tu Vida",
+    "views": 576,
+    "lenText": "20:16",
+    "len": 1216,
+    "date": null,
+    "approx": "3w ago",
+    "src": "não confirmado"
+   }
+  ],
+  "allTitles": [
+   {
+    "title": "Do this every day and the money will come naturally (the key) brain Tracy",
+    "views": 20,
+    "len": "17:19",
+    "pub": "3d ago"
+   },
+   {
+    "title": "🔥 OBLÍGATE A SOÑAR EN GRANDE | EL PODER DE PENSAR SIN LÍMITES – BRIAN TRACY",
+    "views": 20,
+    "len": "14:57",
+    "pub": "4d ago"
+   },
+   {
+    "title": "MATA A TU YO POBRE Y TRANSFORMA TU VIDA | BRIAN TRACY – MOTIVACIÓN PARA EL ÉXITO",
+    "views": 68,
+    "len": "15:37",
+    "pub": "5d ago"
+   },
+   {
+    "title": "🔥 LA CONSTANCIA TE HARÁ EXITOSO | Nunca Te Rindas y Alcanza Tus Sueños – Brain Tracy",
+    "views": 26,
+    "len": "17:28",
+    "pub": "6d ago"
+   },
+   {
+    "title": "If you don't learn to love the process you'll never succeed winner's mindset",
+    "views": 50,
+    "len": "17:06",
+    "pub": "6d ago"
+   },
+   {
+    "title": "NUNCA DUDES DE DIOS 🙏 | Confía en Él y Pon Tu Vida en Sus Manos | Brian Tracy",
+    "views": 36,
+    "len": "17:00",
+    "pub": "7d ago"
+   },
+   {
+    "title": "PON TU VIDA EN MANOS DE DIOS 🙏 | Confía en Dios y Cambia Tu Vida | Brian Tracy",
+    "views": 201,
+    "len": "14:43",
+    "pub": "8d ago"
+   },
+   {
+    "title": "INICIA TU DÍA COMO UN GANADOR 🏆 | CAMBIA TU MENTALIDAD Y TRANSFORMA TU VIDA | BRIAN TRACY",
+    "views": 156,
+    "len": "15:09",
+    "pub": "9d ago"
+   },
+   {
+    "title": "NO PERMITAS QUE NADA TE AFECTE | Aprende a Controlar Tus Emociones y Fortalecer Tu Mente Brian Tracy",
+    "views": 93,
+    "len": "17:33",
+    "pub": "9d ago"
+   },
+   {
+    "title": "ENFÓCATE EN TU CRECIMIENTO y TRANSFORMA TU VIDA | BRIAN TRACY | MOTIVACIÓN PODEROSA",
+    "views": 235,
+    "len": "16:54",
+    "pub": "10d ago"
+   },
+   {
+    "title": "NO PERMITAS QUE NADA TE AFECTE | Aprende a Controlar tus Emociones y Fortalecer tu Mente–Brian Tracy",
+    "views": 208,
+    "len": "16:10",
+    "pub": "2w ago"
+   },
+   {
+    "title": "ENFÓCATE SOLO EN TU CRECIMIENTO | Brian Tracy – Cambia Tu Vida y Alcanza el Éxito",
+    "views": 435,
+    "len": "20:23",
+    "pub": "2w ago"
+   },
+   {
+    "title": "Vuélvete DISCIPLINADO en 1 Hora | Brian Tracy – El Poder de la Disciplina",
+    "views": 364,
+    "len": "20:36",
+    "pub": "2w ago"
+   },
+   {
+    "title": "DIOS TE DIO UN TALENTO: ¡Descubre Tu Potencial y Cambia Tu Vida! | Brian Tracy",
+    "views": 208,
+    "len": "25:34",
+    "pub": "3w ago"
+   },
+   {
+    "title": "OBLÍGATE A MEJORAR UN POCO MÁS CADA DÍA | Brian Tracy | Motivación y Desarrollo Personal",
+    "views": 349,
+    "len": "14:15",
+    "pub": "3w ago"
+   },
+   {
+    "title": "ENFÓCATE EN SOLUCIONES, NO EN PROBLEMAS | Brian Tracy | Motivación para Cambiar tu Vida",
+    "views": 1100,
+    "len": "25:40",
+    "pub": "3w ago"
+   },
+   {
+    "title": "**DISINTOXICA TU MENTE 🧠 | Elimina los Pensamientos Negativos y Transforma Tu Vida | Brian Tracy**",
+    "views": 406,
+    "len": "12:31",
+    "pub": "3w ago"
+   },
+   {
+    "title": "De la Pereza a la Disciplina | Brian Tracy MOTIVACIÓN para Cambiar tu Vida",
+    "views": 1700,
+    "len": "20:27",
+    "pub": "3w ago"
+   },
+   {
+    "title": "Tu Peor Enemigo Eres Tú | Brian Tracy | Motivación para Cambiar tu Vida",
+    "views": 576,
+    "len": "20:16",
+    "pub": "3w ago"
+   }
+  ],
+  "nShortsInRss": 0
+ },
+ "UC5bUsptne7NVwC1LSDtCNjg": {
+  "channelId": "UC5bUsptne7NVwC1LSDtCNjg",
+  "name": "PODER INTERIOR",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para levantarse temprano"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:24.578Z",
+  "videoCountTotal": 11,
+  "handle": "@PODERINTERIOR-d6h",
+  "url": "http://www.youtube.com/@PODERINTERIOR-d6h",
+  "subsText": null,
+  "subs": null,
+  "videoCountText": "11 videos",
+  "description": "",
+  "keywords": "",
+  "nVideos": 11,
+  "moreThanFetched": false,
+  "nLong": 11,
+  "totalViews": 6,
+  "longShare": 1,
+  "oldestText": "2w ago",
+  "rssCount": 11,
+  "firstVideo": {
+   "id": "f-WAexQJjsE",
+   "title": "DESPUÉS DE LOS 60, TU FAMILIA NO TE SALVARÁ: LOS 6 PILARES QUE DEBES CONSTRUIR AHORA | Yokoi Kenji",
+   "date": "2026-11-01T00:30:33+00:00",
+   "src": "RSS (histórico completo)",
+   "isShort": false
+  },
+  "top": [
+   {
+    "id": "ZJ1pPnKHuXA",
+    "title": "El secreto de las 6 AM: elimina la pereza para siempre | Yokoi Kenji",
+    "views": 4,
+    "lenText": "30:16",
+    "len": 1816,
+    "date": "2026-11-10T18:45:16+00:00",
+    "approx": "5d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "_kQtFdKigZU",
+    "title": "EN LA VEJEZ NO NECESITAS AMIGOS, HIJOS NI PAREJA, SINO ESTAS 7 COSAS | YOKOI KENJI",
+    "views": 1,
+    "lenText": "28:23",
+    "len": 1703,
+    "date": "2026-11-03T01:30:14+00:00",
+    "approx": "13d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "mdoAaj2XRUY",
+    "title": "¿No Hay Oportunidades? | Yokoi Kenji",
+    "views": 1,
+    "lenText": "12:53",
+    "len": 773,
+    "date": "2026-11-02T01:30:24+00:00",
+    "approx": "2w ago",
+    "src": "RSS"
+   }
+  ],
+  "allTitles": [
+   {
+    "title": "Your Morning Decides Your Life: Don't Hand Your Mind to Your Phone",
+    "views": 0,
+    "len": "29:34",
+    "pub": "1d ago"
+   },
+   {
+    "title": "8 Psychology Secrets So the World Stops Affecting You",
+    "views": 0,
+    "len": "29:00",
+    "pub": "1d ago"
+   },
+   {
+    "title": "El secreto del vinagre: vence a tus enemigos sin pelear",
+    "views": 0,
+    "len": "24:10",
+    "pub": "2d ago"
+   },
+   {
+    "title": "El ritual del ajo: ocúltalo en este lugar y la pobreza desaparecerá",
+    "views": 0,
+    "len": "21:34",
+    "pub": "4d ago"
+   },
+   {
+    "title": "El secreto de las 6 AM: elimina la pereza para siempre | Yokoi Kenji",
+    "views": 4,
+    "len": "30:16",
+    "pub": "5d ago"
+   },
+   {
+    "title": "¡LO TENÍAMOS TODO Y NO LO SABÍAMOS! | Yokoi Kenji",
+    "views": 0,
+    "len": "30:33",
+    "pub": "7d ago"
+   },
+   {
+    "title": "DISCIPLINAES LO QUENOS HACEGRANDES | YOKOI KENJI",
+    "views": 0,
+    "len": "20:03",
+    "pub": "11d ago"
+   },
+   {
+    "title": "inteligencia emocional motivacional | Yokoi Kenji",
+    "views": 0,
+    "len": "31:49",
+    "pub": "12d ago"
+   },
+   {
+    "title": "EN LA VEJEZ NO NECESITAS AMIGOS, HIJOS NI PAREJA, SINO ESTAS 7 COSAS | YOKOI KENJI",
+    "views": 1,
+    "len": "28:23",
+    "pub": "13d ago"
+   },
+   {
+    "title": "¿No Hay Oportunidades? | Yokoi Kenji",
+    "views": 1,
+    "len": "12:53",
+    "pub": "2w ago"
+   },
+   {
+    "title": "DESPUÉS DE LOS 60, TU FAMILIA NO TE SALVARÁ: LOS 6 PILARES QUE DEBES CONSTRUIR AHORA | Yokoi Kenji",
+    "views": 0,
+    "len": "41:05",
+    "pub": "2w ago"
+   }
+  ],
+  "nShortsInRss": 0,
+  "status": "pass"
+ },
+ "UC6zdG4yQabctYzZdizAWHxw": {
+  "channelId": "UC6zdG4yQabctYzZdizAWHxw",
+  "name": "LA FORMULA DEL ÉXITO N.H",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para levantarse temprano"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:24.827Z",
+  "videoCountTotal": 176,
+  "status": "reject",
+  "reason": "canal com 176 vídeos, não é novo"
+ },
+ "UC4W_yVrs0O2P5ZKIU3ODWhw": {
+  "channelId": "UC4W_yVrs0O2P5ZKIU3ODWhw",
+  "name": "Mind MENTALVORA",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "disciplina motivación",
+   "motivación para no rendirse"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:23.380Z",
+  "videoCountTotal": 45,
+  "handle": "@MindMENTALVORA",
+  "url": "http://www.youtube.com/@MindMENTALVORA",
+  "subsText": "108 subscribers",
+  "subs": 108,
+  "videoCountText": "45 videos",
+  "description": "MENTALVORA es un espacio para transformar tu mentalidad, fortalecer tu disciplina y construir una versión más fuerte de ti mismo. Aquí encontrarás motivación, desarrollo personal, mentalidad de éxito, hábitos, disciplina, confianza y consejos para superar tus límites. Si quieres dejar las excusas, cambiar tu forma de pensar y avanzar hacia tus objetivos, este canal es para ti. Cada video está creado para ayudarte a mantener el enfoque, desarrollar una mentalidad ganadora y convertir tus sueños e",
+  "keywords": "",
+  "nVideos": 45,
+  "moreThanFetched": false,
+  "nLong": 45,
+  "totalViews": 15501,
+  "longShare": 1,
+  "oldestText": "2mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 2mo ago"
+ },
+ "UCunytiquLy2u0dLEShFxUYQ": {
+  "channelId": "UCunytiquLy2u0dLEShFxUYQ",
+  "name": "La Maestría Interior",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para levantarse temprano"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:28.361Z",
+  "videoCountTotal": 11,
+  "handle": "@LaMaestríaInterior-e8x",
+  "url": "http://www.youtube.com/@LaMaestr%C3%ADaInterior-e8x",
+  "subsText": "23 subscribers",
+  "subs": 23,
+  "videoCountText": "11 videos",
+  "description": "",
+  "keywords": "#RobbinsMotivation #LimitlessLife #SuccessMindset #DailyMotivation #TonyRobbinsStyle #SelfGrowth #PositiveMindset #NeverGiveUp #MotivationDaily #MindsetMastery #UnleashThePowerWithin #PersonalDevelopment #GrowthMindset #SuccessHabits #InspireDaily #ChangeYourState #PeakPerformance #GoalGetter #SelfM",
+  "nVideos": 11,
+  "moreThanFetched": false,
+  "nLong": 11,
+  "totalViews": 2259,
+  "longShare": 1,
+  "oldestText": "2w ago",
+  "rssCount": 11,
+  "firstVideo": {
+   "id": "OirhSmkhr4E",
+   "title": "7 Reglas Que Cambiarán Tu Forma de Vivir Para Siempre | Tony Robbins",
+   "date": "2026-10-31T10:00:10+00:00",
+   "src": "RSS (histórico completo)",
+   "isShort": false
+  },
+  "top": [
+   {
+    "id": "IWPfmJJ_hkc",
+    "title": "7 HÁBITOS QUE TRANSFORMARÁN TU VIDA PARA SIEMPRE | Tony Robbins",
+    "views": 1678,
+    "lenText": "44:27",
+    "len": 2667,
+    "date": "2026-11-09T10:51:26+00:00",
+    "approx": "7d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "7QFR48vrpFg",
+    "title": "LAS 7 DECISIONES QUE CAMBIARÁN TU VIDA PARA SIEMPRE | Tony Robbins",
+    "views": 193,
+    "lenText": "36:01",
+    "len": 2161,
+    "date": "2026-11-07T11:19:17+00:00",
+    "approx": "9d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "Tt_yX_BPcgE",
+    "title": "EL PRIMER CAMBIO QUE DEBES HACER PARA TRANSFORMAR TU VIDA | Tony Robbins",
+    "views": 179,
+    "lenText": "41:09",
+    "len": 2469,
+    "date": "2026-11-06T10:58:21+00:00",
+    "approx": "10d ago",
+    "src": "RSS"
+   }
+  ],
+  "allTitles": [
+   {
+    "title": "CAMBIA TU VIDA EN 90 DÍAS: EL PLAN QUE TRANSFORMARÁ TU FUTURO | Tony Robbins",
+    "views": 91,
+    "len": "38:33",
+    "pub": "6d ago"
+   },
+   {
+    "title": "7 HÁBITOS QUE TRANSFORMARÁN TU VIDA PARA SIEMPRE | Tony Robbins",
+    "views": 1600,
+    "len": "44:27",
+    "pub": "7d ago"
+   },
+   {
+    "title": "EL SECRETO DEL ÉXITO ES INVERTIR EN TI MISMO | Tony Robbins",
+    "views": 104,
+    "len": "37:44",
+    "pub": "8d ago"
+   },
+   {
+    "title": "LAS 7 DECISIONES QUE CAMBIARÁN TU VIDA PARA SIEMPRE | Tony Robbins",
+    "views": 195,
+    "len": "36:01",
+    "pub": "9d ago"
+   },
+   {
+    "title": "EL PRIMER CAMBIO QUE DEBES HACER PARA TRANSFORMAR TU VIDA | Tony Robbins",
+    "views": 179,
+    "len": "41:09",
+    "pub": "10d ago"
+   },
+   {
+    "title": "DESPIERTA A LAS 5 AM Y CAMBIA TU VIDA PARA SIEMPRE | Tony Robbins",
+    "views": 23,
+    "len": "32:16",
+    "pub": "11d ago"
+   },
+   {
+    "title": "DESPIERTA Y CONQUISTA TU DÍA | La Motivación Que Necesitas | Tony Robbins",
+    "views": 8,
+    "len": "28:29",
+    "pub": "12d ago"
+   },
+   {
+    "title": "Desaparece Durante 6 Meses y Transforma Toda Tu Vida | Tony Robbins",
+    "views": 11,
+    "len": "28:10",
+    "pub": "13d ago"
+   },
+   {
+    "title": "Gana Tu Día Antes de Que Comience | Poderosa Motivación Matutina | Tony Robbins",
+    "views": 24,
+    "len": "29:49",
+    "pub": "2w ago"
+   },
+   {
+    "title": "5 Hábitos Diarios Que Transformarán Completamente Tu Vida | Tony Robbins",
+    "views": 13,
+    "len": "22:54",
+    "pub": "2w ago"
+   },
+   {
+    "title": "7 Reglas Que Cambiarán Tu Forma de Vivir Para Siempre | Tony Robbins",
+    "views": 11,
+    "len": "28:43",
+    "pub": "2w ago"
+   }
+  ],
+  "nShortsInRss": 0,
+  "status": "pass"
+ },
+ "UCAFu6PypVQ59EIBh4n-I24Q": {
+  "channelId": "UCAFu6PypVQ59EIBh4n-I24Q",
+  "name": "El Legado Robbins",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para levantarse temprano",
+   "motivación para no rendirse"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:28.069Z",
+  "videoCountTotal": 25,
+  "handle": "@MenteProfunda-g7s",
+  "url": "http://www.youtube.com/@MenteProfunda-g7s",
+  "subsText": "1.06K subscribers",
+  "subs": 1060,
+  "videoCountText": "25 videos",
+  "description": "Description\nBienvenido a Mente Profunda, un espacio dedicado a explorar los misterios de la mente humana, el poder del subconsciente y los secretos más profundos de nuestra psicología.\n\nA través de las enseñanzas de Carl Jung, la psicología profunda y el autoconocimiento, descubrirás cómo comprender tus emociones, reconocer tu sombra, transformar tus pensamientos y conectar con tu verdadero yo.\n\nAquí exploraremos temas como el inconsciente, los arquetipos, la sombra psicológica, los sueños, la p",
+  "keywords": "\"Tony Robbins\" \"El legado Robbins\" \"Tony Robbins español\" motivación \"desarrollo personal\" \"crecimiento personal\" \"superación personal\" \"mentalidad de éxito\" \"éxito personal\" \"éxito financiero\" \"motivación en español\" \"frases motivacionales\" \"hábitos de éxito\" disciplina liderazgo \"inteligencia emoc",
+  "nVideos": 25,
+  "moreThanFetched": false,
+  "nLong": 25,
+  "totalViews": 22099,
+  "longShare": 1,
+  "oldestText": "4w ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 4w ago"
+ },
+ "UC1efsrC4yXQacqARxRvKNaA": {
+  "channelId": "UC1efsrC4yXQacqARxRvKNaA",
+  "name": "NEXORA. 🚀",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para levantarse temprano"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:25.580Z",
+  "videoCountTotal": 49,
+  "handle": "@drixcd",
+  "url": "http://www.youtube.com/@drixcd",
+  "subsText": "18 subscribers",
+  "subs": 18,
+  "videoCountText": "49 videos",
+  "description": "",
+  "keywords": "",
+  "nVideos": 5,
+  "moreThanFetched": false,
+  "nLong": 4,
+  "totalViews": 41,
+  "longShare": 0.8,
+  "oldestText": "3d ago",
+  "rssCount": 15,
+  "firstVideo": {
+   "id": "-iwCKG_ASlc",
+   "title": "Me encerraron en la PRISIÓN MÁS SEGURA del mundo por algo que no hice | La historia completa",
+   "date": null,
+   "approx": "3d ago",
+   "src": "não confirmado"
+  },
+  "status": "unconfirmed",
+  "reason": "data do 1º vídeo não confirmada",
+  "top": [
+   {
+    "id": "-iwCKG_ASlc",
+    "title": "Me encerraron en la PRISIÓN MÁS SEGURA del mundo por algo que no hice | La historia completa",
+    "views": 11,
+    "lenText": "27:13",
+    "len": 1633,
+    "date": null,
+    "approx": "3d ago",
+    "src": "não confirmado"
+   },
+   {
+    "id": "OY0L9GVy_CQ",
+    "title": "14 HISTORIAS ANIMADAS para ver sin parar 🍿 (La Verdulera, Bestiario Imposible, ¿Y si…? y más)",
+    "views": 10,
+    "lenText": "12:20",
+    "len": 740,
+    "date": "2026-11-15T01:47:28+00:00",
+    "approx": "1d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "NiRG7ErRKTk",
+    "title": "Cómo DESPERTAR TEMPRANO Sin Sentirte Cansado (La Guía Completa)",
+    "views": 10,
+    "lenText": "10:20",
+    "len": 620,
+    "date": null,
+    "approx": "1d ago",
+    "src": "não confirmado"
+   }
+  ],
+  "allTitles": [
+   {
+    "title": "14 HISTORIAS ANIMADAS para ver sin parar 🍿 (La Verdulera, Bestiario Imposible, ¿Y si…? y más)",
+    "views": 10,
+    "len": "12:20",
+    "pub": "1d ago"
+   },
+   {
+    "title": "7 INVENTOS GAMER que puedes construir en tu casa 🎮 (PC con agua, arcade, simulador y más)",
+    "views": 1,
+    "len": "7:39",
+    "pub": "1d ago"
+   },
+   {
+    "title": "Cómo DESPERTAR TEMPRANO Sin Sentirte Cansado (La Guía Completa)",
+    "views": 10,
+    "len": "10:20",
+    "pub": "1d ago"
+   },
+   {
+    "title": "Sobreviví 100 días en un mundo de bloques 🧱 (y enfrenté al Golem de Lava)",
+    "views": 9,
+    "len": "23:47",
+    "pub": "3d ago"
+   },
+   {
+    "title": "Me encerraron en la PRISIÓN MÁS SEGURA del mundo por algo que no hice | La historia completa",
+    "views": 11,
+    "len": "27:13",
+    "pub": "3d ago"
+   }
+  ],
+  "nShortsInRss": 13
+ },
+ "UCq8tW8EzrvIj4zi-nEj8X6w": {
+  "channelId": "UCq8tW8EzrvIj4zi-nEj8X6w",
+  "name": "Тень Юнга",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para levantarse temprano"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:25.072Z",
+  "videoCountTotal": 77,
+  "handle": "@ТеньЮнга-в7й",
+  "url": "http://www.youtube.com/@%D0%A2%D0%B5%D0%BD%D1%8C%D0%AE%D0%BD%D0%B3%D0%B0-%D0%B27%D0%B9",
+  "subsText": "466 subscribers",
+  "subs": 466,
+  "videoCountText": "77 videos",
+  "description": "aaaa**Тень Юнга** — канал о психологии, бессознательном, отношениях и самопознании.\n\nЗдесь мы исследуем идеи **Карла Юнга**, архетипы, Тень, коллективное бессознательное, психологию отношений, любовь, одиночество, самооценку и скрытые стороны человеческой личности.\n\nПочему нас тянет к определённым людям? Почему мы повторяем одни и те же ошибки? Что скрывается за нашими страхами, чувствами и поведением?\n\nЧерез идеи Карла Юнга мы разбираем человеческую психику и пытаемся лучше понять себя и окружа",
+  "keywords": "\"Карл Юнг\" \"Тень Юнга\" психология \"Карл Густав Юнг\" \"аналитическая психология\" бессознательное подсознание \"архетипы Юнга\" Тень \"психология отношений\" любовь отношения \"психология личности\" самопознание саморазвитие одиночество самооценка \"эмоциональная зависимость\" \"психология мужчин\"",
+  "nVideos": 66,
+  "moreThanFetched": false,
+  "nLong": 65,
+  "totalViews": 25939,
+  "longShare": 0.9848484848484849,
+  "oldestText": "2mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 2mo ago"
+ },
+ "UCc8KSKXUetjpVsr3v_SDjpQ": {
+  "channelId": "UCc8KSKXUetjpVsr3v_SDjpQ",
+  "name": "Inspiración Diaria",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para levantarse temprano"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:26.015Z",
+  "videoCountTotal": 33,
+  "handle": "@InspiraciónDiaria-o3o",
+  "url": "http://www.youtube.com/@Inspiraci%C3%B3nDiaria-o3o",
+  "subsText": "3 subscribers",
+  "subs": 3,
+  "videoCountText": "33 videos",
+  "description": "",
+  "keywords": "",
+  "nVideos": 33,
+  "moreThanFetched": false,
+  "nLong": 33,
+  "totalViews": 641,
+  "longShare": 1,
+  "oldestText": "2w ago",
+  "rssCount": 15,
+  "firstVideo": {
+   "id": "Ea4Nd0rD1Yg",
+   "title": "How to Be Consistent Every Day Jim Rohn Motivatio",
+   "date": null,
+   "approx": "2w ago",
+   "src": "não confirmado"
+  },
+  "status": "unconfirmed",
+  "reason": "data do 1º vídeo não confirmada",
+  "top": [
+   {
+    "id": "qJwHAdzHMNA",
+    "title": "Change Your Mindset And Your Life Will Change Forever (listen to this today) by MARIO ALONSO PUIG",
+    "views": 237,
+    "lenText": "59:36",
+    "len": 3576,
+    "date": "2026-11-12T01:00:10+00:00",
+    "approx": "4d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "lr8VFXZTCB8",
+    "title": "Ignite Your Inner Flame: Don't Let It Go Out | Mario Alonso Puig | Personal Transformation",
+    "views": 94,
+    "lenText": "33:47",
+    "len": 2027,
+    "date": "2026-11-13T01:00:10+00:00",
+    "approx": "3d ago",
+    "src": "RSS"
+   },
+   {
+    "id": "GOXG9VMa6M0",
+    "title": "This Is Mario Alonso Puig’s Golden Advice (No One Had Told You This Before)",
+    "views": 91,
+    "lenText": "45:24",
+    "len": 2724,
+    "date": "2026-11-11T01:00:08+00:00",
+    "approx": "5d ago",
+    "src": "RSS"
+   }
+  ],
+  "allTitles": [
+   {
+    "title": "Always Act Like You're the Best (Even If Nobody Believes in You) by Mario Alonso Puig",
+    "views": 0,
+    "len": "45:05",
+    "pub": "2h ago"
+   },
+   {
+    "title": "The Potential You Didn't Know You Had (And How to Activate It) By Mario Alonso Puig",
+    "views": 5,
+    "len": "29:17",
+    "pub": "9h ago"
+   },
+   {
+    "title": "God's Secret Code Is In Your Brain (Science Confirms It) | Mario Alonso Puig",
+    "views": 7,
+    "len": "22:13",
+    "pub": "1d ago"
+   },
+   {
+    "title": "IF YOU DO THIS, 2026 WILL BE THE BEST YEAR OF YOUR LIFE | MARIO ALONSO PUIG",
+    "views": 21,
+    "len": "23:12",
+    "pub": "1d ago"
+   },
+   {
+    "title": "Pequeños Cambios, Grandes Resultados Cómo Mejorar | Mario Alonso Puig Reprograma Tu Mentalidad",
+    "views": 7,
+    "len": "20:24",
+    "pub": "2d ago"
+   },
+   {
+    "title": "Ignite Your Inner Flame: Don't Let It Go Out | Mario Alonso Puig | Personal Transformation",
+    "views": 94,
+    "len": "33:47",
+    "pub": "3d ago"
+   },
+   {
+    "title": "How to Build an Indestructible Mindset (and become impossible to break) by Mario Alonso Puig",
+    "views": 32,
+    "len": "44:49",
+    "pub": "4d ago"
+   },
+   {
+    "title": "Change Your Mindset And Your Life Will Change Forever (listen to this today) by MARIO ALONSO PUIG",
+    "views": 237,
+    "len": "59:36",
+    "pub": "4d ago"
+   },
+   {
+    "title": "There are paths that only God can open (when you truly trust), by Mario Alonso Puig",
+    "views": 3,
+    "len": "26:28",
+    "pub": "5d ago"
+   },
+   {
+    "title": "This Is Mario Alonso Puig’s Golden Advice (No One Had Told You This Before)",
+    "views": 91,
+    "len": "45:24",
+    "pub": "5d ago"
+   },
+   {
+    "title": "Your Mind Needs a Purpose Greater Than Your Fear (Everything Changes Here) by Mario Alonso Puig",
+    "views": 48,
+    "len": "42:54",
+    "pub": "6d ago"
+   },
+   {
+    "title": "Your Mind Needs a Purpose Greater Than Your Fear (Everything Changes Here) by Mario Alonso Puig",
+    "views": 10,
+    "len": "42:54",
+    "pub": "7d ago"
+   },
+   {
+    "title": "The Best Mario Alonso Puig Lecture That Will Change Your Life Forever",
+    "views": 6,
+    "len": "42:30",
+    "pub": "7d ago"
+   },
+   {
+    "title": "40 Minutes of Advice to Improve Your Mental Well-being (transform your life) by Mario Alonso Puig",
+    "views": 66,
+    "len": "44:21",
+    "pub": "8d ago"
+   },
+   {
+    "title": "Do This Every Night (and wake up different) by Mario Alonso Puig",
+    "views": 0,
+    "len": "41:05",
+    "pub": "8d ago"
+   },
+   {
+    "title": "1 Hour of Habits to Become a Disciplined and Unstoppable Person by Mario Alonso Puig",
+    "views": 6,
+    "len": "1:02:46",
+    "pub": "9d ago"
+   },
+   {
+    "title": "Reprogram Your Mind and Change Your Life While You Sleep (repeat every night) by Mario Alonso Puig",
+    "views": 0,
+    "len": "42:04",
+    "pub": "10d ago"
+   },
+   {
+    "title": "HOW TO REPROGRAM YOUR MIND EVERY MORNING FOR A SUCCESSFUL DAY by Mario Alonso Puig",
+    "views": 0,
+    "len": "43:27",
+    "pub": "10d ago"
+   },
+   {
+    "title": "Why Believing in God Can Change Your Life Forever By Mario Alonso Puig.",
+    "views": 6,
+    "len": "42:35",
+    "pub": "11d ago"
+   },
+   {
+    "title": "This Will Change Your Mindset Forever (Listen Today) By Mario Alonso Puig",
+    "views": 0,
+    "len": "40:24",
+    "pub": "11d ago"
+   },
+   {
+    "title": "The Magic of Thinking Big Jim Rohn Motivation",
+    "views": 1,
+    "len": "53:58",
+    "pub": "12d ago"
+   },
+   {
+    "title": "The Art of Locking In Jim Rohn Motivation",
+    "views": 0,
+    "len": "19:28",
+    "pub": "12d ago"
+   },
+   {
+    "title": "DO WHAT SUCKS Jim Rohn Motivation",
+    "views": 0,
+    "len": "46:31",
+    "pub": "13d ago"
+   },
+   {
+    "title": "How to Be an Effective Person Jim Rohn Motivation",
+    "views": 0,
+    "len": "42:17",
+    "pub": "13d ago"
+   },
+   {
+    "title": "The 5 AM Mindset Jim Rohn Motivation",
+    "views": 0,
+    "len": "49:58",
+    "pub": "2w ago"
+   },
+   {
+    "title": "The Art of Financial Discipline Jim Rohn Motivation",
+    "views": 0,
+    "len": "55:45",
+    "pub": "2w ago"
+   },
+   {
+    "title": "Waking Up at 4;00 AM Every Day Will Change Your Life",
+    "views": 1,
+    "len": "42:22",
+    "pub": "2w ago"
+   },
+   {
+    "title": "Push Yourself to Take Action Every Day Jim Rohn Motivation",
+    "views": 0,
+    "len": "35:51",
+    "pub": "2w ago"
+   },
+   {
+    "title": "Reprogram Your Mind for Success Jim Rohn Motivation",
+    "views": 0,
+    "len": "43:43",
+    "pub": "2w ago"
+   },
+   {
+    "title": "Nobody Is Coming – Do It Alone No Excuses Jim Rohn Motivation",
+    "views": 0,
+    "len": "41:42",
+    "pub": "2w ago"
+   },
+   {
+    "title": "Improve Your Problem Solving Skills Jim Rohn Motivational",
+    "views": 0,
+    "len": "40:50",
+    "pub": "2w ago"
+   },
+   {
+    "title": "Build Yourself Quietly by These 6 Ways Jim Rohn Motivation",
+    "views": 0,
+    "len": "40:50",
+    "pub": "2w ago"
+   },
+   {
+    "title": "How to Be Consistent Every Day Jim Rohn Motivatio",
+    "views": 0,
+    "len": "39:18",
+    "pub": "2w ago"
+   }
+  ],
+  "nShortsInRss": 0
+ },
+ "UCZk2RkC3HMdDeUI3hVl3_lw": {
+  "channelId": "UCZk2RkC3HMdDeUI3hVl3_lw",
+  "name": "Azclub de entrenamiento ",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "historias de superación deportistas"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:32.248Z",
+  "videoCountTotal": 9,
+  "handle": "@Azclubdeentrenamiento",
+  "url": "http://www.youtube.com/@Azclubdeentrenamiento",
+  "subsText": "157 subscribers",
+  "subs": 157,
+  "videoCountText": "9 videos",
+  "description": "Azclub es un espacio creado desde el año 2022 con la idea clara de ser parte de los objetivos de cada uno de sus alumnos, tanto competitivos, estéticos, terapéuticos o simplemente que quieran realizar actividad física. En este espacio vamos a exponer el trabajo de cada uno de los integrantes del STAFF como también de aquellos alumnos que estén dispuesto a pasar por estas transformaciones. ",
+  "keywords": "",
+  "nVideos": 8,
+  "moreThanFetched": false,
+  "nLong": 8,
+  "totalViews": 11096,
+  "longShare": 1,
+  "oldestText": "1mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 1mo ago"
+ },
+ "UCUYokk2dJxFZf7NgxTL-ROg": {
+  "channelId": "UCUYokk2dJxFZf7NgxTL-ROg",
+  "name": "Blu Radio",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "historias de superación deportistas"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:33.114Z",
+  "videoCountTotal": 62000,
+  "status": "reject",
+  "reason": "canal com 62000 vídeos, não é novo"
+ },
+ "UCnUBLJIHakWlH5foMVFnsSg": {
+  "channelId": "UCnUBLJIHakWlH5foMVFnsSg",
+  "name": "Vertice",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "historias de superación deportistas"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:32.957Z",
+  "videoCountTotal": 2500,
+  "status": "reject",
+  "reason": "canal com 2500 vídeos, não é novo"
+ },
+ "UC8_ev4gJz3pIOL1xzmW2-zA": {
+  "channelId": "UC8_ev4gJz3pIOL1xzmW2-zA",
+  "name": "El Vestuario - Podcast",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "historias de superación deportistas",
+   "superación personal deporte"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:33.609Z",
+  "videoCountTotal": 945,
+  "status": "reject",
+  "reason": "canal com 945 vídeos, não é novo"
+ },
+ "UCWkhD6DkcWv0OD-F2ffTMtQ": {
+  "channelId": "UCWkhD6DkcWv0OD-F2ffTMtQ",
+  "name": "Inspira Cada Día",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación para levantarse temprano",
+   "motivación para no rendirse"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:30.224Z",
+  "videoCountTotal": 69,
+  "handle": "@InspiraCadaDía",
+  "url": "http://www.youtube.com/@InspiraCadaD%C3%ADa",
+  "subsText": "678 subscribers",
+  "subs": 678,
+  "videoCountText": "69 videos",
+  "description": "# INSPIRA CADA DÍA\n\n✨ Motivación, fe, reflexión y crecimiento personal para inspirarte a vivir con propósito.\n\nCada día es una nueva oportunidad para **crecer, creer y avanzar**. 🙏🔥\n\n**Suscríbete y empieza cada día con inspiración.**\n\n#InspiraCadaDía #Motivación #Fe #Propósito\n\n# DISCLAIMER\n\nContenido creado con fines **motivacionales, educativos y de entretenimiento**. No sustituye asesoramiento profesional. Las opiniones y reflexiones son únicamente de carácter general.\n\n**INSPIRA CADA DÍA •",
+  "keywords": "\"motivación diaria\" inspiración \"frases motivacionales\" \"crecimiento personal\" \"desarrollo personal\" \"mentalidad positiva\" \"superación personal\" éxito disciplina autoestima \"confianza en ti mismo\" \"propósito de vida\" reflexión fe esperanza \"pensamientos positivos\" \"actitud positiva\" \"hábitos positiv",
+  "nVideos": 69,
+  "moreThanFetched": false,
+  "nLong": 69,
+  "totalViews": 71811,
+  "longShare": 1,
+  "oldestText": "2mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 2mo ago"
+ },
+ "UC6S-2HWrTyaWAjZ_OLYbFew": {
+  "channelId": "UC6S-2HWrTyaWAjZ_OLYbFew",
+  "name": "Rti Español",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "historias de superación deportistas"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:35.728Z",
+  "videoCountTotal": 5900,
+  "status": "reject",
+  "reason": "canal com 5900 vídeos, não é novo"
+ },
+ "UC_f5H-lC1vhiFttk6oSKMsQ": {
+  "channelId": "UC_f5H-lC1vhiFttk6oSKMsQ",
+  "name": "Fama Quisqueyana",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "historias de superación deportistas"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:36.399Z",
+  "videoCountTotal": 12,
+  "handle": "@famaquisqueyana",
+  "url": "http://www.youtube.com/@famaquisqueyana",
+  "subsText": "4.53K subscribers",
+  "subs": 4530,
+  "videoCountText": "12 videos",
+  "description": "🇩🇴 Historias de fama, fortuna y presente en República Dominicana.\n\nEste canal documental cuenta cómo viven hoy —o cómo terminaron— los dominicanos más famosos: merengueros, bachateros, peloteros de Grandes Ligas, presentadores, actores, empresarios y figuras de la política que marcaron a varias generaciones.\n\nEn cada vídeo reconstruimos su trayectoria con datos y archivo: quién fue en su mejor momento, qué ocurrió después y cómo es su vida actual. Sin exageraciones y sin juicios.\n\n🎤 ¿Qué fue ",
+  "keywords": "\"Fama Quisqueyana\" \"famosos dominicanos\" \"famosos de Republica Dominicana\" \"como viven hoy los famosos\" \"que fue de\" \"vida de famosos\" \"la millonaria vida de\" \"final triste\" \"documental famosos dominicanos\" merengue bachata \"peloteros dominicanos\" \"Grandes Ligas\" \"cantantes dominicanos\" \"presentador",
+  "nVideos": 12,
+  "moreThanFetched": false,
+  "nLong": 11,
+  "totalViews": 605403,
+  "longShare": 0.9166666666666666,
+  "oldestText": "3w ago",
+  "rssCount": 12,
+  "firstVideo": {
+   "id": "eQDOPgo_GPM",
+   "title": "relaxing with my at-ease bare feet during a slow weekend while resting without any rush",
+   "date": "2026-10-24T16:38:58+00:00",
+   "src": "RSS (histórico completo)",
+   "isShort": false
+  },
+  "status": "reject",
+  "reason": "1º vídeo em 2026-10-24 (>3 semanas)"
+ },
+ "UCS9KjnXIvXnjgTGgDt5hwyg": {
+  "channelId": "UCS9KjnXIvXnjgTGgDt5hwyg",
+  "name": "TeleCeleb",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "historias de superación deportistas"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:37.122Z",
+  "videoCountTotal": 130,
+  "status": "reject",
+  "reason": "canal com 130 vídeos, não é novo"
+ },
+ "UCR3B-TkFi-SmTyMt74Gntgg": {
+  "channelId": "UCR3B-TkFi-SmTyMt74Gntgg",
+  "name": "DIGITAL MENORCA",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "historias de superación deportistas",
+   "superación personal deporte"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:34.516Z",
+  "videoCountTotal": 70,
+  "handle": "@DIGITAL_MENORCA",
+  "url": "http://www.youtube.com/@DIGITAL_MENORCA",
+  "subsText": "64 subscribers",
+  "subs": 64,
+  "videoCountText": "70 videos",
+  "description": "🏝️ Bienvenidos a **DIGITAL MENORCA**, el canal para descubrir Menorca desde otra perspectiva.\n\nQueremos enseñarte la isla, su gente y sus historias a través de contenidos propios, cercanos y diferentes.\n\n🎤 **Protagonistas de Menorca | 10 de 10**\nEntrevistas y conversaciones con personas que tienen algo que contar: deporte, empresa, cultura, gastronomía, asociaciones y sociedad menorquina.\n\n🎥 **Experiencias DigitalMenorca**\nVivimos Menorca en primera persona: lugares, actividades, naturaleza, ",
+  "keywords": "",
+  "nVideos": 21,
+  "moreThanFetched": false,
+  "nLong": 10,
+  "totalViews": 3215,
+  "longShare": 0.47619047619047616,
+  "oldestText": "9mo ago",
+  "status": "reject",
+  "reason": "vídeo mais antigo da aba Vídeos: 9mo ago"
+ },
+ "UC86a3OrlzSX9sV766Dhhf6w": {
+  "channelId": "UC86a3OrlzSX9sV766Dhhf6w",
+  "name": "El Megáfono ECU",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "historias de superación deportistas"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:38.750Z",
+  "videoCountTotal": 222,
+  "status": "reject",
+  "reason": "canal com 222 vídeos, não é novo"
+ },
+ "UCjEjndsmFerLM18pzkejjOw": {
+  "channelId": "UCjEjndsmFerLM18pzkejjOw",
+  "name": "Girls Beast Mode",
+  "langs": [
+   "es",
+   "en"
+  ],
+  "terms": [
+   "motivación gimnasio",
+   "running motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:40.133Z",
+  "videoCountTotal": 233,
+  "status": "reject",
+  "reason": "canal com 233 vídeos, não é novo"
+ },
+ "UCZ8f-8drlsfDkp13ihwwSJQ": {
+  "channelId": "UCZ8f-8drlsfDkp13ihwwSJQ",
+  "name": "Oceanic Record ",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación gimnasio",
+   "motivación para entrenar"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:40.682Z",
+  "videoCountTotal": 815,
+  "status": "reject",
+  "reason": "canal com 815 vídeos, não é novo"
+ },
+ "UCL1vEnMpqwX8YpUN4ivZpLg": {
+  "channelId": "UCL1vEnMpqwX8YpUN4ivZpLg",
+  "name": "HypeZone Music",
+  "langs": [
+   "es",
+   "en"
+  ],
+  "terms": [
+   "motivación gimnasio",
+   "night workout motivation"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:39.979Z",
+  "videoCountTotal": 423,
+  "status": "reject",
+  "reason": "canal com 423 vídeos, não é novo"
+ },
+ "UC-baWMJoQViShmEANzxJvBA": {
+  "channelId": "UC-baWMJoQViShmEANzxJvBA",
+  "name": "Rahulfitnessmotovlog24",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación gimnasio"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:41.808Z",
+  "videoCountTotal": 269,
+  "status": "reject",
+  "reason": "canal com 269 vídeos, não é novo"
+ },
+ "UC399F10ZjCXSxtxHgsOh_dA": {
+  "channelId": "UC399F10ZjCXSxtxHgsOh_dA",
+  "name": "ANUJ FITNESS ",
+  "langs": [
+   "es",
+   "en"
+  ],
+  "terms": [
+   "motivación gimnasio",
+   "gym motivation speech"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:42.398Z",
+  "videoCountTotal": 583,
+  "status": "reject",
+  "reason": "canal com 583 vídeos, não é novo"
+ },
+ "UCvyOBh1FNCkuFLp9F7L3gaw": {
+  "channelId": "UCvyOBh1FNCkuFLp9F7L3gaw",
+  "name": "IRON WARRIOR",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación gimnasio",
+   "motivación para entrenar"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:43.402Z",
+  "videoCountTotal": 230,
+  "status": "reject",
+  "reason": "canal com 230 vídeos, não é novo"
+ },
+ "UCaodcfkciYSzxkUBsUr4Hog": {
+  "channelId": "UCaodcfkciYSzxkUBsUr4Hog",
+  "name": "Alpha Division",
+  "langs": [
+   "es"
+  ],
+  "terms": [
+   "motivación gimnasio"
+  ],
+  "hits": 4,
+  "checkedAt": "2026-11-16T14:06:44.579Z",
+  "videoCountTotal": 2200,
+  "status": "reject",
+  "reason": "canal com 2200 vídeos, não é novo"
  }
 }

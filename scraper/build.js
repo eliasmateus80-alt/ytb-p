@@ -6,6 +6,7 @@ const sum = fs.existsSync('../data/summary.json') ? JSON.parse(fs.readFileSync('
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const fmt = n => n == null ? 'não confirmado' : n.toLocaleString('pt-BR');
 const d = s => s ? new Date(s).toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric', timeZone: 'UTC' }) : null;
+const rel = s => String(s || '').replace(/(\d+)\s*w ago/, '$1 semanas atrás').replace(/(\d+)\s*d ago/, '$1 dias atrás').replace(/(\d+)\s*mo ago/, '$1 meses atrás').replace(/(\d+)\s*h ago/, '$1 h atrás');
 const LANG = { pt: 'Português', es: 'Espanhol', en: 'Inglês' };
 const list = Object.values(ch).filter(c => ['pass', 'unconfirmed'].includes(c.status) && ann[c.channelId] && !ann[c.channelId].exclude)
   .map(c => ({ ...c, a: ann[c.channelId], best: Math.max(...c.top.map(v => v.views || 0)), ratio: c.subs ? Math.max(...c.top.map(v => v.views || 0)) / c.subs : null }))
@@ -23,12 +24,12 @@ const card = c => {
   </header>
   <dl class="facts">
     <div><dt>Inscritos</dt><dd>${c.subs != null ? fmt(c.subs) : 'não confirmado'}</dd></div>
-    <div><dt>1º vídeo</dt><dd>${f.date ? d(f.date) : 'não confirmado' + (f.approx ? ` (≈ ${esc(f.approx)})` : '')}</dd></div>
+    <div><dt>1º vídeo</dt><dd>${f.date ? d(f.date) : 'não confirmado' + (f.approx ? ` (YouTube diz: ${esc(rel(f.approx))})` : '')}</dd></div>
     <div><dt>Vídeos longos</dt><dd>${c.nLong} de ${c.nVideos}</dd></div>
   </dl>
   <p class="sub"><span>Subnicho</span>${esc(c.a.subniche)}</p>
   <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
-  ${c.top.map(v => `<tr><td><a href="https://www.youtube.com/watch?v=${esc(v.id)}" target="_blank" rel="noopener">${esc(v.title)}</a></td><td class="n">${fmt(v.views)}</td><td class="n">${esc(v.lenText)}</td><td class="n">${v.date ? d(v.date) : 'não confirmado'}</td></tr>`).join('')}
+  ${c.top.map(v => `<tr><td><a href="https://www.youtube.com/watch?v=${esc(v.id)}" target="_blank" rel="noopener">${esc(v.title)}</a></td><td class="n">${v.src === 'RSS' || v.views == null ? '' : '≈ '}${fmt(v.views)}</td><td class="n">${esc(v.lenText)}</td><td class="n">${v.date ? d(v.date) : 'não confirmado (' + esc(rel(v.approx)) + ')'}</td></tr>`).join('')}
   </tbody></table>
   <div class="notes">
     <p><span>Padrão de título</span>${esc(c.a.pattern)}</p>
@@ -113,6 +114,6 @@ a:focus-visible{outline:2px solid var(--track);outline-offset:2px}
 ${list.length ? '' : '<p class="empty">Varredura em andamento. Os primeiros canais aparecem aqui assim que forem confirmados.</p>'}
 <section class="grid">${list.map(card).join('\n')}</section>
 ${summary}
-<p class="src">Métrica do card: views do melhor vídeo longo ÷ inscritos. Datas exatas vêm do feed RSS público do canal; quando não foi possível confirmar, está escrito "não confirmado". Mídia e padrões de título foram avaliados a partir das miniaturas, títulos e descrições.</p>
+<p class="src">Métrica do card: views do melhor vídeo longo ÷ inscritos. Datas e views exatas vêm do feed RSS público do canal; views com ≈ são o número arredondado exibido na aba Vídeos; quando não foi possível confirmar, está escrito "não confirmado". Mídia e padrões de título foram avaliados a partir das miniaturas, títulos e descrições.</p>
 </div>`;
 fs.writeFileSync('../index.html', html); console.log('cards', list.length, 'checked', checked, 'passed', passed);

@@ -3,7 +3,8 @@ import json, os, sys, urllib.request, io
 from PIL import Image, ImageDraw
 D = '/home/user/ytb-p/data'; OUT = sys.argv[1]
 ch = json.load(open(f'{D}/channels.json')); ann = json.load(open(f'{D}/annotations.json')) if os.path.exists(f'{D}/annotations.json') else {}
-todo = [c for c in ch.values() if c['status'] in ('pass', 'unconfirmed') and c['channelId'] not in ann]
+ids = sys.argv[2].split(',') if len(sys.argv) > 2 else None
+todo = [c for c in ch.values() if c['status'] in ('pass', 'unconfirmed') and c['channelId'] not in ann and (not ids or c['channelId'][-6:] in ids)]
 rows = []
 for c in todo[:8]:
     ims = []

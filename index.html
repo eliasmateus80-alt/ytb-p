@@ -1,0 +1,599 @@
+<title>Nichfinder Corrida &amp; Disciplina</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: "pista de atletismo" — faixa de cabeçalho com raias, cards em grade de 2 colunas, cada card numa raia com o idioma como número de raia */
+:root{--bg:#f3f5f4;--panel:#ffffff;--ink:#14201c;--muted:#5d6b66;--line:#d9e0dd;--track:#b8442c;--field:#1f5a46;--chip:#e7eeeb;
+--display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;--body:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"JetBrains Mono",ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1714;--panel:#16211d;--ink:#e6efeb;--muted:#9aaba4;--line:#2a3833;--track:#e0694f;--field:#5fbf99;--chip:#203029;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1714;--panel:#16211d;--ink:#e6efeb;--muted:#9aaba4;--line:#2a3833;--track:#e0694f;--field:#5fbf99;--chip:#203029;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body)}
+.wrap{max-width:1180px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
+.hero{display:grid;gap:10px;border-bottom:6px double var(--track);padding-bottom:20px}
+.hero h1{font:800 clamp(34px,6vw,58px)/0.95 var(--display);letter-spacing:.01em;text-transform:uppercase;margin:0;text-wrap:balance}
+.hero p{margin:0;max-width:70ch;color:var(--muted)}
+.stats{display:flex;flex-wrap:wrap;gap:8px 18px;font:500 13px var(--mono);color:var(--muted)}
+.stats b{color:var(--ink)}
+.crit{display:flex;flex-wrap:wrap;gap:6px}
+.crit span{background:var(--chip);border-radius:3px;padding:2px 8px;font-size:12.5px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,520px),1fr));gap:18px}
+.card{background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--field);border-radius:6px;padding:16px 18px;display:grid;gap:12px;min-width:0}
+.card-h{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.who{min-width:0;display:grid;gap:2px}
+.lane{font:700 12px var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--track)}
+.card h3{font:700 25px/1.05 var(--display);margin:0;text-wrap:balance}
+.card a{color:inherit;text-decoration-color:var(--line);text-underline-offset:3px}
+.card a:hover,.card a:focus-visible{text-decoration-color:var(--track)}
+a:focus-visible{outline:2px solid var(--track);outline-offset:2px}
+.url{font:500 12.5px var(--mono);color:var(--muted)!important;overflow-wrap:anywhere}
+.ratio{text-align:right;flex:none;display:grid}
+.ratio b{font:800 34px/1 var(--display);color:var(--track);font-variant-numeric:tabular-nums}
+.ratio span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0}
+.facts div{border-left:2px solid var(--line);padding-left:8px}
+.facts dt{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.facts dd{margin:0;font:500 14px var(--mono);font-variant-numeric:tabular-nums}
+.sub{margin:0;font-weight:600}
+.sub span,.notes span{display:block;font:600 11px var(--body);text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.top{width:100%;border-collapse:collapse;font-size:13.5px;display:block;overflow-x:auto}
+.top thead,.top tbody{display:table;width:100%;table-layout:auto}
+.top th{font:600 11px var(--body);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);text-align:left;padding:4px 6px;border-bottom:1px solid var(--line)}
+.top td{padding:6px;border-bottom:1px solid var(--line);vertical-align:top}
+.top td:first-child{width:58%}
+.top .n{font:500 12.5px var(--mono);white-space:nowrap;font-variant-numeric:tabular-nums}
+.notes{display:grid;gap:8px}.notes p{margin:0}
+.dots{display:inline-flex;gap:3px;vertical-align:middle}
+.dots i{width:10px;height:10px;border-radius:50%;border:1.5px solid var(--field)}
+.dots i.on{background:var(--field)}
+.src{font-size:12px;color:var(--muted);border-top:1px dashed var(--line);padding-top:8px}
+.summary{display:grid;gap:14px;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:20px}
+.summary h2{font:800 30px/1 var(--display);text-transform:uppercase;margin:0}
+.summary ol{margin:0;padding-left:22px;display:grid;gap:10px}
+.niches h4{margin:0;font:700 19px var(--display)} .niches p{margin:2px 0 0;color:var(--muted);max-width:75ch}
+.titles b{display:block;font-weight:600} .titles span{font-size:12.5px;color:var(--muted)}
+.pending p{margin:0;color:var(--muted)}
+.empty{color:var(--muted)}
+@media (max-width:480px){.facts{grid-template-columns:1fr 1fr}.ratio b{font-size:28px}}
+</style>
+<div class="wrap">
+<section class="hero">
+  <h1>Nichfinder: corrida, esporte e disciplina</h1>
+  <p>Canais novos de vídeos longos que estão performando agora. Encontrados por scraping de buscas no YouTube em português, espanhol e inglês, com filtros "esta semana" e "este mês", e confirmados abrindo cada canal.</p>
+  <div class="crit"><span>1º vídeo há ≤ 3 semanas (desde 26 de out. de 2026)</span><span>vídeos &gt; 8 min</span><span>views altas em relação a inscritos</span><span>PT · ES · EN</span></div>
+  <div class="stats"><span>Atualizado: <b>16/11/2026, 11:06</b></span><span>Canais verificados: <b>471</b></span><span>Aprovados nos critérios: <b>49</b></span><span>Cards publicados: <b>23</b></span></div>
+</section>
+
+<section class="grid"><article class="card" id="UC8HVj0ciSGShI0MmrY7EDoQ">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@EnduranceRunMusic" target="_blank" rel="noopener">Endurance Run Music</a></h3>
+      <a class="url" href="http://www.youtube.com/@EnduranceRunMusic" target="_blank" rel="noopener">@EnduranceRunMusic</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>219×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>70</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 3 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>20 de 20</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Melodic house para corrida longa (mixes de 1 h)</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=CeuN7x-d1_Q" target="_blank" rel="noopener">MELODIC HOUSE FOR RUNNING 🌊 Endless Energy  Fitness Music 2026</a></td><td class="n">15.354</td><td class="n">1:04:45</td><td class="n">31 de out. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=hb9ymhSS7_4" target="_blank" rel="noopener">ENDLESS RUNNING ENERGY 🌊 Melodic EDM for Fitness &amp; Workout Motivation</a></td><td class="n">2.086</td><td class="n">1:04:36</td><td class="n">06 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=m9kxWC9_gEo" target="_blank" rel="noopener">RUNNING MOTIVATION 2026 💪 Feel Stronger Every Mile  Fitness Music Mix</a></td><td class="n">758</td><td class="n">1:03:48</td><td class="n">09 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>GÊNERO/OBJETIVO EM CAIXA ALTA + emoji + promessa curta + &quot;Fitness Music 2026&quot; (ex.: &quot;MELODIC HOUSE FOR RUNNING 🌊 Endless Energy Fitness Music 2026&quot;)</p>
+    <p><span>Mídia</span>Imagem gerada por IA (atleta correndo em paisagem) em loop + mix de música eletrônica (inferido pela miniatura e descrição)</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></em> 5/5 — sem narração; basta traduzir título, miniatura e descrição</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UC1CZO9gANsZ4kfEmE62qrNw">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@EndurancePulse-v7w" target="_blank" rel="noopener">Endurance Pulse</a></h3>
+      <a class="url" href="http://www.youtube.com/@EndurancePulse-v7w" target="_blank" rel="noopener">@EndurancePulse-v7w</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>97×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>54</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 3 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>22 de 22</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Música para corrida matinal e de estação (mixes de 90 min)</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=UN7Yzv3Tlvg" target="_blank" rel="noopener">MORNING RUNNING MUSIC 🍂 Fall Vibes &amp; Fitness Motivation 2026</a></td><td class="n">5.216</td><td class="n">1:31:43</td><td class="n">09 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=sgVyUmhDLTE" target="_blank" rel="noopener">RUNNING MUSIC 2026 🌅 Sunrise Energy | Fitness &amp; Workout Motivation Mix</a></td><td class="n">≈ 1.000</td><td class="n">1:31:19</td><td class="n">não confirmado (3 semanas atrás)</td></tr><tr><td><a href="https://www.youtube.com/watch?v=IEDWFGHIZeo" target="_blank" rel="noopener">FALL RUNNING PLAYLIST 🍁 Melodic EDM for Focus &amp; Motivation</a></td><td class="n">966</td><td class="n">1:31:13</td><td class="n">04 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>MOMENTO + &quot;RUNNING MUSIC&quot; + emoji da estação + vibe + &quot;Fitness Motivation 2026&quot; (ex.: &quot;MORNING RUNNING MUSIC 🍂 Fall Vibes &amp; Fitness Motivation 2026&quot;)</p>
+    <p><span>Mídia</span>Imagem gerada por IA (atleta correndo em paisagem) em loop + mix de música eletrônica (inferido pela miniatura e descrição)</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></em> 5/5 — sem narração; basta traduzir título, miniatura e descrição</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCsGTSvvC4Bn2GZD7c1kfmzw">
+  <header class="card-h">
+    <div class="who"><span class="lane">Português</span>
+      <h3><a href="http://www.youtube.com/@MotivandoVencedores-z9t" target="_blank" rel="noopener">Motivando Vencedores</a></h3>
+      <a class="url" href="http://www.youtube.com/@MotivandoVencedores-z9t" target="_blank" rel="noopener">@MotivandoVencedores-z9t</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>236×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>486</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 3 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>20 de 20</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Motivação cristã em formato &quot;N minutos que vão…&quot; (cortes de pregador)</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=5C9KLPKX7Io" target="_blank" rel="noopener">29 MINUTOS QUE PODEM SER A VIRADA QUE SUA VIDA TANTO PRECISA</a></td><td class="n">114.473</td><td class="n">29:10</td><td class="n">03 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=nyTRSgDp92Y" target="_blank" rel="noopener">20 MINUTOS QUE PODEM SER O COMEÇO DA MAIOR VIRADA DA SUA VIDA | Pastor Cláudio Duarte</a></td><td class="n">17.882</td><td class="n">25:10</td><td class="n">04 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=4e-itNecswk" target="_blank" rel="noopener">18 MINUTOS MOTIVACIONAIS QUE VÃO LIBERTAR SUA MENTE DAS AFLIÇÕES | Pastor Cláudio Duarte</a></td><td class="n">15.979</td><td class="n">32:37</td><td class="n">01 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;N MINUTOS [MOTIVACIONAIS] QUE [VÃO/PODEM] + transformação | Pastor Cláudio Duarte&quot;</p>
+    <p><span>Mídia</span>Foto real do pregador + texto em caixa alta; áudio de pregações (provável reaproveitamento)</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="3 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></em> 3/5 — depende de pregador real e do público evangélico brasileiro; o formato &quot;N minutos que…&quot; é muito replicável</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCa7V3WjkuCanyShPAGzJZUw">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@RoySlone-m2r" target="_blank" rel="noopener">Roy Slone</a></h3>
+      <a class="url" href="http://www.youtube.com/@RoySlone-m2r" target="_blank" rel="noopener">@RoySlone-m2r</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>185×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>13</dd></div>
+    <div><dt>1º vídeo</dt><dd>06 de nov. de 2026</dd></div>
+    <div><dt>Vídeos longos</dt><dd>3 de 3</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Música para corrida noturna e HIIT (mixes de 1 h)</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=89GFQdhfX1w" target="_blank" rel="noopener">1 HOUR FITNESS MUSIC 2026 ⚡ High Energy Workout Mix | Running, Cardio &amp; Bass EDM</a></td><td class="n">2.407</td><td class="n">39:21</td><td class="n">06 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=LXWkFk3Ej18" target="_blank" rel="noopener">1 HOUR RUNNING MUSIC 2026 🔥 High Energy Workout Mix | Night Run Bass EDM &amp; Cardio Music</a></td><td class="n">247</td><td class="n">1:12:42</td><td class="n">09 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=OWkyLRKS64Q" target="_blank" rel="noopener">1 HOUR HIIT WORKOUT MUSIC 2026 🔥 High Energy Gym Music | Fat Burning &amp; Aggressive EDM</a></td><td class="n">44</td><td class="n">1:03:24</td><td class="n">12 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;1 HOUR [FITNESS/NIGHT RUN] MUSIC 2026 ⚡ High Energy Workout Mix | Running, Cardio…&quot;</p>
+    <p><span>Mídia</span>Arte de IA estilo neon (atleta em cidade noturna) + mix de 1 h (inferido pela miniatura)</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></em> 5/5 — sem narração; basta traduzir título, miniatura e descrição</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: RSS (histórico completo). Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCTHBOTJk_Vy1XUkNIIME7-g">
+  <header class="card-h">
+    <div class="who"><span class="lane">Espanhol</span>
+      <h3><a href="http://www.youtube.com/@Disciplina%C3%89xito-y4h" target="_blank" rel="noopener">Disciplina Éxito</a></h3>
+      <a class="url" href="http://www.youtube.com/@Disciplina%C3%89xito-y4h" target="_blank" rel="noopener">@DisciplinaÉxito-y4h</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>153×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>322</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 3 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>22 de 22</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Disciplina com falas de Brian Tracy dubladas em espanhol</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=SlzKhKUPhgE" target="_blank" rel="noopener">🔥 OBLÍGATE A SER DISCIPLINADO | Brian Tracy | La Disciplina Que Transformará Tu Vida&quot;</a></td><td class="n">49.322</td><td class="n">43:42</td><td class="n">08 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=fTNlrd-WVHk" target="_blank" rel="noopener">🚀 The Philosophy of Personal Growth That Transforms Your Life | Brian Tracy&quot;</a></td><td class="n">4.885</td><td class="n">20:16</td><td class="n">09 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=q9dhAzzgGZE" target="_blank" rel="noopener">🧠 5 STATEMENTS ABOUT CONFORMITY THAT WILL CHANGE YOUR MIND | BRIAN TRACY&quot;</a></td><td class="n">763</td><td class="n">27:01</td><td class="n">12 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;🔥 IMPERATIVO EM CAIXA ALTA | Brian Tracy | La Disciplina Que Transforma…&quot;</p>
+    <p><span>Mídia</span>Fotos reais do palestrante com fundo de cérebro/IA + áudio de palestra dublado</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="3 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></em> 3/5 — depende de palestrante real (direitos autorais); funciona se trocar por roteiro próprio com voz sintética</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCRlczaL2pKDfkhvuLQTnkOQ">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@RunScapeMusic" target="_blank" rel="noopener">RunScape Music</a></h3>
+      <a class="url" href="http://www.youtube.com/@RunScapeMusic" target="_blank" rel="noopener">@RunScapeMusic</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>47×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>103</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 3 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>20 de 20</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Música para corrida com BPM e cenário (esteira, trilha)</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=sjzm5Cyxx3Y" target="_blank" rel="noopener">Power Running Music ⚡ 150 BPM Motivation Mix</a></td><td class="n">4.868</td><td class="n">56:52</td><td class="n">04 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=pFtwHq_Hpe4" target="_blank" rel="noopener">Running Music 2026 🔥 Your Ultimate Pace Playlist</a></td><td class="n">2.527</td><td class="n">57:29</td><td class="n">13 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=NcZVSnh0eHk" target="_blank" rel="noopener">Best Treadmill Music 2026  Fast Running Workout Mix</a></td><td class="n">2.477</td><td class="n">57:32</td><td class="n">11 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;[Power/Best Treadmill] Running Music&quot; + BPM ou ano + emoji (ex.: &quot;Power Running Music ⚡ 150 BPM Motivation Mix&quot;)</p>
+    <p><span>Mídia</span>Imagem gerada por IA (atleta correndo em paisagem) em loop + mix de música eletrônica (inferido pela miniatura e descrição)</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></em> 5/5 — sem narração; basta traduzir título, miniatura e descrição</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCkEd7q01o8L7RXEFH5Hz7xA">
+  <header class="card-h">
+    <div class="who"><span class="lane">Espanhol</span>
+      <h3><a href="http://www.youtube.com/@DISTRITOFEROZ" target="_blank" rel="noopener">DISTRITO FEROZ</a></h3>
+      <a class="url" href="http://www.youtube.com/@DISTRITOFEROZ" target="_blank" rel="noopener">@DISTRITOFEROZ</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>34×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>11</dd></div>
+    <div><dt>1º vídeo</dt><dd>07 de nov. de 2026</dd></div>
+    <div><dt>Vídeos longos</dt><dd>7 de 7</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Rap de rua motivacional para treinar</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=6se-6vS-wjQ" target="_blank" rel="noopener">RAP MOTIVACIONAL PARA ENTRENAR 💪 NO NACÍ PARA RENDIRME | DISTRITO FEROZ</a></td><td class="n">379</td><td class="n">45:26</td><td class="n">07 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=zsTq5RETe2Y" target="_blank" rel="noopener">🔥 RAP MOTIVACIONAL PARA ENTRENAR 💪 MI NUEVA VERSIÓN NO SE RINDE | RAP CALLEJERO | DISTRITO FEROZ</a></td><td class="n">204</td><td class="n">43:54</td><td class="n">10 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=L1SCUsoUL0E" target="_blank" rel="noopener">RAP MOTIVACIONAL 🔥 NO ME REGALARON NADA | RAP CALLEJERO PARA LUCHAR Y SUPERARSE | DISTRITO FEROZ</a></td><td class="n">164</td><td class="n">40:57</td><td class="n">09 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;🔥 RAP MOTIVACIONAL PARA ENTRENAR 💪 [FRASE DE SUPERAÇÃO EM CAIXA ALTA] | RAP CALLEJERO | DISTRITO FEROZ&quot;</p>
+    <p><span>Mídia</span>Ilustração de IA (rapper de capuz, academia) + músicas originais geradas por IA (inferido)</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="4 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></em> 4/5 — letras precisam ser reescritas e regravadas no novo idioma, mas o formato é simples</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: RSS (histórico completo). Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCsXS0avX-KHz1npdozkN5vg">
+  <header class="card-h">
+    <div class="who"><span class="lane">Espanhol</span>
+      <h3><a href="http://www.youtube.com/@Disciplinay%C3%89xito-n5r" target="_blank" rel="noopener">Disciplina y Éxito</a></h3>
+      <a class="url" href="http://www.youtube.com/@Disciplinay%C3%89xito-n5r" target="_blank" rel="noopener">@DisciplinayÉxito-n5r</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>184×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>87</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 8 dias atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>18 de 18</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Disciplina e hábitos com falas atribuídas a Yokoi Kenji</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=dyqFjG-LSAY" target="_blank" rel="noopener">5 HÁBITOS que TRANSFORMARAN tu VIDA | Yokoi Kenji</a></td><td class="n">≈ 16.000</td><td class="n">36:26</td><td class="n">não confirmado (7 dias atrás)</td></tr><tr><td><a href="https://www.youtube.com/watch?v=c5MkUHfUan8" target="_blank" rel="noopener">La calma es la clave del éxito; quienes se controlan a sí mismos no se destruyen | Yokoi Kenji</a></td><td class="n">≈ 1.600</td><td class="n">36:56</td><td class="n">não confirmado (7 dias atrás)</td></tr><tr><td><a href="https://www.youtube.com/watch?v=j0VQ6xPMdBU" target="_blank" rel="noopener">Dile Esto a Tu Mente Antes de Dormir y Transforma Tu Realidad | Yokoi Kenji</a></td><td class="n">≈ 287</td><td class="n">37:48</td><td class="n">não confirmado (8 dias atrás)</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;N HÁBITOS/FRASE em caixa alta que TRANSFORMARÁN tu VIDA | Yokoi Kenji&quot;</p>
+    <p><span>Mídia</span>Foto do palestrante + texto grande amarelo/vermelho; áudio de palestra (provável reaproveitamento)</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="3 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></em> 3/5 — conteúdo baseado em pessoa real: risco de direitos e de imagem; adaptar com roteiro próprio</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCJUWGdAc8h_45QIaRY92YuA">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@FORGEDRAGEMUSIC" target="_blank" rel="noopener">FORGED RAGE MUSIC</a></h3>
+      <a class="url" href="http://www.youtube.com/@FORGEDRAGEMUSIC" target="_blank" rel="noopener">@FORGEDRAGEMUSIC</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>105×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>33</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 2 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>18 de 18</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Nu-metal / rap rock para treino pesado (&quot;beast mode&quot;)</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=MIuYDNw1rGY" target="_blank" rel="noopener">Aggressive Nu-Metal Rap Rock Workout ⚡ Savage Gym Motivation Music 2026 Limp &amp; Rage Vibe Playlist</a></td><td class="n">3.451</td><td class="n">53:08</td><td class="n">03 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=daMrEYJ5b9A" target="_blank" rel="noopener">Pure Beast Mode Workout Music 2026 ⚡ Aggressive Nu-Metal Rap Rock Mix Limp &amp; Rage Style Playlist</a></td><td class="n">736</td><td class="n">53:02</td><td class="n">04 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=ux12X2MFM80" target="_blank" rel="noopener">Brutal Gym Motivation Music 2026 ⚡ Aggressive Nu-Metal Rap Rock Playlist Limp &amp; Rage Style Mix</a></td><td class="n">324</td><td class="n">1:04:06</td><td class="n">05 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;Aggressive [gênero] Workout ⚡ Savage Gym Motivation Music 2026&quot; e variações &quot;BEAST MODE&quot;</p>
+    <p><span>Mídia</span>Ilustração de IA (guerreiro musculoso, correntes) + playlist de rock pesado</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></em> 5/5 — sem narração; basta traduzir título, miniatura e descrição</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCOVCIUlG9ZQQTK8a5jRPD6Q">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@IronMotive-r6g" target="_blank" rel="noopener">IronMotive</a></h3>
+      <a class="url" href="http://www.youtube.com/@IronMotive-r6g" target="_blank" rel="noopener">@IronMotive-r6g</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>100×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>845</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 3 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>24 de 24</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Mentalidade &quot;ninguém se importa, só trabalhe&quot; (estética P&amp;B)</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=9rlN5aNLPek" target="_blank" rel="noopener">Nobody Cares, Just Work.</a></td><td class="n">84.082</td><td class="n">26:32</td><td class="n">29 de out. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=IKZOovgUWBA" target="_blank" rel="noopener">Enough Is Enough.</a></td><td class="n">≈ 60.000</td><td class="n">25:44</td><td class="n">não confirmado (3 semanas atrás)</td></tr><tr><td><a href="https://www.youtube.com/watch?v=WoRYnuP82eE" target="_blank" rel="noopener">It's Time To Become A Man.</a></td><td class="n">45.416</td><td class="n">25:07</td><td class="n">03 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>Frases curtas e secas no imperativo: &quot;Nobody Cares, Just Work.&quot;</p>
+    <p><span>Mídia</span>Fotos P&amp;B de figura pública masculina (estilo &quot;sigma&quot;) + narração motivacional</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="3 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></em> 3/5 — figura pública controversa; o formato frase-curta + P&amp;B é fácil de adaptar com imagens próprias</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UC9twCTlCYOTVYAe44xwm1Tg">
+  <header class="card-h">
+    <div class="who"><span class="lane">Espanhol</span>
+      <h3><a href="http://www.youtube.com/@DominioMental-k1c" target="_blank" rel="noopener">Dominio Mental</a></h3>
+      <a class="url" href="http://www.youtube.com/@DominioMental-k1c" target="_blank" rel="noopener">@DominioMental-k1c</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>89×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>248</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 3 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>23 de 23</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Hábitos de produtividade com falas de Tony Robbins dubladas</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=9dvLJnYvFlk" target="_blank" rel="noopener">Aprende a Invertir en Ti Antes de Invertir Más Horas de Trabajo | Tony Robbins</a></td><td class="n">≈ 22.000</td><td class="n">37:44</td><td class="n">não confirmado (2 semanas atrás)</td></tr><tr><td><a href="https://www.youtube.com/watch?v=J9FA4wyjYWI" target="_blank" rel="noopener">Los 7 Hábitos Que Organizarán Toda Tu Vida 🧠🔥| Tony Robbins</a></td><td class="n">≈ 1.400</td><td class="n">44:27</td><td class="n">não confirmado (2 semanas atrás)</td></tr><tr><td><a href="https://www.youtube.com/watch?v=KzgA2X0VRXM" target="_blank" rel="noopener">Esfuérzate por Actuar Cada Día | El mensaje de Tony Robbins que debes escuchar Cada Mañana.</a></td><td class="n">1.226</td><td class="n">32:28</td><td class="n">11 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;Aprende a [AÇÃO] Antes de [AÇÃO] | Tony Robbins&quot; / &quot;ESCUCHA ESTO CADA DÍA&quot;</p>
+    <p><span>Mídia</span>Foto do palestrante + texto colorido; áudio dublado (provável reaproveitamento)</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="3 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></em> 3/5 — mesmo risco de direitos; o formato &quot;escute isso toda manhã&quot; é fácil de copiar</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCg9oovOEYwu8wFG8O5N37Jg">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@JimRohnTalks-o5m" target="_blank" rel="noopener">Jim Rohn Talks</a></h3>
+      <a class="url" href="http://www.youtube.com/@JimRohnTalks-o5m" target="_blank" rel="noopener">@JimRohnTalks-o5m</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>69×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>635</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 2 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>30 de 30</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Mentalidade e foco com falas de Jim Rohn</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=DlvXFyE82yo" target="_blank" rel="noopener">Mindset Changes Everything! Transform Your life forever |  motivation</a></td><td class="n">≈ 44.000</td><td class="n">32:46</td><td class="n">não confirmado (7 dias atrás)</td></tr><tr><td><a href="https://www.youtube.com/watch?v=wREnfxy_5H8" target="_blank" rel="noopener">IF YOU DON'T FOCUS ON ONE THING, YOU'LL NEVER BE SUCCESSFUL | JIM ROHN MOTIVATION</a></td><td class="n">25.208</td><td class="n">28:52</td><td class="n">12 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=JcIMGfsBNyE" target="_blank" rel="noopener">The Powerful One Day Plan to Improve Your Life |  Motivation</a></td><td class="n">9.112</td><td class="n">34:33</td><td class="n">09 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;[Frase curta]! Transform Your life forever | motivation&quot;; miniaturas com citação entre aspas</p>
+    <p><span>Mídia</span>Foto P&amp;B do palestrante + citação em serifa; áudio de palestra antiga</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="3 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></em> 3/5 — palestras antigas de pessoa real; trocar por narração própria no estilo &quot;citação + lição&quot;</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCL87O8pdyx-TC9u5NHCLC9g">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@PacePulseMusic" target="_blank" rel="noopener">PacePulse Music</a></h3>
+      <a class="url" href="http://www.youtube.com/@PacePulseMusic" target="_blank" rel="noopener">@PacePulseMusic</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>65×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>24</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 3 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>20 de 20</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>EDM para cardio em ritmo constante (1 h)</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=Y_PXH_z-wGY" target="_blank" rel="noopener">ULTIMATE CARDIO MUSIC 2026 🔥 High Energy Workout EDM Mix</a></td><td class="n">1.553</td><td class="n">1:06:09</td><td class="n">04 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=nHMdg2pJ3r0" target="_blank" rel="noopener">1 HOUR RUNNING MUSIC 🏃 Steady Pace  Endurance &amp; Cardio Mix</a></td><td class="n">1.072</td><td class="n">1:06:02</td><td class="n">11 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=Pv6z6dpbxr0" target="_blank" rel="noopener">BEST RUNNING EDM MIX 2026 🔥 Progressive House &amp; Fitness Beats</a></td><td class="n">≈ 547</td><td class="n">1:06:21</td><td class="n">não confirmado (3 semanas atrás)</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;[ULTIMATE/1 HOUR/BEST] [CARDIO/RUNNING] MUSIC 2026 🔥 + benefício (Steady Pace, Endurance)&quot;</p>
+    <p><span>Mídia</span>Imagem gerada por IA (atleta correndo em paisagem) em loop + mix de música eletrônica (inferido pela miniatura e descrição)</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></em> 5/5 — sem narração; basta traduzir título, miniatura e descrição</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UC13WEu_gDjNI5OuqsC43oLw">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@RisinggStories" target="_blank" rel="noopener">Limubay</a></h3>
+      <a class="url" href="http://www.youtube.com/@RisinggStories" target="_blank" rel="noopener">@RisinggStories</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>52×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>13</dd></div>
+    <div><dt>1º vídeo</dt><dd>01 de nov. de 2026</dd></div>
+    <div><dt>Vídeos longos</dt><dd>6 de 6</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Música de cadência 155–160 BPM com narrativa de recomeço</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=QqblD_7RQlE" target="_blank" rel="noopener">🔥 REBORN 🔥 | Running Motivation Music 155–160 BPM | Your Comeback Starts Now</a></td><td class="n">676</td><td class="n">30:18</td><td class="n">09 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=lxLDnkaW5R8" target="_blank" rel="noopener">RISE ABOVE 🔥 | Running Motivation Music 130–160 BPM | 10 Stages Progressive Workout</a></td><td class="n">311</td><td class="n">59:55</td><td class="n">04 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=2dmpuG-tS9w" target="_blank" rel="noopener">BEYOND 🌄 | Running Motivation Music 130–160 BPM | 10 Stages Progressive Journey</a></td><td class="n">91</td><td class="n">59:49</td><td class="n">06 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;🔥 PALAVRA-TEMA 🔥 | Running Motivation Music 155–160 BPM | Your Comeback…&quot;</p>
+    <p><span>Mídia</span>Arte de IA (corredor ao pôr do sol) com tipografia 3D &quot;Run to your limits&quot; + música</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></em> 5/5 — sem narração; basta traduzir título, miniatura e descrição</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: RSS (histórico completo). Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCwD3jGgmwSTWsY-_s2izKxQ">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@StoicDiscipline-v7y" target="_blank" rel="noopener">Stoic Discipline</a></h3>
+      <a class="url" href="http://www.youtube.com/@StoicDiscipline-v7y" target="_blank" rel="noopener">@StoicDiscipline-v7y</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>36×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>51</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 2 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>17 de 17</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Estoicismo aplicado à disciplina (lições numeradas)</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=t4SBzComaE8" target="_blank" rel="noopener">STOP EXPLAINING YOURSELF – 10 Stoic Lessons to Regain Your Power and Protect Your Peace | Stoicism </a></td><td class="n">1.831</td><td class="n">38:57</td><td class="n">02 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=WAJ2Y2IdaEk" target="_blank" rel="noopener">THEY WON'T EXPECT YOUR COMEBACK — 10 Stoic Lessons to Transform Your Life in Silence | STOICISM </a></td><td class="n">716</td><td class="n">19:52</td><td class="n">12 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=YcqAPwXVHrM" target="_blank" rel="noopener">Lose Everyone, Find Yourself – The Power of Walking Alone | Stoicism Philosophy </a></td><td class="n">401</td><td class="n">51:44</td><td class="n">14 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;FRASE IMPERATIVA EM CAIXA ALTA – N Stoic Lessons to …&quot; (ex.: &quot;STOP EXPLAINING YOURSELF – 10 Stoic Lessons…&quot;)</p>
+    <p><span>Mídia</span>Imagens de IA (estátua estoica, Roma) + narração em voz sintética (inferido)</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></em> 5/5 — roteiro universal e narrado por voz sintética: traduzir e regravar a voz</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCkfo8cvwBunmCly9OJ-Xcgw">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@RUNPULSEBEATS" target="_blank" rel="noopener">RUNPULSE BEATS</a></h3>
+      <a class="url" href="http://www.youtube.com/@RUNPULSEBEATS" target="_blank" rel="noopener">@RUNPULSEBEATS</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>59×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>11</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 2 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>18 de 18</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Música para corrida leve (easy run / jogging)</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=uYvK_effpiA" target="_blank" rel="noopener">Easy Run Music 2026 • Energy for Cardio &amp; Jogging</a></td><td class="n">645</td><td class="n">1:15:30</td><td class="n">05 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=_q0gDvq1luc" target="_blank" rel="noopener">Running Music 2026 💪 Fitness &amp; Gym Workout Best Songs Playlist EDM House Music 2026</a></td><td class="n">510</td><td class="n">1:14:40</td><td class="n">07 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=yn8eh-jv15I" target="_blank" rel="noopener">Best Running Music 2026 🔥 | 130 - 160 BPM | Running &amp; Jogging High-Energy Songs</a></td><td class="n">311</td><td class="n">1:16:06</td><td class="n">02 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;Easy Run Music 2026 • Energy for Cardio &amp; Jogging&quot;</p>
+    <p><span>Mídia</span>Imagem estática com mix de música (inferido pela descrição; miniaturas não conferidas)</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></em> 5/5 — sem narração; basta traduzir título, miniatura e descrição</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UC5sPwJxv9fWNj1xMdTIClpA">
+  <header class="card-h">
+    <div class="who"><span class="lane">Espanhol</span>
+      <h3><a href="http://www.youtube.com/@SinRendirseNunca-k3x" target="_blank" rel="noopener">SIN RENDIRSE NUNCA</a></h3>
+      <a class="url" href="http://www.youtube.com/@SinRendirseNunca-k3x" target="_blank" rel="noopener">@SinRendirseNunca-k3x</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>36×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>6</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 3 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>27 de 27</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Canções motivacionais em espanhol: rotina 5 AM e &quot;não desistir&quot;</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=RegI8YltK3k" target="_blank" rel="noopener">⏰ MI MOMENTO ES HOY | Canción Motivadora en Español | No Mañana, No Después: Empieza HOY</a></td><td class="n">≈ 214</td><td class="n">53:59</td><td class="n">não confirmado (13 dias atrás)</td></tr><tr><td><a href="https://www.youtube.com/watch?v=CoIjdIG_q6U" target="_blank" rel="noopener">🔥 MIENTRAS RESPIRE, SIGO | Canción Motivadora en Español | No Me Rendiré Jamás</a></td><td class="n">117</td><td class="n">44:26</td><td class="n">06 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=didcENAwzbU" target="_blank" rel="noopener">🌅 A LAS CINCO DE LA MAÑANA | Canción Motivadora en Español | Rutina 5 AM y Disciplina</a></td><td class="n">≈ 110</td><td class="n">49:04</td><td class="n">não confirmado (12 dias atrás)</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;EMOJI + FRASE-TÍTULO DA CANÇÃO | Canción Motivadora en Español | subtítulo-promessa&quot;; também &quot;MEZCLA: Canção A x Canção B&quot;</p>
+    <p><span>Mídia</span>Imagens de IA (cantora em cenário latino) + canções geradas por IA</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="4 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i></em> 4/5 — exige recriar as letras; a identidade visual latina precisa ser adaptada à cultura de destino</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCdXX-ThATkqoG7SttfX4Esg">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@RunningPulseMusic" target="_blank" rel="noopener">Running Pulse Music</a></h3>
+      <a class="url" href="http://www.youtube.com/@RunningPulseMusic" target="_blank" rel="noopener">@RunningPulseMusic</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>22×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>39</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 3 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>24 de 24</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Música de corrida com faixa de BPM declarada (124–138 BPM)</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=rhapmEvSyUg" target="_blank" rel="noopener">RUNNING MUSIC 2026  60 Minute EDM Workout Mix  124–138 BPM</a></td><td class="n">≈ 864</td><td class="n">1:08:45</td><td class="n">não confirmado (3 semanas atrás)</td></tr><tr><td><a href="https://www.youtube.com/watch?v=D4buGUSW4lI" target="_blank" rel="noopener">HIGH ENERGY RUNNING MUSIC  124–138 BPM  1 Hour Mix</a></td><td class="n">≈ 584</td><td class="n">1:11:04</td><td class="n">não confirmado (2 semanas atrás)</td></tr><tr><td><a href="https://www.youtube.com/watch?v=WPSld7lSW-I" target="_blank" rel="noopener">60 MIN RUNNING MUSIC  Start Moving, Find Your Rhythm</a></td><td class="n">≈ 569</td><td class="n">1:08:19</td><td class="n">não confirmado (3 semanas atrás)</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;RUNNING MUSIC 2026 · 60 Minute EDM Workout Mix · 124–138 BPM&quot;</p>
+    <p><span>Mídia</span>Colagem de fotos/IA de corredores urbanos + mix de 60 min (inferido pela miniatura)</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></em> 5/5 — sem narração; basta traduzir título, miniatura e descrição</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCDY8Tf4Lb0V9aFh7mAG18-A">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@TheHighPerformanceJourney" target="_blank" rel="noopener">Andrew Stratton</a></h3>
+      <a class="url" href="http://www.youtube.com/@TheHighPerformanceJourney" target="_blank" rel="noopener">@TheHighPerformanceJourney</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>254×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>10</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 6 dias atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>30 de 31</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Podcast de alta performance no esporte (técnicos e atletas)</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=cbYgLmNbP7U" target="_blank" rel="noopener">The High Performance Journey - EP14 - Danny Barham U21 Professional Development Phase Coach - Bir...</a></td><td class="n">2.540</td><td class="n">2:15:45</td><td class="n">11 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=hgSROkksJ5Q" target="_blank" rel="noopener">The High Performance Journey   Episode 2   Drewe Broughton - Surrender</a></td><td class="n">≈ 1.300</td><td class="n">1:21:31</td><td class="n">não confirmado (2 semanas atrás)</td></tr><tr><td><a href="https://www.youtube.com/watch?v=nfXalDrZeA0" target="_blank" rel="noopener">The High Performance Journey EP9 Dean Shiels Beyond The Game: Identity, Adversity &amp; Life In Football</a></td><td class="n">774</td><td class="n">1:46:14</td><td class="n">28 de out. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;The High Performance Journey – EPn – Convidado – Tema&quot;</p>
+    <p><span>Mídia</span>Vídeo real de entrevistas por chamada de vídeo</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="2 de 5"><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i><i class=""></i></em> 2/5 — entrevistas reais em inglês: só dá para legendar ou recriar com outros convidados</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCxqfOAoPnUEoMJxNwOVVh3Q">
+  <header class="card-h">
+    <div class="who"><span class="lane">Espanhol</span>
+      <h3><a href="http://www.youtube.com/@TONYROBBIN-k9v" target="_blank" rel="noopener">TONY MIDSET</a></h3>
+      <a class="url" href="http://www.youtube.com/@TONYROBBIN-k9v" target="_blank" rel="noopener">@TONYROBBIN-k9v</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>54×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>18</dd></div>
+    <div><dt>1º vídeo</dt><dd>04 de nov. de 2026</dd></div>
+    <div><dt>Vídeos longos</dt><dd>12 de 12</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Vida após os 50 / calma emocional com falas de Yokoi Kenji</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=SQhZEhnNVks" target="_blank" rel="noopener">Por Qué la Vida Real Comienza a los 50 (No Antes) | Yokoi Kenji 2026</a></td><td class="n">977</td><td class="n">40:53</td><td class="n">10 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=BrelNxrP9ko" target="_blank" rel="noopener">No importa quién sea, si te hacen estas 4 preguntas, no las respondas o te menospreciarán. jamás.</a></td><td class="n">708</td><td class="n">24:34</td><td class="n">12 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=uh3_U2OVb_A" target="_blank" rel="noopener">Cómo Mantener la Calma en Cualquier Situación | Controla tus Emociones | Yokoi Kenji</a></td><td class="n">400</td><td class="n">27:46</td><td class="n">11 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;Por Qué [afirmação provocativa] (No Antes) | Yokoi Kenji 2026&quot;</p>
+    <p><span>Mídia</span>Foto do palestrante + IA (monge, paisagem) e texto grande</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="3 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></em> 3/5 — depende de palestrante real</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: RSS (histórico completo). Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCekkmT2dLW1zORksHgVOCGg">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@Morningspeech44" target="_blank" rel="noopener">Morning speech 44</a></h3>
+      <a class="url" href="http://www.youtube.com/@Morningspeech44" target="_blank" rel="noopener">@Morningspeech44</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>43×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>21</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 3 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>24 de 24</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Discursos matinais com falas de Simon Sinek</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=ZsLLx7uw6NY" target="_blank" rel="noopener">How to Develop an Unbreakable Positive Mental Attitude || Best Motivational Speech By Simon Sinek</a></td><td class="n">≈ 896</td><td class="n">33:01</td><td class="n">não confirmado (2 semanas atrás)</td></tr><tr><td><a href="https://www.youtube.com/watch?v=p9XQTfhjD8Y" target="_blank" rel="noopener">9 THINGS TO TELL YOURSELF DAILY ! || SIMON SINEK || BEST MOTIVATIONAL SPEECH</a></td><td class="n">313</td><td class="n">21:15</td><td class="n">02 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=XYgBUWNRGkk" target="_blank" rel="noopener">How to Start a New Life || Best Motivational Speech By Simon Sinek || #simonsinek</a></td><td class="n">282</td><td class="n">26:51</td><td class="n">03 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;How to Develop an Unbreakable … || Best Motivational Speech&quot;</p>
+    <p><span>Mídia</span>Foto recortada do palestrante + texto verde/branco; áudio de palestra</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="3 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class=""></i><i class=""></i></em> 3/5 — depende de palestrante real</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UC6k3aRqG5jvavUpE534-K_Q">
+  <header class="card-h">
+    <div class="who"><span class="lane">Inglês</span>
+      <h3><a href="http://www.youtube.com/@ThePaceMakerPlaylist" target="_blank" rel="noopener">PaceMaker Playlist</a></h3>
+      <a class="url" href="http://www.youtube.com/@ThePaceMakerPlaylist" target="_blank" rel="noopener">@ThePaceMakerPlaylist</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>32×</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>5</dd></div>
+    <div><dt>1º vídeo</dt><dd>não confirmado (YouTube diz: 3 semanas atrás)</dd></div>
+    <div><dt>Vídeos longos</dt><dd>12 de 12</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Cadência 180 BPM para corredores (playlists de 1 h por cenário)</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=TPsRCz7Alvc" target="_blank" rel="noopener">180 BPM Running Cadence Music 🍁 Autumn City Run — 1 Hour Playlist to Keep Your Pace</a></td><td class="n">≈ 160</td><td class="n">1:04:52</td><td class="n">não confirmado (3 semanas atrás)</td></tr><tr><td><a href="https://www.youtube.com/watch?v=En_BTx4S1zo" target="_blank" rel="noopener">180 BPM Running Cadence Music 🌅 Sunrise Run — 1 Hour Playlist to Keep Your Pace</a></td><td class="n">≈ 112</td><td class="n">1:09:49</td><td class="n">não confirmado (3 semanas atrás)</td></tr><tr><td><a href="https://www.youtube.com/watch?v=EpmDpcgxaSA" target="_blank" rel="noopener">Half Marathon Music 160-180 BPM 🏅 Running Motivation Music | 1 Hour Running Mix</a></td><td class="n">≈ 52</td><td class="n">1:05:57</td><td class="n">não confirmado (2 semanas atrás)</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;180 BPM Running Cadence Music 🍁 [Cenário] — 1 Hour Playlist to Keep…&quot;</p>
+    <p><span>Mídia</span>Imagem de cenário urbano + playlist (inferido pelo título e descrição)</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></em> 5/5 — sem narração; basta traduzir título, miniatura e descrição</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: não confirmado. Checado em 16 de nov. de 2026.</footer>
+</article>
+<article class="card" id="UCLBH_JYYFk5Pv8HFTGlKNfw">
+  <header class="card-h">
+    <div class="who"><span class="lane">Português</span>
+      <h3><a href="http://www.youtube.com/@VozDaEstoa" target="_blank" rel="noopener">Voz da Estoa</a></h3>
+      <a class="url" href="http://www.youtube.com/@VozDaEstoa" target="_blank" rel="noopener">@VozDaEstoa</a></div>
+    <div class="ratio" title="Views do melhor vídeo ÷ inscritos"><b>—</b><span>views/inscritos</span></div>
+  </header>
+  <dl class="facts">
+    <div><dt>Inscritos</dt><dd>não confirmado</dd></div>
+    <div><dt>1º vídeo</dt><dd>03 de nov. de 2026</dd></div>
+    <div><dt>Vídeos longos</dt><dd>2 de 2</dd></div>
+  </dl>
+  <p class="sub"><span>Subnicho</span>Estoicismo + neurociência da disciplina</p>
+  <table class="top"><thead><tr><th>Top 3 vídeos longos</th><th>Views</th><th>Duração</th><th>Data</th></tr></thead><tbody>
+  <tr><td><a href="https://www.youtube.com/watch?v=KLqdpQr6pfM" target="_blank" rel="noopener">Como fazer seu cérebro GOSTAR de Disciplina (Estoicismo)</a></td><td class="n">98</td><td class="n">10:49</td><td class="n">09 de nov. de 2026</td></tr><tr><td><a href="https://www.youtube.com/watch?v=BzUinridG9o" target="_blank" rel="noopener">O Poder Oculto das Palavras (Estoicismo)</a></td><td class="n">15</td><td class="n">9:01</td><td class="n">03 de nov. de 2026</td></tr>
+  </tbody></table>
+  <div class="notes">
+    <p><span>Padrão de título</span>&quot;Como fazer seu cérebro [VERBO] Disciplina (Estoicismo)&quot;</p>
+    <p><span>Mídia</span>Ilustrações de IA (estilo gravura vermelha/pintura a óleo) + narração</p>
+    <p class="adapt"><span>Facilidade de adaptar</span><em class="dots" aria-label="5 de 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></em> 5/5 — tema universal, narração fácil de traduzir</p>
+  </div>
+  <footer class="src">Data do 1º vídeo: RSS (histórico completo). Checado em 16 de nov. de 2026.</footer>
+</article></section>
+<section class="summary pending"><h2>Resumo final</h2><p>Os 5 melhores subnichos e os 10 títulos adaptados aparecem aqui quando a varredura terminar.</p></section>
+<p class="src">Métrica do card: views do melhor vídeo longo ÷ inscritos. Datas e views exatas vêm do feed RSS público do canal; views com ≈ são o número arredondado exibido na aba Vídeos; quando não foi possível confirmar, está escrito "não confirmado". Mídia e padrões de título foram avaliados a partir das miniaturas, títulos e descrições.</p>
+</div>

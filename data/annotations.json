@@ -427,5 +427,201 @@
  },
  "UC6Q_yEJXlYTSRB88g6VYzEA": {
   "exclude": true
+ },
+ "UCua5fcBNEMR4DjMTBcrWHfA": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UCEeT99rQw2wxgT6gCgCw0kA": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UCeFCdRMJ5FsHZMPjkhIqkiA": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UCHukKPrEa6-DNwd3GMWaplA": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UCujkaxMLnPUWSoAc3cpV3FQ": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UClOgWsxVIXhonmi1Oy22pxw": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UCiHuKQS_3NBYbR1k08mWcqg": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UCwIj_1VYDG5ktVgVqDRkpWw": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UCkhQlEppYP9bZr8uq9IhelA": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UCYR5WJ3y-M14FxgTTBZl5eQ": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UCToKPmNyEozPKu8vGy74Xvg": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UC3ombb51g_wcyqNLElErl0Q": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UCW5RnGqWyWNIZofPvS-N5Kg": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UC_GRLrJwnzaSDLH_fnvO2Aw": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UCax1LsAVQdQsWaVuYCFH07A": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UChPid0cWFARqRCwS6GaY2GA": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UCKUyOHXzOzvSuZA0dnbzm7g": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UCDC55Vr7H_b746W8ZjLpXJg": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UC-2Q_h1MHI5f6m_UBKwAqxw": {
+  "exclude": true,
+  "auto": "fraco: shorts/views baixas"
+ },
+ "UC4A-CsmNHHNpBPDexkX1roA": {
+  "lang": "en",
+  "subniche": "Vlog de corredora de trilha e atleta híbrida (provas e rotina)",
+  "pattern": "\"How the [Prova] really went…⛰️👀\" / \"Spend a [dia] with me: workout, meal prep…\" / \"Let’s Trail Run & Chat\"",
+  "media": "Vídeo real (vlog da própria atleta)",
+  "adapt": 2,
+  "adaptWhy": "depende da pessoa e das provas locais; o formato \"corra e converse comigo\" é replicável com um corredor local",
+  "score": 5
+ },
+ "UCUdDNerU8i2T_ilHngpyRIg": {
+  "lang": "pt",
+  "subniche": "Conselhos psicológicos e \"princípios milionários\" em blocos de 20 minutos",
+  "pattern": "\"20 MINUTOS DE [CONSELHOS/PRINCÍPIOS] QUE [promessa] | Palestrante\" / \"SE VOCÊ SE SENTE PERDIDO NA VIDA, ASSISTA ISSO\"",
+  "media": "Foto do palestrante + texto; áudio de palestras de terceiros (provável reaproveitamento)",
+  "adapt": 3,
+  "adaptWhy": "depende de palestrante real (risco de direitos e de imagem); o formato funciona com roteiro próprio e voz sintética",
+  "score": 7
+ },
+ "UCHw_XIVmE4F2INLMh98soKw": {
+  "lang": "es",
+  "subniche": "Foco e mentalidade com falas de Brian Tracy",
+  "pattern": "\"🔥 IMPERATIVO EM CAIXA ALTA y Vuélvete IMPARABLE | Brian Tracy\" / \"N Lecciones de Brian Tracy Para…\"",
+  "media": "Foto do palestrante + texto; áudio dublado",
+  "adapt": 3,
+  "adaptWhy": "depende de palestrante real (risco de direitos e de imagem); o formato funciona com roteiro próprio e voz sintética",
+  "score": 6
+ },
+ "UC8xwJcl3dogOm9CVvXO3LYQ": {
+  "lang": "es",
+  "subniche": "Autoaperfeiçoamento diário com falas de Tony Robbins",
+  "pattern": "\"[Conviértete/Vuélvete] … y Cambia Tu Vida | Tony Robbins\"",
+  "media": "Foto do palestrante + texto; áudio dublado",
+  "adapt": 3,
+  "adaptWhy": "depende de palestrante real (risco de direitos e de imagem); o formato funciona com roteiro próprio e voz sintética",
+  "score": 5
+ },
+ "UC_iXCB7daR11JFq6mJSlcwA": {
+  "lang": "es",
+  "subniche": "Domínio emocional e energia: listas de lições (\"N formas de…\")",
+  "pattern": "\"N FORMAS/SECRETOS/LECCIONES para [resultado] — caixa alta nas palavras-chave\"",
+  "media": "Imagens e narração (não confirmado se é palestrante real; inferido pelo título)",
+  "adapt": 4,
+  "adaptWhy": "listas numeradas com narração: fáceis de traduzir",
+  "score": 6
+ },
+ "UCr9Qs3G4Qmw-d7lgriM0ZEA": {
+  "lang": "en",
+  "subniche": "Estoicismo para raiva e disciplina (regras numeradas)",
+  "pattern": "\"IMPERATIVO EM CAIXA ALTA – Become Untouchable…\" / \"N Stoic Lessons/Rules to…\"",
+  "media": "Imagens de IA (estátuas, guerreiros) + narração (inferido)",
+  "adapt": 5,
+  "adaptWhy": "roteiro universal (lições estoicas) narrado por voz; basta traduzir e regravar",
+  "score": 5
+ },
+ "UCJ8MTU-WIkTD7TWxzVLVlTw": {
+  "lang": "es",
+  "subniche": "Estoicismo para iniciantes e controle de reações",
+  "pattern": "\"Entrena Tu Mente Para Responder, No Para Reaccionar (Estoicismo)\" / \"N razones por las que…\"",
+  "media": "Imagens de IA + narração (inferido)",
+  "adapt": 5,
+  "adaptWhy": "roteiro universal (lições estoicas) narrado por voz; basta traduzir e regravar",
+  "score": 4
+ },
+ "UCIKLlmhOL5uADkZvLhrtUzA": {
+  "lang": "pt",
+  "subniche": "Hábitos e futuro com falas de Jim Rohn dubladas em português",
+  "pattern": "\"Jim Rohn – [PROMESSA EM CAIXA ALTA]\" / \"N Hábitos Que Podem Transformar…\"",
+  "media": "Foto do palestrante + texto; áudio dublado",
+  "adapt": 3,
+  "adaptWhy": "depende de palestrante real (risco de direitos e de imagem); o formato funciona com roteiro próprio e voz sintética",
+  "score": 4
+ },
+ "UCk7WtXn7HRKgFQmC7uDO01g": {
+  "lang": "pt",
+  "subniche": "Pequenos hábitos e energia depois do trabalho",
+  "pattern": "\"N Pequenos Hábitos Que Vão Mudar Sua Vida…\" / \"NÃO ENTRE EM 2027 SEM ESTES N HÁBITOS\"",
+  "media": "Imagens/ilustrações + narração (inferido)",
+  "adapt": 5,
+  "adaptWhy": "conteúdo genérico de hábitos: tradução direta",
+  "score": 3
+ },
+ "UCPBK9vfzg43FaHACjxAxJvQ": {
+  "exclude": true
+ },
+ "UCsj86ZjdW72TYNXKUCXX-VQ": {
+  "exclude": true
+ },
+ "UCkpZRuvZK-c1TM_c93GSVlA": {
+  "exclude": true
+ },
+ "UCRakBT3Mhscdmob8jHugqpw": {
+  "exclude": true
+ },
+ "UCei2bUNfiWZdV4huYb9jxeg": {
+  "exclude": true
+ },
+ "UCoBTJdRsv8Sf6d49xE47XMg": {
+  "exclude": true
+ },
+ "UCj71r4PUVQBOWNn_mSjWhoA": {
+  "exclude": true
+ },
+ "UCPVTHNZEKSHyVl4tdgQqjMA": {
+  "exclude": true
+ },
+ "UCdmMoaPA07vKeEEnZQcMZzQ": {
+  "exclude": true
+ },
+ "UCAvlQhVB1XE4HDkfenydQwg": {
+  "exclude": true
+ },
+ "UCgNPcS4Vuf7WHDEpGwn7fTQ": {
+  "exclude": true
+ },
+ "UCcLuALB4HWYmC9TgcXL6qjw": {
+  "exclude": true
+ },
+ "UC8OXS_TlQZ1O6r6RHDufBug": {
+  "exclude": true
  }
 }

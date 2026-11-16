@@ -244,5 +244,188 @@
  },
  "UCnvhkN2FBJD6Wu9AdyQ2Cpw": {
   "exclude": true
+ },
+ "UC_EVO_B7jEyS-uexjSrbFVA": {
+  "lang": "en",
+  "subniche": "Animação de conceitos de mentalidade: \"quem vence?\" (obsessão × ego × disciplina × motivação)",
+  "pattern": "\"Who Actually Wins? A vs B vs C vs D\" e experimentos hipotéticos \"What If …?\"",
+  "media": "Animação 2D/3D de bonecos estilizados (stick figures neon) com narração",
+  "adapt": 5,
+  "adaptWhy": "personagens abstratos e roteiro conceitual: basta traduzir e regravar a narração",
+  "score": 10
+ },
+ "UCBKDX-PgiunuSZdM6_teKUA": {
+  "lang": "es",
+  "subniche": "Calma, limites e disciplina com falas atribuídas a Yokoi Kenji",
+  "pattern": "\"IMPERATIVO EM CAIXA ALTA: promessa | Yokoi Kenji\" (ex.: \"NO SEAS BUENO CON TODOS: Aprende a Poner Límites…\")",
+  "media": "Foto do palestrante + texto amarelo/branco; áudio de palestra (provável reaproveitamento)",
+  "adapt": 3,
+  "adaptWhy": "depende de palestrante real (risco de direitos e de imagem); o formato funciona com roteiro próprio e voz sintética",
+  "score": 7
+ },
+ "UCUGqsXtIk1tVLhrgVt4bNAA": {
+  "lang": "es",
+  "subniche": "Controle emocional (\"não reaja a tudo\") com falas de Yokoi Kenji",
+  "pattern": "\"[NÃO FAÇA X]: Aprende a DOMINAR tus EMOCIONES…\" / \"Cómo Mantener la Calma en Cualquier Situación\"",
+  "media": "Foto do palestrante + texto grande amarelo; áudio de palestra",
+  "adapt": 3,
+  "adaptWhy": "depende de palestrante real (risco de direitos e de imagem); o formato funciona com roteiro próprio e voz sintética",
+  "score": 6
+ },
+ "UCwJVtgKc9dN-Dsu5G4QzJhQ": {
+  "lang": "en",
+  "subniche": "Disciplina silenciosa (\"work in silence\") com falas de Muniba Mazari",
+  "pattern": "\"FRASE-MANTRA EM CAIXA ALTA | MUNIBA MAZARI\"",
+  "media": "Foto da palestrante + texto verde/branco sobre fundo escuro; áudio de palestra",
+  "adapt": 3,
+  "adaptWhy": "depende de palestrante real (risco de direitos e de imagem); o formato funciona com roteiro próprio e voz sintética",
+  "score": 6
+ },
+ "UCmKJKt6s-fv6QI2KnWU59Sg": {
+  "lang": "en",
+  "subniche": "Desafios físicos de 7 dias (30 mil passos, natação, \"viver como David Goggins\")",
+  "pattern": "\"I [fiz X] Every Day for 7 Days\" / \"I lived like [atleta] …\" + reação entre parênteses",
+  "media": "Vídeo real (vlog do próprio criador) com antes/depois",
+  "adapt": 3,
+  "adaptWhy": "o formato é universal, mas exige gravar o próprio desafio com um apresentador local",
+  "score": 7
+ },
+ "UCew2NTUtDKxXoZxJJH_itpQ": {
+  "lang": "en",
+  "subniche": "Rap sombrio de academia para disciplina e foco (\"lock-in\")",
+  "pattern": "\"FRASE CURTA EM CAIXA ALTA | Dark Gym Rap / Heavy 808 Gym Music for …\"",
+  "media": "Imagens de IA (fisiculturista em academia escura) + música gerada",
+  "adapt": 4,
+  "adaptWhy": "letras em inglês precisam ser recriadas; visual e títulos são fáceis de traduzir",
+  "score": 6
+ },
+ "UCE2Fj6fQM2O6HNpyTlsPTpg": {
+  "lang": "en",
+  "subniche": "Música de academia para treino noturno com vocal feminino (1 h)",
+  "pattern": "\"Gym Music 2026 + emoji + NOME DO MIX + 1 Hour Workout Motivation Mix + Female Vocals\"",
+  "media": "Imagem estática de IA + mix de 1 h (inferido pelo título e descrição)",
+  "adapt": 5,
+  "adaptWhy": "sem narração; basta traduzir título, miniatura e descrição",
+  "score": 5
+ },
+ "UCwDfK36ZUqM3gYYCatR7dwg": {
+  "lang": "pt",
+  "subniche": "Louvor/gospel para treinar (\"gospel fitness\")",
+  "pattern": "\"🔥 LOUVOR PARA TREINAR | 1 HORA DE ENERGIA QUE …\" / \"+1 HORA DE GOSPEL REMIX PARA TREINAR | FÉ, FOCO E FORÇA\"",
+  "media": "Imagens de IA (atleta na academia com cruz ao fundo) + música gospel eletrônica",
+  "adapt": 4,
+  "adaptWhy": "funciona bem em PT e ES (públicos cristãos grandes); em inglês o mercado de \"Christian workout music\" já existe",
+  "score": 6
+ },
+ "UCb7L5QvtkHdCOQetNXiKuxg": {
+  "lang": "pt",
+  "subniche": "Histórias épicas de futebol e NBA (viradas, lendas, quedas)",
+  "pattern": "\"NOME — FRASE ÉPICA\" / \"Time: O Impossível Aconteceu!!!\" / \"Jogador, Da Glória ao Tribunal!\"",
+  "media": "Ilustrações de IA estilo pôster + narração (inferido pela miniatura)",
+  "adapt": 3,
+  "adaptWhy": "formato fácil de traduzir, mas os personagens/times precisam ser trocados pelos da cultura de destino",
+  "score": 5
+ },
+ "UC_XEkoiOB_OJKNcKg5cYy9A": {
+  "lang": "pt",
+  "subniche": "Histórias reais \"de sedentário a Ironman\" (canal de marca)",
+  "pattern": "\"LEGACY STORIES #NN | DE [ANTES] A [CONQUISTA]: UMA HISTÓRIA D…\"",
+  "media": "Vídeo real (entrevista/documentário com o personagem)",
+  "adapt": 2,
+  "adaptWhy": "depende de personagens reais e de gravação; dá para replicar o formato com histórias locais",
+  "score": 3
+ },
+ "UCF1nu4A0svxAYpJpD1Bp1BA": {
+  "lang": "es",
+  "subniche": "Disciplina e mentalidade de vencedor com falas de Brian Tracy",
+  "pattern": "\"FRASE IMPERATIVA EM CAIXA ALTA | Brian Tracy | Motivación para…\"",
+  "media": "Foto do palestrante + texto; áudio de palestra dublado",
+  "adapt": 3,
+  "adaptWhy": "depende de palestrante real (risco de direitos e de imagem); o formato funciona com roteiro próprio e voz sintética",
+  "score": 5
+ },
+ "UCunytiquLy2u0dLEShFxUYQ": {
+  "lang": "es",
+  "subniche": "Hábitos e \"acordar às 5 AM\" com falas de Tony Robbins",
+  "pattern": "\"N HÁBITOS/DECISÕES QUE TRANSFORMARÁN TU VIDA PARA SIEMPRE | Tony Robbins\" / \"DESPIERTA A LAS 5 AM…\"",
+  "media": "Foto do palestrante + texto em caixa alta; áudio dublado",
+  "adapt": 3,
+  "adaptWhy": "depende de palestrante real (risco de direitos e de imagem); o formato funciona com roteiro próprio e voz sintética",
+  "score": 6
+ },
+ "UC7ppWUX3VSxTefNKsWqelwg": {
+  "lang": "en",
+  "subniche": "Disciplina e solitude com falas de Jim Rohn",
+  "pattern": "\"Give Me 40 Minutes, You Will Master Discipline – Jim Rohn Motivation\"",
+  "media": "Foto do palestrante + texto; áudio de palestra antiga",
+  "adapt": 3,
+  "adaptWhy": "depende de palestrante real (risco de direitos e de imagem); o formato funciona com roteiro próprio e voz sintética",
+  "score": 5
+ },
+ "UC6A1CdffNtPSMX_cxlwbTOA": {
+  "exclude": true
+ },
+ "UCK7vELSoey6je-cLiFviKug": {
+  "exclude": true
+ },
+ "UCxhjT5s-DsmgEEKQfXgB8vA": {
+  "exclude": true
+ },
+ "UCJgnkpT2gHoYK5YMo3RQsRw": {
+  "exclude": true
+ },
+ "UCIOGvF2VlNRbFzsIs6hiCcg": {
+  "exclude": true
+ },
+ "UCZlOKpnq_I1oQZL8DGCorfQ": {
+  "exclude": true
+ },
+ "UCc3gYrCuBdpHhTjJhfq1Vbw": {
+  "exclude": true
+ },
+ "UCnu9mgEv3tlowbTxSDbTkeQ": {
+  "exclude": true
+ },
+ "UCkNSrTuPZ-M4GeYsb0ItQ7A": {
+  "exclude": true
+ },
+ "UC5bUsptne7NVwC1LSDtCNjg": {
+  "exclude": true
+ },
+ "UC1efsrC4yXQacqARxRvKNaA": {
+  "exclude": true
+ },
+ "UCS6WGddhlm2Fg0hwNeIFHkw": {
+  "exclude": true
+ },
+ "UCW4_ib7FXEyK2anutKp8ixQ": {
+  "exclude": true
+ },
+ "UCmrl5Fj-qaZ1dpQXh31UbtQ": {
+  "exclude": true
+ },
+ "UC0bIP-v37ccZraRXny8uzFw": {
+  "exclude": true
+ },
+ "UCMWq6gca8KknoGAXdh4SP6g": {
+  "exclude": true
+ },
+ "UCYwGfkD_ZpTBgquE1DEXq2w": {
+  "exclude": true
+ },
+ "UCajllKF3uvSfiNO1lMFpAdQ": {
+  "exclude": true
+ },
+ "UCwtFvUD8LBy1iAaXuASJIwQ": {
+  "exclude": true
+ },
+ "UCc8KSKXUetjpVsr3v_SDjpQ": {
+  "exclude": true
+ },
+ "UCisfHbj-YJx8LkhJlzij26w": {
+  "exclude": true
+ },
+ "UC6Q_yEJXlYTSRB88g6VYzEA": {
+  "exclude": true
  }
 }

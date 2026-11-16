@@ -31,7 +31,11 @@ async function watchOld(id) {
   await L.pool(todo, 6, async c => {
     const out = { ...c, checkedAt: new Date().toISOString() };
     try {
-      const r = await L.getData(`https://www.youtube.com/channel/${c.channelId}/videos`, { pages: 4 });
+      let r = await L.getData(`https://www.youtube.com/channel/${c.channelId}/videos`, { pages: 0 });
+      const vc0 = L.walk(L.walk(r.data, 'pageHeaderViewModel')[0]?.metadata, 'metadataParts').flat().map(p => p.text?.content || '').find(t => /video/i.test(t));
+      const nTotal = vc0 ? L.num(vc0) : null; out.videoCountTotal = nTotal;
+      if (nTotal != null && nTotal > 120) { out.status = 'reject'; out.reason = `canal com ${nTotal} vídeos, não é novo`; out.name = c.name; return; }
+      if (nTotal == null || nTotal > 30) r = await L.getData(`https://www.youtube.com/channel/${c.channelId}/videos`, { pages: 4 });
       const meta = L.walk(r.data, 'channelMetadataRenderer')[0] || {};
       const hdrParts = L.walk(L.walk(r.data, 'pageHeaderViewModel')[0]?.metadata, 'metadataParts').flat().map(p => p.text?.content || '');
       out.name = meta.title || c.name; out.handle = hdrParts.find(t => t.startsWith('@')) || null; out.url = meta.vanityChannelUrl || `https://www.youtube.com/channel/${c.channelId}`;

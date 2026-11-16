@@ -22,7 +22,9 @@ async function getData(url, { pages = 0, player = false, endpoint = 'browse' } =
     return out;
   } finally { await page.close(); }
 }
-function lastToken(o) { const t = walk(o, 'continuationItemRenderer').map(c => c.continuationEndpoint?.continuationCommand?.token || walk(c,'token')[0]).filter(Boolean); return t[t.length - 1]; }
+function lastToken(o) {
+  const lists = [...walk(o, 'richGridRenderer').map(r => r.contents), ...walk(o, 'appendContinuationItemsAction').map(a => a.continuationItems), ...walk(o, 'reloadContinuationItemsCommand').map(a => a.continuationItems), ...walk(o, 'sectionListRenderer').map(r => r.contents)].filter(Array.isArray);
+  const t = lists.map(l => l.at(-1)?.continuationItemRenderer?.continuationEndpoint?.continuationCommand?.token).filter(Boolean); return t[t.length - 1]; }
 function walk(o, key, acc = []) { if (!o || typeof o !== 'object') return acc; if (Array.isArray(o)) { o.forEach(x => walk(x, key, acc)); return acc; } for (const k of Object.keys(o)) { if (k === key) acc.push(o[k]); walk(o[k], key, acc); } return acc; }
 const txt = t => !t ? '' : t.simpleText || (t.runs || []).map(r => r.text).join('') || t.content || '';
 function num(s) { if (!s) return null; s = String(s).replace(/,/g, '').trim(); if (/^no /i.test(s)) return 0; const m = s.match(/([\d.]+)\s*([KMB])?/i); if (!m) return null; const mult = { K: 1e3, M: 1e6, B: 1e9 }[(m[2] || '').toUpperCase()] || 1; return Math.round(parseFloat(m[1]) * mult); }
